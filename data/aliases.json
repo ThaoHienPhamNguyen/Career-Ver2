@@ -1,0 +1,12 @@
+{
+  "synonyms": {
+    "nhan vien kinh doanh": "Sales Executive",
+    "sale": "Sales Executive",
+    "sales": "Sales Executive",
+    "ke toan": "Accountant",
+    "phan tich du lieu": "Data Analyst"
+  },
+  "ambiguous": {
+    "ba": ["Business Analyst", "Backend Developer"]
+  }
+}
