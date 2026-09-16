@@ -1,0 +1,134 @@
+{
+  "canonicalName": "Sales Executive",
+  "content": {
+    "description": "Nhân viên kinh doanh (Sales Executive) chịu trách nhiệm tìm kiếm, tiếp cận và tư vấn khách hàng tiềm năng để bán sản phẩm/dịch vụ của doanh nghiệp, từ đó tạo ra doanh thu. Họ làm việc chặt chẽ với bộ phận marketing (để tiếp nhận khách hàng tiềm năng), chăm sóc khách hàng (để giữ chân khách hàng sau bán) và quản lý cấp trên (để báo cáo doanh số, dự báo doanh thu). Sản phẩm đầu ra chính là các hợp đồng/đơn hàng đã chốt, báo cáo doanh số định kỳ và cơ sở dữ liệu khách hàng được cập nhật trên CRM.",
+    "vnMarket": {
+      "value": "Theo báo cáo thị trường tuyển dụng Quý 1/2026 của VietnamWorks, nhóm ngành Kinh doanh (cùng với Kế toán/Kiểm toán) vẫn nằm trong Top 2 nhóm ngành có nhu cầu tuyển dụng lớn nhất toàn quốc, dù số lượng tin tuyển dụng giảm khoảng 11,1% so với cùng kỳ 2025 do một số ngành như Kinh doanh và Hành chính văn phòng có dấu hiệu chững lại.",
+      "source": "https://www.vietnamworks.com/hrinsider/bao-cao-thi-truong-tuyen-dung-viet-nam-quy-1-2026.html"
+    },
+    "salary": {
+      "value": "Lương cứng (chưa tính hoa hồng) dao động khoảng 7-10 triệu/tháng ở cấp Fresher, 10-18 triệu ở Junior, 20-35 triệu ở Senior và 35-60 triệu ở cấp Quản lý kinh doanh; tổng thu nhập thực tế (gồm hoa hồng, thưởng KPI) thường cao hơn lương cứng 30-50%, có thể đạt 100-200+ triệu/tháng ở cấp Giám đốc kinh doanh.",
+      "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-sales/"
+    },
+    "demand": {
+      "value": "Kinh doanh tiếp tục là một trong hai nhóm ngành có khối lượng tuyển dụng lớn nhất trên nền tảng VietnamWorks trong Quý 1/2026, tuy nhiên tốc độ tăng trưởng tin tuyển dụng đã giảm 11,1% so với cùng kỳ năm 2025, cho thấy nhu cầu tuyển dụng vẫn cao nhưng đang chững lại so với các ngành đang tăng trưởng mạnh như Kiến trúc/Xây dựng hay Kế toán/Kiểm toán.",
+      "source": "https://www.vietnamworks.com/hrinsider/bao-cao-thi-truong-tuyen-dung-viet-nam-quy-1-2026.html"
+    },
+    "similarJobs": [
+      {
+        "name": "Account Manager",
+        "distinction": "Tập trung quản lý, chăm sóc và mở rộng doanh thu từ các khách hàng hiện có (upsell/cross-sell), thay vì chủ yếu tìm kiếm khách hàng mới như Sales Executive."
+      },
+      {
+        "name": "Business Development Executive",
+        "distinction": "Tập trung tìm kiếm cơ hội hợp tác, thị trường mới hoặc đối tác chiến lược dài hạn, ít trực tiếp chốt từng đơn hàng nhỏ lẻ như Sales Executive."
+      },
+      {
+        "name": "Telesales/Telemarketing",
+        "distinction": "Chỉ bán hàng qua điện thoại theo kịch bản và quy trình chuẩn hóa, quy mô giao dịch thường nhỏ hơn và ít gặp khách hàng trực tiếp."
+      }
+    ],
+    "hardSkills": [
+      {
+        "name": "Kỹ năng bán hàng & đàm phán",
+        "description": "Là kỹ năng cốt lõi để thuyết phục khách hàng, xử lý từ chối và chốt được hợp đồng/đơn hàng."
+      },
+      {
+        "name": "Am hiểu sản phẩm/ngành hàng",
+        "description": "Cần nắm vững đặc tính sản phẩm và thị trường để tư vấn đúng nhu cầu và tạo niềm tin với khách hàng."
+      },
+      {
+        "name": "Sử dụng CRM & công cụ quản lý khách hàng",
+        "description": "Giúp theo dõi pipeline, lịch sử chăm sóc và dự báo doanh số chính xác (ví dụ Salesforce, HubSpot, Base CRM)."
+      },
+      {
+        "name": "Phân tích số liệu bán hàng & báo cáo",
+        "description": "Dùng Excel/dashboard để đánh giá hiệu suất bán hàng và điều chỉnh chiến lược tiếp cận khách hàng."
+      },
+      {
+        "name": "Tìm kiếm & khai thác khách hàng tiềm năng (lead generation)",
+        "description": "Cần thiết để duy trì nguồn khách hàng mới liên tục, đặc biệt qua các kênh số hiện nay."
+      }
+    ],
+    "softSkills": [
+      {
+        "name": "Giao tiếp & thuyết phục",
+        "description": "Là năng lực nền tảng để xây dựng thiện cảm và thuyết phục khách hàng ra quyết định mua."
+      },
+      {
+        "name": "Chịu áp lực doanh số & kiên trì",
+        "description": "Công việc gắn với KPI và tỷ lệ từ chối cao, đòi hỏi tinh thần bền bỉ để tiếp tục theo đuổi mục tiêu."
+      },
+      {
+        "name": "Xây dựng quan hệ khách hàng dài hạn",
+        "description": "Giúp tăng tỷ lệ khách hàng quay lại và giới thiệu (referral), giảm chi phí tìm khách hàng mới."
+      },
+      {
+        "name": "Quản lý thời gian & tự tạo động lực",
+        "description": "Nhân viên kinh doanh thường làm việc độc lập, cần tự sắp xếp lịch gặp khách hàng và duy trì động lực khi thu nhập biến động theo doanh số."
+      }
+    ],
+    "futureSkills": {
+      "value": null,
+      "source": null
+    },
+    "careerPath": [
+      {
+        "stageName": "Fresher/Intern",
+        "keySkills": [
+          "Kỹ năng giao tiếp cơ bản",
+          "Nắm vững thông tin sản phẩm",
+          "Kỹ năng gọi điện/telesales",
+          "Thái độ chủ động, ham học hỏi"
+        ],
+        "salaryRange": {
+          "value": "7-10 triệu/tháng (lương cứng)",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-sales/"
+        },
+        "avgTimeToNextStage": "6-12 tháng"
+      },
+      {
+        "stageName": "Junior",
+        "keySkills": [
+          "Kỹ năng đàm phán & chốt sale",
+          "Quản lý pipeline khách hàng trên CRM",
+          "Xây dựng mối quan hệ khách hàng",
+          "Phân tích nhu cầu khách hàng"
+        ],
+        "salaryRange": {
+          "value": "10-18 triệu/tháng (lương cứng)",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-sales/"
+        },
+        "avgTimeToNextStage": "1.5-2 năm"
+      },
+      {
+        "stageName": "Senior",
+        "keySkills": [
+          "Quản lý tài khoản khách hàng lớn (key account)",
+          "Xây dựng chiến lược bán hàng theo khu vực/ngành hàng",
+          "Kèm cặp, đào tạo nhân viên mới",
+          "Dự báo doanh số"
+        ],
+        "salaryRange": {
+          "value": "20-35 triệu/tháng (lương cứng)",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-sales/"
+        },
+        "avgTimeToNextStage": "2-3 năm"
+      },
+      {
+        "stageName": "Lead/Manager",
+        "keySkills": [
+          "Xây dựng và quản lý đội ngũ kinh doanh",
+          "Hoạch định chiến lược kinh doanh & ngân sách",
+          "Đàm phán hợp đồng lớn/cấp doanh nghiệp",
+          "Phân tích thị trường và đối thủ cạnh tranh"
+        ],
+        "salaryRange": {
+          "value": "35-60 triệu/tháng (lương cứng, chưa gồm thưởng)",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-sales/"
+        },
+        "avgTimeToNextStage": "Không xác định (cấp quản lý cao nhất trong lộ trình phổ biến; có thể tiến xa hơn lên Giám đốc kinh doanh/VP Sales)"
+      }
+    ]
+  }
+}

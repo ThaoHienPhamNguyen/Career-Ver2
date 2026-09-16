@@ -4,7 +4,19 @@
     "sale": "Sales Executive",
     "sales": "Sales Executive",
     "ke toan": "Accountant",
-    "phan tich du lieu": "Data Analyst"
+    "phan tich du lieu": "Data Analyst",
+    "nhan su": "HR Executive",
+    "nhan vien nhan su": "HR Executive",
+    "hr": "HR Executive",
+    "cham soc khach hang": "Customer Service Executive",
+    "cskh": "Customer Service Executive",
+    "customer service": "Customer Service Executive",
+    "marketing": "Marketing Executive",
+    "nhan vien marketing": "Marketing Executive",
+    "lap trinh vien backend": "Backend Developer",
+    "dev backend": "Backend Developer",
+    "backend developer": "Backend Developer",
+    "backend": "Backend Developer"
   },
   "ambiguous": {
     "ba": ["Business Analyst", "Backend Developer"]

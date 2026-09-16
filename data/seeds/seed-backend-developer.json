@@ -1,0 +1,71 @@
+{
+  "canonicalName": "Backend Developer",
+  "content": {
+    "description": "A Backend Developer designs and builds the server-side logic, APIs, and databases that power an application — the parts users never see directly but depend on for every action they take. They work closely with Frontend Developers (who consume the APIs), DevOps/Infrastructure engineers (who deploy and scale the services), and Product Managers (who define requirements), and their output is working, tested server code: REST/GraphQL endpoints, database schemas, authentication systems, and background jobs. This is a software-engineering role centered on writing and maintaining code — distinct from a Business Analyst, who gathers and documents business requirements rather than implementing them.",
+    "vnMarket": {
+      "value": "IT hiring is rebounding in Vietnam: 66.1% of surveyed enterprises increased IT headcount in 2025 and 69.6% plan to keep expanding in 2026. Backend-relevant skill demand is shifting quickly — in Q2 2025, job postings mentioning Python grew +70% YoY, Data/AI/ML roles +64% YoY, SQL +54% YoY, and Cloud skills +24% YoY, while English proficiency requirements grew +52% YoY, indicating employers increasingly expect backend engineers to pair core coding skills with cloud, data, and English ability.",
+      "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+    },
+    "salary": {
+      "value": "Khoảng 12,4 – 54,9 triệu VNĐ/tháng tùy theo số năm kinh nghiệm, với mức trung vị toàn ngành khoảng 37,8 triệu VNĐ/tháng (theo khảo sát 1.839 chuyên gia IT).",
+      "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+    },
+    "demand": {
+      "value": "Nhu cầu tuyển dụng IT đang phục hồi mạnh: 66,1% doanh nghiệp được khảo sát đã tăng nhân sự IT trong năm 2025, và 69,6% dự kiến tiếp tục tuyển thêm trong năm 2026, cho thấy mức độ cạnh tranh vừa phải nhưng nhu cầu ổn định đối với vị trí Backend Developer.",
+      "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+    },
+    "similarJobs": [
+      { "name": "Frontend Developer", "distinction": "Builds the user-facing interface and client-side code that runs in the browser/app, rather than server logic, APIs, and databases." },
+      { "name": "Business Analyst", "distinction": "Gathers, documents, and translates business requirements into specifications; does not write or maintain server-side code." },
+      { "name": "DevOps Engineer", "distinction": "Focuses on CI/CD pipelines, infrastructure automation, and deployment/monitoring rather than implementing application business logic." }
+    ],
+    "hardSkills": [
+      { "name": "Server-side programming language (Java, Node.js, Python, Go, PHP, etc.)", "description": "The core tool for implementing business logic, request handling, and background processing on the server." },
+      { "name": "Database design & SQL/NoSQL (MySQL, PostgreSQL, MongoDB)", "description": "Nearly every backend service needs to model, store, and query persistent data efficiently and safely." },
+      { "name": "RESTful / GraphQL API design", "description": "Backend services expose functionality to frontend apps, mobile apps, and third parties through well-designed APIs." },
+      { "name": "System design & architecture (caching, message queues, microservices)", "description": "Needed to build systems that stay reliable and responsive as traffic and data volume grow." },
+      { "name": "Cloud & containerization basics (AWS/GCP/Azure, Docker)", "description": "Vietnamese employers increasingly expect backend engineers to deploy and operate services in the cloud, not just write code locally." }
+    ],
+    "softSkills": [
+      { "name": "Problem-solving / debugging", "description": "Distributed systems fail in non-obvious ways; tracing an issue across services and logs is a daily skill." },
+      { "name": "Cross-functional communication", "description": "Backend engineers must align with frontend, QA, and product on API contracts and edge cases — a skill many IT candidates in Vietnam are reported to lack." },
+      { "name": "Continuous learning mindset", "description": "Languages, frameworks, and cloud tooling change quickly, so staying current is part of the job." }
+    ],
+    "futureSkills": {
+      "value": [
+        "Python (job postings +70% YoY in Q2 2025)",
+        "Data / AI / ML integration (+64% YoY)",
+        "Cloud platforms — AWS/Azure/GCP (+24% YoY)",
+        "SQL / data skills (+54% YoY)",
+        "English proficiency (+52% YoY, increasingly a baseline hiring requirement rather than a bonus)"
+      ],
+      "source": "https://itviec.com/blog/thi-truong-tuyen-dung-it-viet-nam-quy-1-2025-ai-python-tang-truong-manh-me/"
+    },
+    "careerPath": [
+      {
+        "stageName": "Fresher/Intern",
+        "keySkills": ["Basic programming fundamentals", "One backend language/framework", "Basic SQL", "Git & version control", "Willingness to learn from code review"],
+        "salaryRange": { "value": "~12,4 triệu VNĐ/tháng (dưới 1 năm kinh nghiệm)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "avgTimeToNextStage": "6-12 tháng"
+      },
+      {
+        "stageName": "Junior",
+        "keySkills": ["Solid grasp of one backend stack", "API design & implementation", "Database schema design", "Writing unit tests", "Debugging production issues with guidance"],
+        "salaryRange": { "value": "~25,35 triệu VNĐ/tháng (1-2 năm kinh nghiệm)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "avgTimeToNextStage": "2-3 năm"
+      },
+      {
+        "stageName": "Senior",
+        "keySkills": ["System design for scale", "Performance optimization & caching", "Mentoring junior developers", "Cloud deployment & CI/CD", "Cross-team technical communication"],
+        "salaryRange": { "value": "~39,9 triệu VNĐ/tháng (5-8 năm kinh nghiệm)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "avgTimeToNextStage": "3-5 năm"
+      },
+      {
+        "stageName": "Lead/Manager",
+        "keySkills": ["Technical architecture ownership", "Team leadership & hiring", "Roadmap & stakeholder management", "Risk/tradeoff decision-making", "Cross-functional strategic communication"],
+        "salaryRange": { "value": "~54,9 triệu VNĐ/tháng (trên 8 năm kinh nghiệm)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "avgTimeToNextStage": "N/A (senior leadership track)"
+      }
+    ]
+  }
+}

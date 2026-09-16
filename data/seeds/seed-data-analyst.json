@@ -1,0 +1,88 @@
+{
+  "canonicalName": "Data Analyst",
+  "content": {
+    "description": "Data Analyst (Chuyên viên Phân tích dữ liệu) thu thập, làm sạch và xử lý dữ liệu từ nhiều nguồn (CRM, hệ thống bán hàng, web analytics...), sau đó dùng SQL, Excel và các công cụ trực quan hóa để tìm ra xu hướng và insight phục vụ ra quyết định kinh doanh. Họ làm việc chặt chẽ với các phòng ban như Marketing, Sales, Vận hành và Product để trả lời các câu hỏi kinh doanh cụ thể. Sản phẩm đầu ra thường là báo cáo, dashboard định kỳ và các phân tích ad-hoc giúp lãnh đạo, các bộ phận đưa ra quyết định dựa trên dữ liệu thay vì cảm tính.",
+    "vnMarket": {
+      "value": "Nhu cầu tuyển Data Analyst tại Việt Nam tăng mạnh và mở rộng ra nhiều ngành ngoài công nghệ - tài chính như bán lẻ, y tế, giáo dục, sản xuất, do doanh nghiệp ngày càng dựa vào dữ liệu để ra quyết định; tuy nhiên nguồn nhân sự đạt chuẩn kỹ năng chuyên môn vẫn còn khan hiếm tại Việt Nam.",
+      "source": "https://www.vietnamworks.com/hrinsider/nhung-nganh-nghe-co-nhu-cau-tuyen-dung-data-analyst.html"
+    },
+    "salary": {
+      "value": "Theo Báo cáo Lương & Thị trường Tuyển dụng IT Việt Nam 2025-2026 của ITviec, mức lương trung vị của nhóm Data Analyst/Data Scientist/BI Analyst là khoảng 40.65 triệu đồng/tháng (toàn thị trường), dao động từ khoảng 23.8 triệu đồng/tháng ở mốc 1-2 năm kinh nghiệm đến khoảng 42.5 triệu đồng/tháng ở mốc 5-8 năm kinh nghiệm.",
+      "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+    },
+    "demand": {
+      "value": "Nhu cầu tuyển dụng Data Analyst ở mức cao và các doanh nghiệp ngày càng đặt yêu cầu khắt khe hơn về kỹ năng, kinh nghiệm thực tiễn; nguồn cung ứng viên đạt chuẩn còn khan hiếm so với nhu cầu thị trường.",
+      "source": "https://www.vietnamworks.com/hrinsider/nhung-nganh-nghe-co-nhu-cau-tuyen-dung-data-analyst.html"
+    },
+    "similarJobs": [
+      {
+        "name": "Data Scientist",
+        "distinction": "Data Scientist xây dựng mô hình dự đoán/machine learning và cần nền tảng toán - thống kê - lập trình sâu hơn, trong khi Data Analyst tập trung vào phân tích mô tả và báo cáo trên dữ liệu hiện có."
+      },
+      {
+        "name": "Data Engineer",
+        "distinction": "Data Engineer xây dựng và vận hành hạ tầng, pipeline dữ liệu (ETL, data warehouse) để dữ liệu sẵn sàng sử dụng, còn Data Analyst là người khai thác dữ liệu đó để tìm insight."
+      },
+      {
+        "name": "Business Intelligence (BI) Analyst/Developer",
+        "distinction": "BI Analyst thiên về xây dựng và duy trì hệ thống báo cáo/dashboard tự động, lặp lại theo quy trình chuẩn hoá, trong khi Data Analyst thường làm nhiều phân tích ad-hoc theo yêu cầu kinh doanh phát sinh."
+      }
+    ],
+    "hardSkills": [
+      { "name": "SQL", "description": "Kỹ năng bắt buộc để truy vấn, lọc và tổng hợp dữ liệu trực tiếp từ cơ sở dữ liệu quan hệ." },
+      { "name": "Excel", "description": "Công cụ phổ biến nhất để xử lý, tính toán và trình bày dữ liệu nhanh trong môi trường doanh nghiệp Việt Nam." },
+      { "name": "Trực quan hóa dữ liệu (Power BI/Tableau)", "description": "Dùng để xây dựng dashboard giúp các bên liên quan không chuyên kỹ thuật hiểu và hành động theo insight." },
+      { "name": "Python/R", "description": "Cần thiết khi làm việc với tập dữ liệu lớn, phân tích thống kê nâng cao hoặc tự động hoá quy trình phân tích." },
+      { "name": "Data modeling & hiểu nghiệp vụ", "description": "Giúp thiết kế báo cáo đúng logic nghiệp vụ và đảm bảo số liệu phản ánh đúng thực tế kinh doanh." }
+    ],
+    "softSkills": [
+      { "name": "Tư duy phản biện & giải quyết vấn đề", "description": "Cần để đặt đúng câu hỏi kinh doanh trước khi đi tìm số liệu, tránh phân tích lạc đề." },
+      { "name": "Giao tiếp & kể chuyện bằng dữ liệu (data storytelling)", "description": "Insight chỉ có giá trị khi truyền đạt được rõ ràng cho người không có nền tảng kỹ thuật." },
+      { "name": "Tỉ mỉ, cẩn thận", "description": "Sai sót nhỏ trong xử lý dữ liệu có thể dẫn đến kết luận sai lệch nghiêm trọng cho doanh nghiệp." }
+    ],
+    "futureSkills": {
+      "value": [
+        "Tăng: Kỹ năng ứng dụng AI/GenAI để tăng tốc độ phân tích và tự động hoá báo cáo",
+        "Tăng: Kỹ năng giải quyết vấn đề và tư duy phản biện",
+        "Tăng: Kỹ năng giao tiếp, phối hợp liên phòng ban",
+        "Giảm ưu tiên tương đối: kỹ năng kỹ thuật thuần tuý khi công cụ AI hỗ trợ nhiều tác vụ phân tích cơ bản"
+      ],
+      "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+    },
+    "careerPath": [
+      {
+        "stageName": "Fresher/Intern",
+        "keySkills": ["SQL cơ bản", "Excel", "Thống kê mô tả", "Trực quan hoá dữ liệu cơ bản (Power BI/Google Data Studio)"],
+        "salaryRange": {
+          "value": "5 - 13 triệu đồng/tháng (thực tập đến mới ra trường)",
+          "source": "https://mindx.edu.vn/blog/luong-data-analyst"
+        },
+        "avgTimeToNextStage": "6 tháng - 1 năm"
+      },
+      {
+        "stageName": "Junior",
+        "keySkills": ["SQL nâng cao", "Power BI/Tableau", "Python/R cơ bản", "Hiểu quy trình nghiệp vụ liên quan"],
+        "salaryRange": {
+          "value": "Khoảng 23.8 triệu đồng/tháng (1-2 năm kinh nghiệm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
+        "avgTimeToNextStage": "2 - 3 năm"
+      },
+      {
+        "stageName": "Senior",
+        "keySkills": ["Phân tích thống kê nâng cao/A-B testing", "Data storytelling", "Thiết kế data model/dashboard phức tạp", "Tư vấn giải pháp dữ liệu cho stakeholder"],
+        "salaryRange": {
+          "value": "Khoảng 42.5 triệu đồng/tháng (5-8 năm kinh nghiệm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
+        "avgTimeToNextStage": "3 - 4 năm"
+      },
+      {
+        "stageName": "Lead/Manager",
+        "keySkills": ["Quản lý đội ngũ phân tích dữ liệu", "Xây dựng chiến lược dữ liệu cho tổ chức", "Làm việc trực tiếp với lãnh đạo cấp cao", "Quản lý dự án/stakeholder đa phòng ban"],
+        "salaryRange": { "value": null, "source": null },
+        "avgTimeToNextStage": "Không có dữ liệu đáng tin cậy"
+      }
+    ]
+  }
+}

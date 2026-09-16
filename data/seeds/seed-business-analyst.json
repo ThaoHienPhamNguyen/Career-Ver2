@@ -1,0 +1,92 @@
+{
+  "canonicalName": "Business Analyst",
+  "content": {
+    "description": "Business Analyst (Chuyên viên Phân tích nghiệp vụ) là cầu nối giữa bộ phận kinh doanh và đội ngũ kỹ thuật: thu thập, phân tích yêu cầu nghiệp vụ, đề xuất giải pháp cải tiến quy trình hoặc hệ thống, và viết tài liệu đặc tả (BRD/SRS, user story) cho đội phát triển. Họ làm việc với khách hàng/phòng ban nghiệp vụ, Product Manager, đội kỹ thuật (developer, QA) và các bên liên quan khác để đảm bảo giải pháp được triển khai đúng nhu cầu thực tế. Đây là vai trò thiên về phân tích nghiệp vụ, tài liệu hoá và giao tiếp — khác với Backend Developer, người trực tiếp viết code để xây dựng hệ thống.",
+    "vnMarket": {
+      "value": "Business Analyst đang phát triển nhanh tại Việt Nam nhờ làn sóng chuyển đổi số; các ngành tuyển dụng nhiều nhất gồm ngân hàng - tài chính (trả lương cao nhất cho BA), công nghệ/phần mềm, startup, và logistics - thương mại điện tử (đang bùng nổ nhu cầu tuyển dụng).",
+      "source": "https://atd.ueh.edu.vn/muc-luong-business-analyst-moi-nhat-2025-tu-nguoi-moi-den-chuyen-gia-a254-a255.html"
+    },
+    "salary": {
+      "value": "Theo Báo cáo Lương & Thị trường Tuyển dụng IT Việt Nam 2025-2026 của ITviec, mức lương trung vị của Business Analyst là 30 triệu đồng/tháng, dao động từ khoảng 12.2 triệu đồng/tháng (dưới 1 năm kinh nghiệm) đến khoảng 41.35 triệu đồng/tháng (trên 8 năm kinh nghiệm).",
+      "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+    },
+    "demand": {
+      "value": "Business Analyst được săn đón nhiều nhất trong các ngành công nghệ, tài chính và thương mại điện tử; ngành công nghệ có lộ trình thăng tiến rõ ràng nhất cho BA, còn lĩnh vực tài chính coi trọng năng lực phân tích để hỗ trợ ra quyết định đầu tư.",
+      "source": "https://mindx.edu.vn/blog/muc-luong-business-analyst"
+    },
+    "similarJobs": [
+      {
+        "name": "Backend Developer",
+        "distinction": "Backend Developer trực tiếp viết code để xây dựng và vận hành hệ thống/ứng dụng, còn Business Analyst phân tích yêu cầu nghiệp vụ và chuyển hoá thành tài liệu đặc tả cho đội kỹ thuật thực hiện — không viết code sản phẩm."
+      },
+      {
+        "name": "Product Owner/Product Manager",
+        "distinction": "Product Owner chịu trách nhiệm về tầm nhìn sản phẩm, ưu tiên roadmap và quyết định tính năng, trong khi BA tập trung phân tích chi tiết yêu cầu, quy trình nghiệp vụ và tài liệu hoá giải pháp."
+      },
+      {
+        "name": "System Analyst",
+        "distinction": "System Analyst thiên về phân tích khía cạnh kỹ thuật/kiến trúc hệ thống để hiện thực hoá yêu cầu, còn Business Analyst tập trung vào khía cạnh nghiệp vụ, quy trình và giá trị kinh doanh."
+      }
+    ],
+    "hardSkills": [
+      { "name": "Phân tích & tài liệu hoá yêu cầu (BRD/SRS/User Story)", "description": "Là kỹ năng lõi để chuyển yêu cầu nghiệp vụ còn mơ hồ thành tài liệu rõ ràng cho đội phát triển." },
+      { "name": "Vẽ quy trình nghiệp vụ (BPMN, flowchart, use case diagram)", "description": "Giúp mô hình hoá quy trình hiện tại và quy trình đề xuất một cách trực quan, dễ thống nhất giữa các bên." },
+      { "name": "SQL & phân tích dữ liệu cơ bản", "description": "Cần để tự kiểm tra dữ liệu, xác thực giả định nghiệp vụ và hỗ trợ ra quyết định dựa trên số liệu thực tế." },
+      { "name": "Kiến thức domain (ngân hàng, bảo hiểm, retail...)", "description": "Hiểu đặc thù ngành giúp BA đặt đúng câu hỏi và đề xuất giải pháp khả thi, sát với thực tế vận hành." },
+      { "name": "Công cụ quản lý dự án/yêu cầu (Jira, Confluence, Visio)", "description": "Dùng hàng ngày để quản lý backlog, tài liệu hoá và theo dõi tiến độ triển khai yêu cầu." }
+    ],
+    "softSkills": [
+      { "name": "Giao tiếp & đàm phán", "description": "BA phải làm cầu nối, dung hoà kỳ vọng khác nhau giữa khách hàng, nghiệp vụ và đội kỹ thuật." },
+      { "name": "Tư duy phân tích & giải quyết vấn đề", "description": "Cần bóc tách vấn đề kinh doanh phức tạp thành các yêu cầu cụ thể, khả thi cho đội phát triển." },
+      { "name": "Quản lý stakeholder", "description": "Dự án thường có nhiều bên liên quan với lợi ích khác nhau, BA cần cân bằng và giữ đồng thuận." },
+      { "name": "Thích ứng & học hỏi nhanh", "description": "Mỗi dự án/khách hàng có domain và quy trình khác nhau, đòi hỏi BA nắm bắt nhanh kiến thức mới." }
+    ],
+    "futureSkills": {
+      "value": [
+        "Tăng: Kỹ năng ứng dụng AI/GenAI để hỗ trợ phân tích, viết tài liệu và tăng năng suất",
+        "Tăng: Kỹ năng giải quyết vấn đề và tư duy phản biện",
+        "Tăng: Kỹ năng giao tiếp, phối hợp đa phòng ban trong bối cảnh chuyển đổi số",
+        "Giảm ưu tiên tương đối: các tác vụ tài liệu hoá thủ công, lặp lại khi công cụ AI hỗ trợ soạn thảo"
+      ],
+      "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+    },
+    "careerPath": [
+      {
+        "stageName": "Fresher/Intern",
+        "keySkills": ["Thu thập yêu cầu cơ bản", "Vẽ flowchart/use case đơn giản", "Excel, PowerPoint", "Hiểu quy trình phát triển phần mềm (SDLC) cơ bản"],
+        "salaryRange": {
+          "value": "Khoảng 12.2 triệu đồng/tháng (dưới 1 năm kinh nghiệm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
+        "avgTimeToNextStage": "1 - 1.5 năm"
+      },
+      {
+        "stageName": "Junior",
+        "keySkills": ["Viết BRD/SRS/User Story", "BPMN cơ bản", "SQL cơ bản", "Giao tiếp với stakeholder nội bộ"],
+        "salaryRange": {
+          "value": "Khoảng 14 triệu đồng/tháng (1-2 năm kinh nghiệm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
+        "avgTimeToNextStage": "2 năm"
+      },
+      {
+        "stageName": "Senior",
+        "keySkills": ["Phân tích quy trình phức tạp đa hệ thống", "Tư vấn giải pháp cho khách hàng/nội bộ", "Quản lý yêu cầu thay đổi (change request)", "Kèm cặp, đào tạo BA junior"],
+        "salaryRange": {
+          "value": "28 - 37.4 triệu đồng/tháng (3-8 năm kinh nghiệm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
+        "avgTimeToNextStage": "3 - 4 năm"
+      },
+      {
+        "stageName": "Lead/Manager",
+        "keySkills": ["Quản lý đội ngũ BA", "Định hướng chiến lược phân tích nghiệp vụ toàn công ty", "Làm việc trực tiếp với ban lãnh đạo/khách hàng lớn", "Quản lý danh mục dự án"],
+        "salaryRange": {
+          "value": "Từ khoảng 41.35 triệu đồng/tháng trở lên (trên 8 năm kinh nghiệm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
+        "avgTimeToNextStage": "Không xác định (giai đoạn cuối lộ trình)"
+      }
+    ]
+  }
+}

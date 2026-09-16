@@ -1,0 +1,119 @@
+{
+  "canonicalName": "HR Executive",
+  "content": {
+    "description": "Chuyên viên Nhân sự (HR Executive) thực hiện các nghiệp vụ nhân sự hàng ngày như tuyển dụng, đào tạo, tính lương - phúc lợi (C&B), quan hệ lao động và quản lý hồ sơ nhân viên. Họ làm việc trực tiếp với quản lý các phòng ban để tìm kiếm, tuyển chọn và giữ chân nhân tài, đồng thời đảm bảo các chính sách nhân sự tuân thủ luật lao động. Đầu ra công việc gồm hồ sơ tuyển dụng, hợp đồng lao động, bảng lương, và các chương trình gắn kết nhân viên.",
+    "vnMarket": {
+      "value": "Theo khảo sát lương của Robert Walters (được Tuổi Trẻ trích dẫn, 84 doanh nghiệp tham gia khảo sát), doanh nghiệp Việt Nam được dự báo đẩy mạnh tuyển dụng ở lĩnh vực nhân sự trong năm 2025 để hỗ trợ chiến lược mở rộng kinh doanh và chuyển đổi số; các ứng viên có kỹ năng quản lý đối tác và xây dựng quan hệ kinh doanh được săn đón nhất.",
+      "source": "https://tuoitre.vn/nganh-nao-tang-tuyen-dung-trong-nam-2025-20241129101923454.htm"
+    },
+    "salary": {
+      "value": "Mức lương trung bình cho Chuyên viên Nhân sự tại Việt Nam khoảng 10.025.000 đồng/tháng, dao động phổ biến từ 6.257.000 - 16.064.000 đồng/tháng tùy khu vực, quy mô doanh nghiệp và kinh nghiệm (dữ liệu tổng hợp từ 174 mức lương thực tế trên Indeed Việt Nam, 36 tháng gần nhất).",
+      "source": "https://vn.indeed.com/career/chuy%C3%AAn-vi%C3%AAn-nh%C3%A2n-s%E1%BB%B1/salaries"
+    },
+    "demand": {
+      "value": "Theo Báo cáo Thị trường tuyển dụng 2024-2025 của TopCV (trích dẫn trên CafeBiz), Nhân sự (HR) chiếm khoảng 4% nhu cầu tuyển dụng toàn thị trường - thấp hơn nhiều so với Kinh doanh/Bán hàng (47,6%) và IT (12,2%), cho thấy đây là mảng có nhu cầu ổn định nhưng không bùng nổ, mức độ cạnh tranh vừa phải.",
+      "source": "https://cafebiz.vn/nganh-nghe-nao-se-khat-nhan-luc-trong-nam-2025-176241220111119336.chn"
+    },
+    "similarJobs": [
+      {
+        "name": "Chuyên viên Tuyển dụng (Recruiter)",
+        "distinction": "Chỉ tập trung vào một mảng tuyển dụng (tìm kiếm, phỏng vấn, onboarding) trong khi HR Executive đảm nhiệm nhiều nghiệp vụ nhân sự tổng hợp hơn (C&B, đào tạo, quan hệ lao động)."
+      },
+      {
+        "name": "Chuyên viên C&B (Compensation & Benefits)",
+        "distinction": "Chuyên sâu về tính lương, thưởng, bảo hiểm xã hội và phúc lợi, thay vì bao quát toàn bộ vòng đời nhân viên như HR Executive."
+      },
+      {
+        "name": "HR Business Partner (HRBP)",
+        "distinction": "Đóng vai trò cố vấn chiến lược nhân sự cho một đơn vị kinh doanh cụ thể, đòi hỏi kinh nghiệm và tư duy kinh doanh cao hơn vị trí HR Executive."
+      }
+    ],
+    "hardSkills": [
+      {
+        "name": "Luật lao động Việt Nam",
+        "description": "Cần thiết để soạn thảo hợp đồng lao động, xử lý kỷ luật và tính lương/bảo hiểm đúng quy định pháp luật."
+      },
+      {
+        "name": "Sử dụng phần mềm HRM/HRIS",
+        "description": "Quản lý hồ sơ nhân viên, chấm công và tính lương tự động, chính xác, tiết kiệm thời gian."
+      },
+      {
+        "name": "Kỹ năng phỏng vấn & đánh giá ứng viên",
+        "description": "Đảm bảo tuyển đúng người, đúng vị trí, giảm tỷ lệ nghỉ việc sớm."
+      },
+      {
+        "name": "Phân tích dữ liệu nhân sự cơ bản (Excel/HR Analytics)",
+        "description": "Theo dõi các chỉ số như tỷ lệ nghỉ việc (turnover), chi phí tuyển dụng, hiệu suất để báo cáo cho ban lãnh đạo."
+      },
+      {
+        "name": "Xây dựng JD & khung năng lực",
+        "description": "Mô tả công việc rõ ràng giúp tuyển dụng đúng nhu cầu và làm cơ sở đánh giá hiệu suất nhân viên."
+      }
+    ],
+    "softSkills": [
+      {
+        "name": "Giao tiếp & lắng nghe",
+        "description": "Làm việc với nhiều phòng ban, ứng viên và nhân viên có tính cách, nhu cầu khác nhau."
+      },
+      {
+        "name": "Bảo mật & trung lập",
+        "description": "Xử lý thông tin nhạy cảm (lương, kỷ luật, khiếu nại) đòi hỏi sự công tâm và giữ bí mật."
+      },
+      {
+        "name": "Giải quyết xung đột",
+        "description": "Hoà giải mâu thuẫn giữa nhân viên và quản lý, giữ môi trường làm việc ổn định."
+      },
+      {
+        "name": "Quản lý thời gian đa nhiệm",
+        "description": "Cân bằng cùng lúc nhiều đầu việc: tuyển dụng, đào tạo, hành chính nhân sự, xử lý phát sinh."
+      }
+    ],
+    "futureSkills": {
+      "value": [
+        "Phân tích dữ liệu nhân sự (HR Analytics)",
+        "Ứng dụng AI trong tuyển dụng và quản trị nhân sự",
+        "Quản lý dự án theo mô hình Agile",
+        "Xây dựng trải nghiệm nhân viên (Employee Experience) và chương trình sức khỏe tinh thần"
+      ],
+      "source": "https://blognhansu.net.vn/2025/02/21/xu-huong-nhan-su-tai-viet-nam-nam-2025/"
+    },
+    "careerPath": [
+      {
+        "stageName": "Fresher/Intern",
+        "keySkills": ["Tin học văn phòng", "Kỹ năng giao tiếp cơ bản", "Hiểu quy trình tuyển dụng/hành chính nhân sự", "Sử dụng thành thạo Excel"],
+        "salaryRange": {
+          "value": "8 - 12 triệu đồng/tháng (0-1 năm kinh nghiệm, vị trí HR Executive/HR Admin)",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-nhan-su/"
+        },
+        "avgTimeToNextStage": "Khoảng 1 năm"
+      },
+      {
+        "stageName": "Junior",
+        "keySkills": ["Tuyển dụng độc lập một số vị trí", "Soạn thảo hợp đồng lao động", "Tính lương cơ bản", "Sử dụng phần mềm HRM"],
+        "salaryRange": {
+          "value": "12 - 20 triệu đồng/tháng (1-3 năm kinh nghiệm, Recruiter/C&B Specialist)",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-nhan-su/"
+        },
+        "avgTimeToNextStage": "Khoảng 2 năm"
+      },
+      {
+        "stageName": "Senior",
+        "keySkills": ["Tư vấn nhân sự cho quản lý (HRBP)", "Xây dựng chính sách C&B", "Phân tích dữ liệu nhân sự", "Đào tạo nhân viên mới"],
+        "salaryRange": {
+          "value": "20 - 35 triệu đồng/tháng (3-5 năm kinh nghiệm, Senior Recruiter/HRBP)",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-nhan-su/"
+        },
+        "avgTimeToNextStage": "Khoảng 2-3 năm"
+      },
+      {
+        "stageName": "Lead/Manager",
+        "keySkills": ["Hoạch định chiến lược nhân sự", "Quản lý ngân sách nhân sự", "Lãnh đạo đội ngũ HR", "Đàm phán với ban lãnh đạo"],
+        "salaryRange": {
+          "value": "35 - 55 triệu đồng/tháng (5-8 năm kinh nghiệm, HR Manager/C&B Manager; doanh nghiệp FDI trả cao hơn 20-30% so với doanh nghiệp nội địa)",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-nhan-su/"
+        },
+        "avgTimeToNextStage": "N/A (cấp bậc cao nhất trong lộ trình này)"
+      }
+    ]
+  }
+}

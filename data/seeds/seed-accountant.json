@@ -1,0 +1,140 @@
+{
+  "canonicalName": "Accountant",
+  "content": {
+    "description": "Kế toán (Accountant) ghi nhận, xử lý và kiểm soát các nghiệp vụ tài chính của doanh nghiệp như thu chi, công nợ, hàng tồn kho, tiền lương và thuế, sau đó tổng hợp thành sổ sách và báo cáo tài chính. Họ làm việc chặt chẽ với bộ phận tài chính, kiểm toán nội bộ/độc lập, cơ quan thuế và ban lãnh đạo để đảm bảo số liệu chính xác, tuân thủ pháp luật và hỗ trợ ra quyết định kinh doanh. Sản phẩm đầu ra chính gồm sổ sách kế toán, báo cáo tài chính, tờ khai thuế và các phân tích chi phí/doanh thu định kỳ.",
+    "vnMarket": {
+      "value": "Theo báo cáo xu hướng ngành Kế toán & Kiểm toán 2026 của VietnamWorks, ngành này tiếp tục giữ vị trí Top #2 toàn quốc về nhu cầu tuyển dụng, tăng 16% so với cùng kỳ năm 2025, dù mức độ cạnh tranh trong tuyển dụng vẫn cao. Doanh nghiệp ngày càng tìm kiếm nhân sự có khả năng phân tích dữ liệu tài chính và phối hợp chiến lược, không chỉ xử lý nghiệp vụ ghi sổ đơn thuần.",
+      "source": "https://www.vietnamworks.com/hrinsider/vietnamworks-bao-cao-xu-huong-nganh-ke-toan-kiem-toan-2026-ky-1.html"
+    },
+    "salary": {
+      "value": "Theo cẩm nang lương của CareerLink, mức lương kế toán tại Việt Nam dao động khoảng 7-10 triệu/tháng ở cấp Fresher, 10-15 triệu ở Junior, 15-25 triệu ở Senior/Kế toán tổng hợp, 25-45 triệu ở Kế toán trưởng và có thể trên 50-100 triệu ở cấp CFO/Giám đốc tài chính. Doanh nghiệp FDI thường trả cao hơn 20-40% so với doanh nghiệp vừa và nhỏ trong nước.",
+      "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-ke-toan/"
+    },
+    "demand": {
+      "value": "Kế toán/Kiểm toán nằm trong Top 2 nhóm ngành có nhu cầu tuyển dụng nhiều nhất trên nền tảng VietnamWorks, với mức tăng 16% so với cùng kỳ 2025; tuy nhiên khoảng cách giữa kỳ vọng ứng viên và tiêu chuẩn tuyển dụng của doanh nghiệp ngày càng rõ nét (29% ứng viên gặp khó khi đánh giá công ty phù hợp, 21% khó tìm việc đúng chuyên môn), cho thấy nhu cầu cao nhưng cạnh tranh về chất lượng ứng viên cũng lớn.",
+      "source": "https://www.vietnamworks.com/hrinsider/vietnamworks-bao-cao-xu-huong-nganh-ke-toan-kiem-toan-2026-ky-1.html"
+    },
+    "similarJobs": [
+      {
+        "name": "Kiểm toán viên (Auditor)",
+        "distinction": "Kiểm tra và đánh giá tính trung thực, hợp lý của báo cáo tài chính do người khác lập (nội bộ hoặc công ty kiểm toán độc lập), không trực tiếp hạch toán nghiệp vụ phát sinh hằng ngày như kế toán."
+      },
+      {
+        "name": "Kế toán thuế",
+        "distinction": "Tập trung hẹp vào kê khai, quyết toán thuế và làm việc với cơ quan thuế, trong khi Kế toán tổng hợp phụ trách toàn bộ sổ sách và báo cáo tài chính của doanh nghiệp."
+      },
+      {
+        "name": "Chuyên viên phân tích tài chính (Financial Analyst)",
+        "distinction": "Sử dụng số liệu kế toán đã có để phân tích, dự báo và tư vấn chiến lược tài chính/đầu tư, không trực tiếp ghi sổ hay lập tờ khai thuế."
+      }
+    ],
+    "hardSkills": [
+      {
+        "name": "Nguyên lý kế toán & chuẩn mực kế toán (VAS/IFRS)",
+        "description": "Là nền tảng bắt buộc để hạch toán đúng nghiệp vụ và lập báo cáo tài chính hợp lệ."
+      },
+      {
+        "name": "Sử dụng phần mềm kế toán & ERP (MISA, Fast, SAP, Oracle...)",
+        "description": "Hầu hết nghiệp vụ ghi sổ, đối chiếu và lên báo cáo hiện nay được thực hiện trên phần mềm chuyên dụng."
+      },
+      {
+        "name": "Excel nâng cao & phân tích dữ liệu",
+        "description": "Cần thiết để xử lý khối lượng số liệu lớn, lập bảng biểu và đối chiếu công nợ nhanh, chính xác."
+      },
+      {
+        "name": "Am hiểu luật thuế & quy định tài chính hiện hành",
+        "description": "Giúp kê khai, quyết toán thuế đúng hạn và tránh rủi ro pháp lý cho doanh nghiệp."
+      },
+      {
+        "name": "Lập báo cáo tài chính & kiểm soát nội bộ",
+        "description": "Là kỹ năng cốt lõi để tổng hợp số liệu thành báo cáo phục vụ ban lãnh đạo, cơ quan thuế và đối tác/ngân hàng."
+      }
+    ],
+    "softSkills": [
+      {
+        "name": "Cẩn thận, tỉ mỉ & trung thực",
+        "description": "Sai sót nhỏ trong số liệu kế toán có thể gây hậu quả tài chính hoặc pháp lý lớn cho doanh nghiệp."
+      },
+      {
+        "name": "Chịu được áp lực deadline",
+        "description": "Khối lượng công việc thường dồn vào các kỳ báo cáo cuối tháng/quý/năm và các đợt quyết toán thuế."
+      },
+      {
+        "name": "Giao tiếp & phối hợp liên phòng ban",
+        "description": "Cần làm việc với các bộ phận mua hàng, bán hàng, nhân sự để đối chiếu và xác minh số liệu."
+      },
+      {
+        "name": "Tư duy bảo mật & đạo đức nghề nghiệp",
+        "description": "Kế toán tiếp cận thông tin tài chính nhạy cảm của doanh nghiệp, đòi hỏi tính chính trực cao."
+      }
+    ],
+    "futureSkills": {
+      "value": [
+        "Phân tích dữ liệu tài chính (financial data analysis)",
+        "Sử dụng thành thạo hệ thống ERP và tự động hóa quy trình",
+        "Am hiểu chuẩn mực báo cáo tài chính quốc tế IFRS",
+        "Năng lực ứng dụng AI/công nghệ mới vào nghiệp vụ kế toán",
+        "Số hóa quản lý chứng từ và quy trình làm việc"
+      ],
+      "source": "https://www.vietnamworks.com/hrinsider/vietnamworks-bao-cao-xu-huong-nganh-ke-toan-kiem-toan-2026-ky-1.html"
+    },
+    "careerPath": [
+      {
+        "stageName": "Fresher/Intern",
+        "keySkills": [
+          "Hạch toán nghiệp vụ cơ bản",
+          "Sử dụng phần mềm kế toán (MISA/Fast)",
+          "Excel cơ bản",
+          "Kiểm tra, sắp xếp chứng từ, hóa đơn"
+        ],
+        "salaryRange": {
+          "value": "7-10 triệu/tháng",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-ke-toan/"
+        },
+        "avgTimeToNextStage": "1-2 năm"
+      },
+      {
+        "stageName": "Junior (Kế toán viên)",
+        "keySkills": [
+          "Lập tờ khai thuế GTGT/TNCN/TNDN",
+          "Đối chiếu công nợ, quản lý dòng tiền",
+          "Excel nâng cao (hàm, pivot table)",
+          "Hạch toán độc lập một mảng nghiệp vụ"
+        ],
+        "salaryRange": {
+          "value": "10-15 triệu/tháng",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-ke-toan/"
+        },
+        "avgTimeToNextStage": "2-4 năm"
+      },
+      {
+        "stageName": "Senior (Kế toán tổng hợp)",
+        "keySkills": [
+          "Lập báo cáo tài chính hợp nhất",
+          "Kiểm soát nội bộ & xây dựng quy trình kế toán",
+          "Am hiểu chuẩn mực IFRS",
+          "Kèm cặp, đào tạo kế toán viên"
+        ],
+        "salaryRange": {
+          "value": "15-25 triệu/tháng",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-ke-toan/"
+        },
+        "avgTimeToNextStage": "3-5 năm"
+      },
+      {
+        "stageName": "Lead/Manager (Kế toán trưởng)",
+        "keySkills": [
+          "Hoạch định chiến lược tài chính",
+          "Quản lý và điều phối đội ngũ kế toán",
+          "Làm việc trực tiếp với kiểm toán, cơ quan thuế, ngân hàng",
+          "Phân tích tài chính hỗ trợ ra quyết định cho ban lãnh đạo"
+        ],
+        "salaryRange": {
+          "value": "25-45 triệu/tháng",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-ke-toan/"
+        },
+        "avgTimeToNextStage": "Không xác định (cấp quản lý cao nhất trong lộ trình phổ biến; có thể tiến xa hơn lên CFO/Giám đốc tài chính)"
+      }
+    ]
+  }
+}

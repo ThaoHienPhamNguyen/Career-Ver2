@@ -1,0 +1,114 @@
+{
+  "canonicalName": "Customer Service Executive",
+  "content": {
+    "description": "Chuyên viên/Nhân viên Chăm sóc khách hàng (Customer Service Executive) tiếp nhận và xử lý yêu cầu, thắc mắc, khiếu nại của khách hàng qua điện thoại, email, chat hoặc trực tiếp, nhằm đảm bảo trải nghiệm và sự hài lòng của khách hàng với sản phẩm/dịch vụ. Họ phối hợp với các bộ phận kinh doanh, kỹ thuật và vận hành để giải quyết vấn đề, đồng thời ghi nhận phản hồi để cải thiện sản phẩm/dịch vụ. Đầu ra công việc gồm phiếu xử lý yêu cầu, báo cáo mức độ hài lòng khách hàng (CSAT), và dữ liệu phản hồi khách hàng.",
+    "vnMarket": {
+      "value": "Theo khảo sát của JobsGO, năm 2025 doanh nghiệp Việt Nam ưu tiên tuyển dụng nhóm Kinh doanh và Tiếp thị, trong đó Chăm sóc khách hàng là một trong ba bộ phận được ưu tiên tuyển dụng nhiều nhất (26,9% doanh nghiệp), chỉ sau Kinh doanh/Bán hàng (67,7%) và tương đương Marketing (26,5%); vị trí này phổ biến ở các ngành dịch vụ, ngân hàng, thương mại điện tử, bán lẻ.",
+      "source": "https://afamily.vn/du-bao-3-nganh-nghe-khat-nhan-tai-nam-2025-kinh-doanh-ban-hang-tiep-tuc-len-ngoi-20250325192519383.chn"
+    },
+    "salary": {
+      "value": "Mức lương trung bình cho Nhân viên Chăm sóc khách hàng tại Việt Nam khoảng 8.164.000 đồng/tháng, dao động phổ biến từ 5.002.000 - 13.325.000 đồng/tháng tùy khu vực và doanh nghiệp (dữ liệu tổng hợp từ khoảng 1.900 mức lương thực tế trên Indeed Việt Nam, 36 tháng gần nhất). Nhân viên biết ngoại ngữ (tiếng Nhật, tiếng Trung) thường có mức lương cao hơn đáng kể.",
+      "source": "https://vn.indeed.com/career/ch%C4%83m-s%C3%B3c-kh%C3%A1ch-h%C3%A0ng/salaries"
+    },
+    "demand": {
+      "value": "Theo Báo cáo Thị trường tuyển dụng 2024-2025 của TopCV (trích dẫn trên CafeBiz), Chăm sóc khách hàng chiếm khoảng 5,1% nhu cầu tuyển dụng toàn thị trường, xếp sau Kinh doanh/Bán hàng, IT và Marketing - cho thấy nhu cầu tuyển dụng ổn định nhưng cạnh tranh không quá gay gắt so với các nhóm ngành hot nhất.",
+      "source": "https://cafebiz.vn/nganh-nghe-nao-se-khat-nhan-luc-trong-nam-2025-176241220111119336.chn"
+    },
+    "similarJobs": [
+      {
+        "name": "Nhân viên Telesales/Tư vấn bán hàng qua điện thoại",
+        "distinction": "Trọng tâm là tư vấn để chốt đơn hàng, tăng doanh số, khác với Chăm sóc khách hàng vốn tập trung hỗ trợ và giữ chân khách hàng sau khi đã mua hàng."
+      },
+      {
+        "name": "Nhân viên Hỗ trợ kỹ thuật (Technical Support)",
+        "distinction": "Xử lý các vấn đề kỹ thuật chuyên sâu về sản phẩm/phần mềm, đòi hỏi kiến thức chuyên môn kỹ thuật cao hơn so với chăm sóc khách hàng thông thường."
+      },
+      {
+        "name": "Chuyên viên Quan hệ khách hàng (Account Management/CRM)",
+        "distinction": "Quản lý mối quan hệ dài hạn với các khách hàng/đối tác lớn, thiên về phát triển và giữ chân tài khoản hơn là xử lý yêu cầu hàng ngày của số đông khách hàng."
+      }
+    ],
+    "hardSkills": [
+      {
+        "name": "Sử dụng phần mềm CRM/Ticketing (Zendesk, Salesforce, Zalo OA...)",
+        "description": "Theo dõi, phân loại và xử lý yêu cầu khách hàng một cách có hệ thống, không bỏ sót yêu cầu."
+      },
+      {
+        "name": "Kiến thức sản phẩm/dịch vụ chuyên sâu",
+        "description": "Tư vấn và giải đáp chính xác, tránh cung cấp thông tin sai gây mất lòng tin khách hàng."
+      },
+      {
+        "name": "Kỹ năng viết & giao tiếp qua văn bản (email, chat)",
+        "description": "Xử lý lượng lớn yêu cầu qua các kênh số một cách rõ ràng, chuyên nghiệp."
+      },
+      {
+        "name": "Đo lường & báo cáo chỉ số dịch vụ (CSAT, SLA, NPS)",
+        "description": "Đánh giá chất lượng phục vụ và làm cơ sở cải thiện quy trình chăm sóc khách hàng."
+      },
+      {
+        "name": "Ngoại ngữ (tiếng Anh/Trung/Nhật tùy ngành)",
+        "description": "Phục vụ khách hàng quốc tế hoặc doanh nghiệp FDI, thường đi kèm mức lương cao hơn đáng kể."
+      }
+    ],
+    "softSkills": [
+      {
+        "name": "Kiên nhẫn & kiểm soát cảm xúc",
+        "description": "Xử lý khách hàng khó tính, phàn nàn thường xuyên mà không để cảm xúc ảnh hưởng đến chất lượng phục vụ."
+      },
+      {
+        "name": "Lắng nghe chủ động & thấu cảm",
+        "description": "Hiểu đúng nhu cầu thực sự của khách hàng để đưa ra giải pháp phù hợp."
+      },
+      {
+        "name": "Xử lý tình huống nhanh",
+        "description": "Đưa ra giải pháp kịp thời trong các tình huống áp lực thời gian hoặc khiếu nại gấp."
+      },
+      {
+        "name": "Làm việc nhóm liên phòng ban",
+        "description": "Phối hợp với bộ phận kinh doanh, kỹ thuật, vận hành để giải quyết triệt để vấn đề của khách hàng."
+      }
+    ],
+    "futureSkills": {
+      "value": null,
+      "source": null
+    },
+    "careerPath": [
+      {
+        "stageName": "Fresher/Intern",
+        "keySkills": ["Kỹ năng giao tiếp cơ bản", "Sử dụng tổng đài/CRM cơ bản", "Nắm quy trình xử lý yêu cầu tiêu chuẩn", "Kiến thức sản phẩm nền tảng"],
+        "salaryRange": {
+          "value": "6 - 8 triệu đồng/tháng (mới ra trường/chưa có kinh nghiệm)",
+          "source": "https://careers.langmaster.edu.vn/nhan-vien-cham-soc-khach-hang-la-gi"
+        },
+        "avgTimeToNextStage": "Khoảng 1 năm"
+      },
+      {
+        "stageName": "Junior",
+        "keySkills": ["Xử lý độc lập các ca phức tạp", "Đạt chỉ tiêu chất lượng (CSAT/SLA)", "Ghi nhận và tổng hợp phản hồi khách hàng", "Hỗ trợ đào tạo nhân viên mới"],
+        "salaryRange": {
+          "value": "9 - 12 triệu đồng/tháng (1-3 năm kinh nghiệm)",
+          "source": "https://careers.langmaster.edu.vn/nhan-vien-cham-soc-khach-hang-la-gi"
+        },
+        "avgTimeToNextStage": "Khoảng 2 năm"
+      },
+      {
+        "stageName": "Senior/Trưởng nhóm",
+        "keySkills": ["Giám sát hiệu suất nhóm", "Đào tạo và huấn luyện nhân viên", "Xử lý khiếu nại leo thang (escalation)", "Phân tích dữ liệu phản hồi khách hàng"],
+        "salaryRange": {
+          "value": "13 - 20 triệu đồng/tháng (Trưởng nhóm chăm sóc khách hàng)",
+          "source": "https://careers.langmaster.edu.vn/nhan-vien-cham-soc-khach-hang-la-gi"
+        },
+        "avgTimeToNextStage": "Khoảng 2-3 năm"
+      },
+      {
+        "stageName": "Lead/Manager",
+        "keySkills": ["Xây dựng chiến lược dịch vụ khách hàng", "Quản lý ngân sách và KPI bộ phận", "Điều phối liên phòng ban", "Ứng dụng công nghệ/AI vào vận hành CSKH"],
+        "salaryRange": {
+          "value": "Trên 20 triệu đồng/tháng (Quản lý/Trưởng phòng chăm sóc khách hàng; tại ngân hàng, bảo hiểm hoặc tập đoàn đa quốc gia có thể đạt cao hơn nhiều với 7-10 năm kinh nghiệm)",
+          "source": "https://careers.langmaster.edu.vn/nhan-vien-cham-soc-khach-hang-la-gi"
+        },
+        "avgTimeToNextStage": "N/A (cấp bậc cao nhất trong lộ trình này)"
+      }
+    ]
+  }
+}
