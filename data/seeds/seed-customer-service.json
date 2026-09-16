@@ -3,16 +3,16 @@
   "content": {
     "description": "Chuyên viên/Nhân viên Chăm sóc khách hàng (Customer Service Executive) tiếp nhận và xử lý yêu cầu, thắc mắc, khiếu nại của khách hàng qua điện thoại, email, chat hoặc trực tiếp, nhằm đảm bảo trải nghiệm và sự hài lòng của khách hàng với sản phẩm/dịch vụ. Họ phối hợp với các bộ phận kinh doanh, kỹ thuật và vận hành để giải quyết vấn đề, đồng thời ghi nhận phản hồi để cải thiện sản phẩm/dịch vụ. Đầu ra công việc gồm phiếu xử lý yêu cầu, báo cáo mức độ hài lòng khách hàng (CSAT), và dữ liệu phản hồi khách hàng.",
     "vnMarket": {
-      "value": "Theo khảo sát của JobsGO, năm 2025 doanh nghiệp Việt Nam ưu tiên tuyển dụng nhóm Kinh doanh và Tiếp thị, trong đó Chăm sóc khách hàng là một trong ba bộ phận được ưu tiên tuyển dụng nhiều nhất (26,9% doanh nghiệp), chỉ sau Kinh doanh/Bán hàng (67,7%) và tương đương Marketing (26,5%); vị trí này phổ biến ở các ngành dịch vụ, ngân hàng, thương mại điện tử, bán lẻ.",
-      "source": "https://afamily.vn/du-bao-3-nganh-nghe-khat-nhan-tai-nam-2025-kinh-doanh-ban-hang-tiep-tuc-len-ngoi-20250325192519383.chn"
+      "value": "Theo Báo cáo Thị trường Tuyển dụng thường niên 2025-2026 của TopCV, Dịch vụ chăm sóc khách hàng là một trong 5 nhóm ngành (cùng với Kinh doanh/Bán hàng, Marketing/Truyền thông/Quảng cáo, IT-Phần mềm, và Nhân sự-Tuyển dụng) có thể ứng dụng AI để tối ưu ngân sách và hiệu suất công việc trong năm 2025, cho thấy xu hướng ứng dụng công nghệ ngày càng rõ nét trong vận hành CSKH tại Việt Nam.",
+      "source": "https://insights.topcv.vn/recruitment-report-2025-2026-vie"
     },
     "salary": {
-      "value": "Mức lương trung bình cho Nhân viên Chăm sóc khách hàng tại Việt Nam khoảng 8.164.000 đồng/tháng, dao động phổ biến từ 5.002.000 - 13.325.000 đồng/tháng tùy khu vực và doanh nghiệp (dữ liệu tổng hợp từ khoảng 1.900 mức lương thực tế trên Indeed Việt Nam, 36 tháng gần nhất). Nhân viên biết ngoại ngữ (tiếng Nhật, tiếng Trung) thường có mức lương cao hơn đáng kể.",
+      "value": "Mức lương trung bình cho Nhân viên Chăm sóc khách hàng tại Việt Nam khoảng 8.164.000 đồng/tháng, dao động phổ biến từ 5.002.000 - 13.325.000 đồng/tháng tùy khu vực và doanh nghiệp (dữ liệu tổng hợp từ khoảng 1.900 mức lương thực tế trên Indeed Việt Nam, 36 tháng gần nhất, cập nhật 06/09/2026). Nhân viên biết ngoại ngữ (tiếng Nhật, tiếng Trung) thường có mức lương cao hơn đáng kể.",
       "source": "https://vn.indeed.com/career/ch%C4%83m-s%C3%B3c-kh%C3%A1ch-h%C3%A0ng/salaries"
     },
     "demand": {
-      "value": "Theo Báo cáo Thị trường tuyển dụng 2024-2025 của TopCV (trích dẫn trên CafeBiz), Chăm sóc khách hàng chiếm khoảng 5,1% nhu cầu tuyển dụng toàn thị trường, xếp sau Kinh doanh/Bán hàng, IT và Marketing - cho thấy nhu cầu tuyển dụng ổn định nhưng cạnh tranh không quá gay gắt so với các nhóm ngành hot nhất.",
-      "source": "https://cafebiz.vn/nganh-nghe-nao-se-khat-nhan-luc-trong-nam-2025-176241220111119336.chn"
+      "value": "Theo Báo cáo Thị trường Tuyển dụng Quý 2/2026 của VietnamWorks, lĩnh vực Dịch vụ khách hàng ghi nhận \"mức độ cạnh tranh ứng viên cao hơn đáng kể so với quy mô tuyển dụng\" - tức nguồn cung lao động (số người tìm việc) vượt khá xa so với số vị trí tuyển dụng thực tế, khiến mức độ cạnh tranh xin việc ở vị trí này khá cao so với nhiều ngành khác.",
+      "source": "https://www.vietnamworks.com/hrinsider/bao-cao-thi-truong-tuyen-dung-q2-2026-vietnamworks.html"
     },
     "similarJobs": [
       {
@@ -69,16 +69,21 @@
       }
     ],
     "futureSkills": {
-      "value": null,
-      "source": null
+      "value": [
+        "Thiết kế trải nghiệm hội thoại với AI (Conversational AI Design)",
+        "Giám sát & tối ưu hiệu suất AI agent trong chăm sóc khách hàng (AI Performance Specialist)",
+        "Tái thiết kế quy trình vận hành khi ứng dụng AI (AI Process Engineering)",
+        "Kỹ năng giám sát, huấn luyện và hợp tác với AI agent thay vì chỉ xử lý ca trực tiếp"
+      ],
+      "source": "https://www.bcg.com/publications/2025/new-frontier-customer-service-transformation"
     },
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
         "keySkills": ["Kỹ năng giao tiếp cơ bản", "Sử dụng tổng đài/CRM cơ bản", "Nắm quy trình xử lý yêu cầu tiêu chuẩn", "Kiến thức sản phẩm nền tảng"],
         "salaryRange": {
-          "value": "6 - 8 triệu đồng/tháng (mới ra trường/chưa có kinh nghiệm)",
-          "source": "https://careers.langmaster.edu.vn/nhan-vien-cham-soc-khach-hang-la-gi"
+          "value": null,
+          "source": null
         },
         "avgTimeToNextStage": "Khoảng 1 năm"
       },
@@ -86,8 +91,8 @@
         "stageName": "Junior",
         "keySkills": ["Xử lý độc lập các ca phức tạp", "Đạt chỉ tiêu chất lượng (CSAT/SLA)", "Ghi nhận và tổng hợp phản hồi khách hàng", "Hỗ trợ đào tạo nhân viên mới"],
         "salaryRange": {
-          "value": "9 - 12 triệu đồng/tháng (1-3 năm kinh nghiệm)",
-          "source": "https://careers.langmaster.edu.vn/nhan-vien-cham-soc-khach-hang-la-gi"
+          "value": "7 - 12 triệu đồng/tháng (0-2 năm kinh nghiệm, Junior CSR)",
+          "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nhan-vien-cham-soc-khach-hang-la-gi"
         },
         "avgTimeToNextStage": "Khoảng 2 năm"
       },
@@ -95,8 +100,8 @@
         "stageName": "Senior/Trưởng nhóm",
         "keySkills": ["Giám sát hiệu suất nhóm", "Đào tạo và huấn luyện nhân viên", "Xử lý khiếu nại leo thang (escalation)", "Phân tích dữ liệu phản hồi khách hàng"],
         "salaryRange": {
-          "value": "13 - 20 triệu đồng/tháng (Trưởng nhóm chăm sóc khách hàng)",
-          "source": "https://careers.langmaster.edu.vn/nhan-vien-cham-soc-khach-hang-la-gi"
+          "value": "15 - 25 triệu đồng/tháng (2-4 năm kinh nghiệm, Senior CSR)",
+          "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nhan-vien-cham-soc-khach-hang-la-gi"
         },
         "avgTimeToNextStage": "Khoảng 2-3 năm"
       },
@@ -104,8 +109,8 @@
         "stageName": "Lead/Manager",
         "keySkills": ["Xây dựng chiến lược dịch vụ khách hàng", "Quản lý ngân sách và KPI bộ phận", "Điều phối liên phòng ban", "Ứng dụng công nghệ/AI vào vận hành CSKH"],
         "salaryRange": {
-          "value": "Trên 20 triệu đồng/tháng (Quản lý/Trưởng phòng chăm sóc khách hàng; tại ngân hàng, bảo hiểm hoặc tập đoàn đa quốc gia có thể đạt cao hơn nhiều với 7-10 năm kinh nghiệm)",
-          "source": "https://careers.langmaster.edu.vn/nhan-vien-cham-soc-khach-hang-la-gi"
+          "value": "25 - 70 triệu đồng/tháng (Trưởng nhóm CSKH, 4-7 năm kinh nghiệm: 25-40 triệu; Quản lý CSKH, 7+ năm kinh nghiệm: 40-70 triệu)",
+          "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nhan-vien-cham-soc-khach-hang-la-gi"
         },
         "avgTimeToNextStage": "N/A (cấp bậc cao nhất trong lộ trình này)"
       }

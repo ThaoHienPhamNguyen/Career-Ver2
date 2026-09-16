@@ -3,16 +3,16 @@
   "content": {
     "description": "Nhân viên kinh doanh (Sales Executive) chịu trách nhiệm tìm kiếm, tiếp cận và tư vấn khách hàng tiềm năng để bán sản phẩm/dịch vụ của doanh nghiệp, từ đó tạo ra doanh thu. Họ làm việc chặt chẽ với bộ phận marketing (để tiếp nhận khách hàng tiềm năng), chăm sóc khách hàng (để giữ chân khách hàng sau bán) và quản lý cấp trên (để báo cáo doanh số, dự báo doanh thu). Sản phẩm đầu ra chính là các hợp đồng/đơn hàng đã chốt, báo cáo doanh số định kỳ và cơ sở dữ liệu khách hàng được cập nhật trên CRM.",
     "vnMarket": {
-      "value": "Theo báo cáo thị trường tuyển dụng Quý 1/2026 của VietnamWorks, nhóm ngành Kinh doanh (cùng với Kế toán/Kiểm toán) vẫn nằm trong Top 2 nhóm ngành có nhu cầu tuyển dụng lớn nhất toàn quốc, dù số lượng tin tuyển dụng giảm khoảng 11,1% so với cùng kỳ 2025 do một số ngành như Kinh doanh và Hành chính văn phòng có dấu hiệu chững lại.",
-      "source": "https://www.vietnamworks.com/hrinsider/bao-cao-thi-truong-tuyen-dung-viet-nam-quy-1-2026.html"
+      "value": "Kinh doanh/Bán hàng luôn là một trong những nhóm ngành có khối lượng tuyển dụng lớn nhất tại Việt Nam. Theo báo cáo Thị trường Tuyển dụng Quý 2/2026 của VietnamWorks, ngành này duy trì vị trí top đầu toàn quốc về nhu cầu tuyển dụng (chỉ số tuyển dụng đạt 125,5 điểm) và có mức độ cạnh tranh ứng viên thấp so với khối lượng tin tuyển dụng, cho thấy cơ hội việc làm vẫn rất dồi dào dù tốc độ tăng trưởng đã chững lại.",
+      "source": "https://www.vietnamworks.com/hrinsider/bao-cao-thi-truong-tuyen-dung-q2-2026-vietnamworks.html"
     },
     "salary": {
-      "value": "Lương cứng (chưa tính hoa hồng) dao động khoảng 7-10 triệu/tháng ở cấp Fresher, 10-18 triệu ở Junior, 20-35 triệu ở Senior và 35-60 triệu ở cấp Quản lý kinh doanh; tổng thu nhập thực tế (gồm hoa hồng, thưởng KPI) thường cao hơn lương cứng 30-50%, có thể đạt 100-200+ triệu/tháng ở cấp Giám đốc kinh doanh.",
+      "value": "Theo cẩm nang lương của CareerLink (cập nhật 3/2026), lương cứng (chưa gồm hoa hồng) dao động khoảng 7-10 triệu/tháng ở cấp Fresher, 10-18 triệu ở Junior, 20-35 triệu ở Senior, 35-60 triệu ở cấp Quản lý kinh doanh và 60-120 triệu ở cấp Giám đốc kinh doanh. Tổng thu nhập thực tế (gồm hoa hồng, thưởng KPI) thường cao hơn đáng kể: khoảng 10-15 triệu (Fresher), 15-25 triệu (Junior), 30-50 triệu (Senior), 50-90 triệu (Manager) và 100-200+ triệu/tháng (Director).",
       "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-sales/"
     },
     "demand": {
-      "value": "Kinh doanh tiếp tục là một trong hai nhóm ngành có khối lượng tuyển dụng lớn nhất trên nền tảng VietnamWorks trong Quý 1/2026, tuy nhiên tốc độ tăng trưởng tin tuyển dụng đã giảm 11,1% so với cùng kỳ năm 2025, cho thấy nhu cầu tuyển dụng vẫn cao nhưng đang chững lại so với các ngành đang tăng trưởng mạnh như Kiến trúc/Xây dựng hay Kế toán/Kiểm toán.",
-      "source": "https://www.vietnamworks.com/hrinsider/bao-cao-thi-truong-tuyen-dung-viet-nam-quy-1-2026.html"
+      "value": "Theo báo cáo Thị trường Tuyển dụng Quý 2/2026 của VietnamWorks, nhu cầu tuyển dụng ngành Kinh doanh/Bán hàng giảm nhẹ 3,3% so với cùng kỳ Quý 2/2025 (sau khi đã giảm 11,1% trong Quý 1/2026 so với cùng kỳ 2025), cho thấy đà tăng trưởng đang chững lại so với các ngành đang bứt phá như Kế toán/Kiểm toán (+56,7%). Dù vậy, ngành vẫn giữ vị trí top đầu toàn quốc về khối lượng tuyển dụng và mức độ cạnh tranh ứng viên vẫn ở mức thấp.",
+      "source": "https://www.vietnamworks.com/hrinsider/bao-cao-thi-truong-tuyen-dung-q2-2026-vietnamworks.html"
     },
     "similarJobs": [
       {
@@ -69,8 +69,12 @@
       }
     ],
     "futureSkills": {
-      "value": null,
-      "source": null
+      "value": [
+        "Thành thạo các nền tảng CRM (HubSpot, Salesforce, Bitrix24, Zoho CRM) để quản lý khách hàng và pipeline bán hàng",
+        "Phân tích dữ liệu bán hàng bằng Excel, Power BI, Google Data Studio (Looker Studio) để tự đánh giá và cải thiện hiệu suất",
+        "Khả năng học hỏi liên tục để thích ứng khi AI và tự động hóa đang định hình lại cách bán hàng"
+      ],
+      "source": "https://www.careerlink.vn/cam-nang-viec-lam/goc-ky-nang/ky-nang-sales"
     },
     "careerPath": [
       {

@@ -3,16 +3,16 @@
   "content": {
     "description": "Kế toán (Accountant) ghi nhận, xử lý và kiểm soát các nghiệp vụ tài chính của doanh nghiệp như thu chi, công nợ, hàng tồn kho, tiền lương và thuế, sau đó tổng hợp thành sổ sách và báo cáo tài chính. Họ làm việc chặt chẽ với bộ phận tài chính, kiểm toán nội bộ/độc lập, cơ quan thuế và ban lãnh đạo để đảm bảo số liệu chính xác, tuân thủ pháp luật và hỗ trợ ra quyết định kinh doanh. Sản phẩm đầu ra chính gồm sổ sách kế toán, báo cáo tài chính, tờ khai thuế và các phân tích chi phí/doanh thu định kỳ.",
     "vnMarket": {
-      "value": "Theo báo cáo xu hướng ngành Kế toán & Kiểm toán 2026 của VietnamWorks, ngành này tiếp tục giữ vị trí Top #2 toàn quốc về nhu cầu tuyển dụng, tăng 16% so với cùng kỳ năm 2025, dù mức độ cạnh tranh trong tuyển dụng vẫn cao. Doanh nghiệp ngày càng tìm kiếm nhân sự có khả năng phân tích dữ liệu tài chính và phối hợp chiến lược, không chỉ xử lý nghiệp vụ ghi sổ đơn thuần.",
+      "value": "Theo báo cáo xu hướng ngành Kế toán & Kiểm toán 2026 (Kỳ 1) của VietnamWorks, ngành này giữ vững vị trí Top 2 toàn quốc về nhu cầu tuyển dụng, tăng 16% trong Quý 1/2026 so với cùng kỳ 2025. Ngành đang bước vào giai đoạn chuyển đổi mạnh dưới tác động của AI, tự động hóa và các thay đổi về chính sách/chuẩn mực quản trị doanh nghiệp, khiến doanh nghiệp ngày càng tìm kiếm nhân sự có khả năng phân tích dữ liệu tài chính và phối hợp chiến lược, không chỉ xử lý nghiệp vụ ghi sổ đơn thuần.",
       "source": "https://www.vietnamworks.com/hrinsider/vietnamworks-bao-cao-xu-huong-nganh-ke-toan-kiem-toan-2026-ky-1.html"
     },
     "salary": {
-      "value": "Theo cẩm nang lương của CareerLink, mức lương kế toán tại Việt Nam dao động khoảng 7-10 triệu/tháng ở cấp Fresher, 10-15 triệu ở Junior, 15-25 triệu ở Senior/Kế toán tổng hợp, 25-45 triệu ở Kế toán trưởng và có thể trên 50-100 triệu ở cấp CFO/Giám đốc tài chính. Doanh nghiệp FDI thường trả cao hơn 20-40% so với doanh nghiệp vừa và nhỏ trong nước.",
+      "value": "Theo cẩm nang lương của CareerLink (cập nhật 3/2026), mức lương kế toán tại Việt Nam dao động khoảng 7-10 triệu/tháng ở cấp Fresher, 10-15 triệu ở Junior, 15-25 triệu ở Senior/Kế toán tổng hợp, 25-45 triệu ở Kế toán trưởng và 50-100+ triệu ở cấp CFO/Giám đốc tài chính. Chứng chỉ ACCA/CPA Việt Nam/CMA có thể giúp tăng thêm 20-50% so với mặt bằng lương chung, và doanh nghiệp FDI thường trả cao hơn 20-40% so với doanh nghiệp vừa và nhỏ trong nước.",
       "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-ke-toan/"
     },
     "demand": {
-      "value": "Kế toán/Kiểm toán nằm trong Top 2 nhóm ngành có nhu cầu tuyển dụng nhiều nhất trên nền tảng VietnamWorks, với mức tăng 16% so với cùng kỳ 2025; tuy nhiên khoảng cách giữa kỳ vọng ứng viên và tiêu chuẩn tuyển dụng của doanh nghiệp ngày càng rõ nét (29% ứng viên gặp khó khi đánh giá công ty phù hợp, 21% khó tìm việc đúng chuyên môn), cho thấy nhu cầu cao nhưng cạnh tranh về chất lượng ứng viên cũng lớn.",
-      "source": "https://www.vietnamworks.com/hrinsider/vietnamworks-bao-cao-xu-huong-nganh-ke-toan-kiem-toan-2026-ky-1.html"
+      "value": "Theo báo cáo Thị trường Tuyển dụng Quý 2/2026 của VietnamWorks, Kế toán/Kiểm toán là nhóm ngành có mức tăng trưởng tuyển dụng mạnh nhất toàn thị trường, đạt +56,7% so với cùng kỳ Quý 2/2025 (vượt qua cả Kiến trúc/Xây dựng), trong khi mức độ cạnh tranh ứng viên vẫn ở mức thấp so với nhu cầu tuyển dụng - phản ánh tình trạng khan hiếm nhân lực chất lượng trong ngành.",
+      "source": "https://www.vietnamworks.com/hrinsider/bao-cao-thi-truong-tuyen-dung-q2-2026-vietnamworks.html"
     },
     "similarJobs": [
       {
@@ -70,11 +70,11 @@
     ],
     "futureSkills": {
       "value": [
-        "Phân tích dữ liệu tài chính (financial data analysis)",
-        "Sử dụng thành thạo hệ thống ERP và tự động hóa quy trình",
+        "Ứng dụng công nghệ, phân tích dữ liệu tài chính và thích ứng với AI trong nghiệp vụ kế toán",
+        "Thành thạo hệ thống ERP và phần mềm kế toán trên nền tảng đám mây (cloud)",
         "Am hiểu chuẩn mực báo cáo tài chính quốc tế IFRS",
-        "Năng lực ứng dụng AI/công nghệ mới vào nghiệp vụ kế toán",
-        "Số hóa quản lý chứng từ và quy trình làm việc"
+        "Tư duy đối tác kinh doanh (business partnering), hỗ trợ ra quyết định và quản trị rủi ro/kiểm soát nội bộ",
+        "Tư duy chiến lược, khả năng phối hợp liên phòng ban và thích ứng với thay đổi"
       ],
       "source": "https://www.vietnamworks.com/hrinsider/vietnamworks-bao-cao-xu-huong-nganh-ke-toan-kiem-toan-2026-ky-1.html"
     },

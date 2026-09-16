@@ -3,16 +3,16 @@
   "content": {
     "description": "Data Analyst (Chuyên viên Phân tích dữ liệu) thu thập, làm sạch và xử lý dữ liệu từ nhiều nguồn (CRM, hệ thống bán hàng, web analytics...), sau đó dùng SQL, Excel và các công cụ trực quan hóa để tìm ra xu hướng và insight phục vụ ra quyết định kinh doanh. Họ làm việc chặt chẽ với các phòng ban như Marketing, Sales, Vận hành và Product để trả lời các câu hỏi kinh doanh cụ thể. Sản phẩm đầu ra thường là báo cáo, dashboard định kỳ và các phân tích ad-hoc giúp lãnh đạo, các bộ phận đưa ra quyết định dựa trên dữ liệu thay vì cảm tính.",
     "vnMarket": {
-      "value": "Nhu cầu tuyển Data Analyst tại Việt Nam tăng mạnh và mở rộng ra nhiều ngành ngoài công nghệ - tài chính như bán lẻ, y tế, giáo dục, sản xuất, do doanh nghiệp ngày càng dựa vào dữ liệu để ra quyết định; tuy nhiên nguồn nhân sự đạt chuẩn kỹ năng chuyên môn vẫn còn khan hiếm tại Việt Nam.",
-      "source": "https://www.vietnamworks.com/hrinsider/nhung-nganh-nghe-co-nhu-cau-tuyen-dung-data-analyst.html"
+      "value": "Nhu cầu tuyển Data Analyst tại Việt Nam không còn giới hạn ở công ty công nghệ mà đã mở rộng sang tài chính - ngân hàng, bán lẻ, logistics và y tế, với nhiều doanh nghiệp lớn (VNG, Tiki, Shopee Việt Nam, MoMo, Grab Việt Nam, VNPAY, ACB, Techcombank, VPBank...) liên tục tuyển dụng. Thị trường dữ liệu Việt Nam ngày càng trưởng thành khi nhiều doanh nghiệp vừa và lớn bắt đầu xây dựng đội ngũ phân tích dữ liệu nội bộ thay vì thuê ngoài hoàn toàn.",
+      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nganh-phan-tich-du-lieu-la-gi-ra-truong-lam-gi"
     },
     "salary": {
       "value": "Theo Báo cáo Lương & Thị trường Tuyển dụng IT Việt Nam 2025-2026 của ITviec, mức lương trung vị của nhóm Data Analyst/Data Scientist/BI Analyst là khoảng 40.65 triệu đồng/tháng (toàn thị trường), dao động từ khoảng 23.8 triệu đồng/tháng ở mốc 1-2 năm kinh nghiệm đến khoảng 42.5 triệu đồng/tháng ở mốc 5-8 năm kinh nghiệm.",
       "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
     },
     "demand": {
-      "value": "Nhu cầu tuyển dụng Data Analyst ở mức cao và các doanh nghiệp ngày càng đặt yêu cầu khắt khe hơn về kỹ năng, kinh nghiệm thực tiễn; nguồn cung ứng viên đạt chuẩn còn khan hiếm so với nhu cầu thị trường.",
-      "source": "https://www.vietnamworks.com/hrinsider/nhung-nganh-nghe-co-nhu-cau-tuyen-dung-data-analyst.html"
+      "value": "Theo CareerLink, nhu cầu tuyển dụng các vị trí liên quan đến dữ liệu tại Việt Nam duy trì ổn định với hàng trăm tin tuyển dụng CNTT liên quan đến dữ liệu đang mở, trong đó có hàng nghìn tin dành riêng cho ứng viên mới tốt nghiệp - cho thấy cơ hội việc làm rộng mở cho Data Analyst ở nhiều cấp độ kinh nghiệm.",
+      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nganh-phan-tich-du-lieu-la-gi-ra-truong-lam-gi"
     },
     "similarJobs": [
       {
@@ -54,8 +54,8 @@
         "stageName": "Fresher/Intern",
         "keySkills": ["SQL cơ bản", "Excel", "Thống kê mô tả", "Trực quan hoá dữ liệu cơ bản (Power BI/Google Data Studio)"],
         "salaryRange": {
-          "value": "5 - 13 triệu đồng/tháng (thực tập đến mới ra trường)",
-          "source": "https://mindx.edu.vn/blog/luong-data-analyst"
+          "value": "10 - 15 triệu đồng/tháng (Fresher, 0-1 năm kinh nghiệm)",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-data-analyst/"
         },
         "avgTimeToNextStage": "6 tháng - 1 năm"
       },

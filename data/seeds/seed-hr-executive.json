@@ -3,16 +3,16 @@
   "content": {
     "description": "Chuyên viên Nhân sự (HR Executive) thực hiện các nghiệp vụ nhân sự hàng ngày như tuyển dụng, đào tạo, tính lương - phúc lợi (C&B), quan hệ lao động và quản lý hồ sơ nhân viên. Họ làm việc trực tiếp với quản lý các phòng ban để tìm kiếm, tuyển chọn và giữ chân nhân tài, đồng thời đảm bảo các chính sách nhân sự tuân thủ luật lao động. Đầu ra công việc gồm hồ sơ tuyển dụng, hợp đồng lao động, bảng lương, và các chương trình gắn kết nhân viên.",
     "vnMarket": {
-      "value": "Theo khảo sát lương của Robert Walters (được Tuổi Trẻ trích dẫn, 84 doanh nghiệp tham gia khảo sát), doanh nghiệp Việt Nam được dự báo đẩy mạnh tuyển dụng ở lĩnh vực nhân sự trong năm 2025 để hỗ trợ chiến lược mở rộng kinh doanh và chuyển đổi số; các ứng viên có kỹ năng quản lý đối tác và xây dựng quan hệ kinh doanh được săn đón nhất.",
-      "source": "https://tuoitre.vn/nganh-nao-tang-tuyen-dung-trong-nam-2025-20241129101923454.htm"
+      "value": "Theo Báo cáo Thị trường Tuyển dụng Việt Nam Quý 1/2026 của VietnamWorks, lĩnh vực Nhân sự - Tuyển dụng tăng trưởng +17,5% so với cùng kỳ Quý 1/2025, đứng thứ 2 trong các ngành tăng trưởng nhanh nhất (chỉ sau Kiến trúc - Xây dựng), và thứ hạng ngành này tại Hà Nội đã tăng 3 bậc so với Quý 1/2024, vươn lên top 7 ngành có nhu cầu tuyển dụng cao nhất.",
+      "source": "https://www.vietnamworks.com/hrinsider/bao-cao-thi-truong-tuyen-dung-viet-nam-quy-1-2026.html"
     },
     "salary": {
-      "value": "Mức lương trung bình cho Chuyên viên Nhân sự tại Việt Nam khoảng 10.025.000 đồng/tháng, dao động phổ biến từ 6.257.000 - 16.064.000 đồng/tháng tùy khu vực, quy mô doanh nghiệp và kinh nghiệm (dữ liệu tổng hợp từ 174 mức lương thực tế trên Indeed Việt Nam, 36 tháng gần nhất).",
+      "value": "Mức lương trung bình cho Chuyên viên Nhân sự tại Việt Nam khoảng 10.025.000 đồng/tháng, dao động phổ biến từ 6.257.000 - 16.064.000 đồng/tháng tùy khu vực, quy mô doanh nghiệp và kinh nghiệm (dữ liệu tổng hợp từ 174 mức lương thực tế trên Indeed Việt Nam, 36 tháng gần nhất, cập nhật 22/08/2026).",
       "source": "https://vn.indeed.com/career/chuy%C3%AAn-vi%C3%AAn-nh%C3%A2n-s%E1%BB%B1/salaries"
     },
     "demand": {
-      "value": "Theo Báo cáo Thị trường tuyển dụng 2024-2025 của TopCV (trích dẫn trên CafeBiz), Nhân sự (HR) chiếm khoảng 4% nhu cầu tuyển dụng toàn thị trường - thấp hơn nhiều so với Kinh doanh/Bán hàng (47,6%) và IT (12,2%), cho thấy đây là mảng có nhu cầu ổn định nhưng không bùng nổ, mức độ cạnh tranh vừa phải.",
-      "source": "https://cafebiz.vn/nganh-nghe-nao-se-khat-nhan-luc-trong-nam-2025-176241220111119336.chn"
+      "value": "Theo Báo cáo Thị trường Tuyển dụng Quý 2/2026 của VietnamWorks, lĩnh vực Nhân sự/Tuyển dụng tăng trưởng tuyển dụng +41,5% so với cùng kỳ Quý 2/2025, nằm trong nhóm 5 ngành có tốc độ tăng trưởng tuyển dụng nhanh nhất thị trường lao động Việt Nam trong giai đoạn này.",
+      "source": "https://www.vietnamworks.com/hrinsider/bao-cao-thi-truong-tuyen-dung-q2-2026-vietnamworks.html"
     },
     "similarJobs": [
       {
@@ -70,12 +70,12 @@
     ],
     "futureSkills": {
       "value": [
-        "Phân tích dữ liệu nhân sự (HR Analytics)",
-        "Ứng dụng AI trong tuyển dụng và quản trị nhân sự",
-        "Quản lý dự án theo mô hình Agile",
-        "Xây dựng trải nghiệm nhân viên (Employee Experience) và chương trình sức khỏe tinh thần"
+        "Năng lực AI và phối hợp chiến lược với IT (AI Literacy)",
+        "Quản trị nhân sự dựa trên năng lực thay vì chức danh (Skills-based Talent Management)",
+        "Thiết kế trải nghiệm nhân viên cá nhân hóa (Employee Experience Design)",
+        "Dẫn dắt thay đổi tổ chức và xây dựng chương trình đào tạo, nâng cao kỹ năng (Change Leadership & L&D)"
       ],
-      "source": "https://blognhansu.net.vn/2025/02/21/xu-huong-nhan-su-tai-viet-nam-nam-2025/"
+      "source": "https://www.mercer.com/en-au/insights/talent-and-transformation/attracting-and-retaining-talent/hr-trends-2025-embracing-ai-flexibility-and-a-skills-powered-future/"
     },
     "careerPath": [
       {
@@ -109,7 +109,7 @@
         "stageName": "Lead/Manager",
         "keySkills": ["Hoạch định chiến lược nhân sự", "Quản lý ngân sách nhân sự", "Lãnh đạo đội ngũ HR", "Đàm phán với ban lãnh đạo"],
         "salaryRange": {
-          "value": "35 - 55 triệu đồng/tháng (5-8 năm kinh nghiệm, HR Manager/C&B Manager; doanh nghiệp FDI trả cao hơn 20-30% so với doanh nghiệp nội địa)",
+          "value": "35 - 55 triệu đồng/tháng (5-8 năm kinh nghiệm, HR Manager; doanh nghiệp FDI trả cao hơn 20-30% so với doanh nghiệp nội địa)",
           "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-nhan-su/"
         },
         "avgTimeToNextStage": "N/A (cấp bậc cao nhất trong lộ trình này)"

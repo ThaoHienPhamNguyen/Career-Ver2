@@ -3,15 +3,15 @@
   "content": {
     "description": "A Backend Developer designs and builds the server-side logic, APIs, and databases that power an application — the parts users never see directly but depend on for every action they take. They work closely with Frontend Developers (who consume the APIs), DevOps/Infrastructure engineers (who deploy and scale the services), and Product Managers (who define requirements), and their output is working, tested server code: REST/GraphQL endpoints, database schemas, authentication systems, and background jobs. This is a software-engineering role centered on writing and maintaining code — distinct from a Business Analyst, who gathers and documents business requirements rather than implementing them.",
     "vnMarket": {
-      "value": "IT hiring is rebounding in Vietnam: 66.1% of surveyed enterprises increased IT headcount in 2025 and 69.6% plan to keep expanding in 2026. Backend-relevant skill demand is shifting quickly — in Q2 2025, job postings mentioning Python grew +70% YoY, Data/AI/ML roles +64% YoY, SQL +54% YoY, and Cloud skills +24% YoY, while English proficiency requirements grew +52% YoY, indicating employers increasingly expect backend engineers to pair core coding skills with cloud, data, and English ability.",
+      "value": "Thị trường tuyển dụng IT tại Việt Nam đang trong giai đoạn phục hồi: theo báo cáo của ITviec, nhu cầu tuyển dụng đang tăng trở lại ở nhiều vị trí, một số vai trò đang lấy lại đà tuyển dụng trong khi số khác dần ổn định, cho thấy thị trường đang chuẩn bị bước vào giai đoạn ổn định hơn. Nhu cầu kỹ năng cho Backend Developer cũng dịch chuyển nhanh: trong quý 2/2025, số tin tuyển dụng yêu cầu Python tăng +70% so với cùng kỳ, Data/AI/ML +64%, SQL +54%, Cloud +24%, và yêu cầu tiếng Anh +52% — cho thấy nhà tuyển dụng ngày càng kỳ vọng backend engineer kết hợp kỹ năng lập trình lõi với cloud, dữ liệu và tiếng Anh.",
       "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
     },
     "salary": {
-      "value": "Khoảng 12,4 – 54,9 triệu VNĐ/tháng tùy theo số năm kinh nghiệm, với mức trung vị toàn ngành khoảng 37,8 triệu VNĐ/tháng (theo khảo sát 1.839 chuyên gia IT).",
+      "value": "Khoảng 12,4 – 54,9 triệu VNĐ/tháng tùy theo số năm kinh nghiệm (dưới 1 năm: ~12,4 triệu; 1-2 năm: ~25,35 triệu; 5-8 năm: ~39,9 triệu; trên 8 năm: ~54,9 triệu), theo khảo sát 1.839 chuyên gia IT của ITviec (Báo cáo Lương & Thị trường Tuyển dụng IT 2025-2026).",
       "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
     },
     "demand": {
-      "value": "Nhu cầu tuyển dụng IT đang phục hồi mạnh: 66,1% doanh nghiệp được khảo sát đã tăng nhân sự IT trong năm 2025, và 69,6% dự kiến tiếp tục tuyển thêm trong năm 2026, cho thấy mức độ cạnh tranh vừa phải nhưng nhu cầu ổn định đối với vị trí Backend Developer.",
+      "value": "Báo cáo Lương & Thị trường Tuyển dụng IT 2025-2026 của ITviec ghi nhận nhu cầu tuyển dụng IT đang phục hồi, với nhiều vị trí lấy lại đà tuyển dụng và thị trường đang chuẩn bị bước vào giai đoạn ổn định hơn sau giai đoạn thắt chặt tuyển dụng trước đó.",
       "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
     },
     "similarJobs": [

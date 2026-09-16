@@ -3,16 +3,16 @@
   "content": {
     "description": "Business Analyst (Chuyên viên Phân tích nghiệp vụ) là cầu nối giữa bộ phận kinh doanh và đội ngũ kỹ thuật: thu thập, phân tích yêu cầu nghiệp vụ, đề xuất giải pháp cải tiến quy trình hoặc hệ thống, và viết tài liệu đặc tả (BRD/SRS, user story) cho đội phát triển. Họ làm việc với khách hàng/phòng ban nghiệp vụ, Product Manager, đội kỹ thuật (developer, QA) và các bên liên quan khác để đảm bảo giải pháp được triển khai đúng nhu cầu thực tế. Đây là vai trò thiên về phân tích nghiệp vụ, tài liệu hoá và giao tiếp — khác với Backend Developer, người trực tiếp viết code để xây dựng hệ thống.",
     "vnMarket": {
-      "value": "Business Analyst đang phát triển nhanh tại Việt Nam nhờ làn sóng chuyển đổi số; các ngành tuyển dụng nhiều nhất gồm ngân hàng - tài chính (trả lương cao nhất cho BA), công nghệ/phần mềm, startup, và logistics - thương mại điện tử (đang bùng nổ nhu cầu tuyển dụng).",
-      "source": "https://atd.ueh.edu.vn/muc-luong-business-analyst-moi-nhat-2025-tu-nguoi-moi-den-chuyen-gia-a254-a255.html"
+      "value": "Business Analyst đang phát triển nhanh tại Việt Nam nhờ làn sóng chuyển đổi số; các ngành tuyển dụng nhiều nhất gồm ngân hàng, bảo hiểm, bán lẻ và logistics. Với đà chuyển đổi số hiện tại, cơ hội cho BA có ngoại ngữ tốt và kiến thức domain rõ ràng được dự báo còn tiếp tục mở rộng trong 5-7 năm tới.",
+      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/business-analyst-hoc-gi"
     },
     "salary": {
       "value": "Theo Báo cáo Lương & Thị trường Tuyển dụng IT Việt Nam 2025-2026 của ITviec, mức lương trung vị của Business Analyst là 30 triệu đồng/tháng, dao động từ khoảng 12.2 triệu đồng/tháng (dưới 1 năm kinh nghiệm) đến khoảng 41.35 triệu đồng/tháng (trên 8 năm kinh nghiệm).",
       "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
     },
     "demand": {
-      "value": "Business Analyst được săn đón nhiều nhất trong các ngành công nghệ, tài chính và thương mại điện tử; ngành công nghệ có lộ trình thăng tiến rõ ràng nhất cho BA, còn lĩnh vực tài chính coi trọng năng lực phân tích để hỗ trợ ra quyết định đầu tư.",
-      "source": "https://mindx.edu.vn/blog/muc-luong-business-analyst"
+      "value": "Theo CareerLink, nhu cầu tuyển Business Analyst thuộc nhóm tăng nhanh nhất ngành CNTT năm 2026, đặc biệt ở lĩnh vực fintech và thương mại điện tử, với khoảng 250 tin tuyển dụng BA đang mở, tập trung chủ yếu tại TP.HCM, Hà Nội và Đà Nẵng.",
+      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/business-analyst-hoc-gi"
     },
     "similarJobs": [
       {

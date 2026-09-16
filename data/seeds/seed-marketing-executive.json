@@ -3,16 +3,16 @@
   "content": {
     "description": "A Marketing Executive (Chuyên viên Marketing) plans and runs marketing campaigns that build brand awareness and generate leads or sales, working across channels such as social media, digital ads, content, and events. They collaborate with content creators/designers, sales teams, and marketing managers, and their output includes campaign plans, content calendars, ad performance reports, and market/competitor research. The role sits at the execution level — turning a brand or manager's strategy into concrete campaigns and measurable results, rather than setting overall business direction.",
     "vnMarket": {
-      "value": "Demand for marketing talent in Vietnam is rising alongside the digital economy, but the market is shifting: specialists in Data & MarTech and performance marketing are increasingly sought after, and future earning potential is tilting toward professionals with data analytics, automation, and AI-integration skills over purely traditional/creative marketing skillsets.",
-      "source": "https://vieclammarketing.vn/blog/kien-thuc-marketing/luong-nganh-marketing-2025-thong-ke-va-xu-huong-tai-viet-nam"
+      "value": "Trong ngành Marketing tại Việt Nam, các mảng Performance Marketing và Brand Management có mức lương cao nhất, đặc biệt tại các công ty công nghệ, fintech và FMCG. Mức lương tăng chủ yếu dựa trên khả năng chứng minh hiệu quả chiến dịch bằng số liệu (data-driven) hơn là chỉ dựa vào số năm kinh nghiệm.",
+      "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/"
     },
     "salary": {
-      "value": "Khoảng 6 – 12 triệu VNĐ/tháng cho vị trí Nhân viên/Chuyên viên Marketing (fresher thử việc: 5-6 triệu; junior 6 tháng-2 năm: 7-11 triệu; senior 3+ năm: 15-30 triệu). TP.HCM có mức trung bình cao nhất (~21,9 triệu/tháng), Hà Nội theo sau (~20,9 triệu/tháng).",
-      "source": "https://amis.misa.vn/95920/marketing-luong-bao-nhieu/"
+      "value": "Trung bình khoảng 12,5 triệu VNĐ/tháng tại Việt Nam (dao động 7,7 – 20,3 triệu VNĐ/tháng tùy kinh nghiệm, vị trí và địa điểm), theo 318 mức lương được người lao động báo cáo trên Indeed (cập nhật 09/2026). TP.HCM (~12,8 triệu) và Hà Nội (~12,6 triệu) có mức tương đương nhau.",
+      "source": "https://jobs.vn.indeed.com/career/marketing-executive/salaries"
     },
     "demand": {
-      "value": "Ngành Marketing tại Việt Nam cần hơn 21.600 nhân lực mỗi năm theo dự báo của Trung tâm Dự báo Nhân lực và Thông tin Thị trường Lao động TP.HCM, với mức lương khởi điểm có thể lên tới 15 triệu VNĐ/tháng — phản ánh nhu cầu tuyển dụng cao do sự bùng nổ của các nền tảng số và cạnh tranh giữa doanh nghiệp.",
-      "source": "https://tbd.edu.vn/tin-tuc/nganh-marketing-can-21-600-nhan-luc-moi-nam-muc-luong-khoi-diem-toi-15-trieu-ban-da-san-sang/"
+      "value": "Marketing được đánh giá là một trong những ngành thu hút nhân lực mạnh nhất tại Việt Nam, khi doanh nghiệp ngày càng đầu tư mạnh vào xây dựng thương hiệu và các kênh số — phản ánh nhu cầu tuyển dụng ổn định đối với vị trí Chuyên viên Marketing.",
+      "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/"
     },
     "similarJobs": [
       { "name": "Content Creator / Content Writer", "distinction": "Focuses narrowly on producing written, image, or video content rather than owning full campaign planning, channel mix, and budget." },
@@ -33,36 +33,36 @@
     ],
     "futureSkills": {
       "value": [
-        "Data analytics & data-driven decision-making",
-        "Marketing automation tools",
-        "AI integration in campaign creation and personalization",
-        "Short-form video content (TikTok/Reels/Shorts)"
+        "Ứng dụng AI trong marketing (phân tích dữ liệu, tối ưu quảng cáo, cá nhân hóa nội dung)",
+        "Tự động hóa marketing (email marketing, chatbot, quản lý quảng cáo)",
+        "Ra quyết định chiến lược dựa trên insight do AI cung cấp",
+        "Kỹ năng sáng tạo & định hướng chiến lược khi các tác vụ thủ công dần do AI đảm nhiệm"
       ],
-      "source": "https://vieclammarketing.vn/blog/kien-thuc-marketing/luong-nganh-marketing-2025-thong-ke-va-xu-huong-tai-viet-nam"
+      "source": "https://www.vietnamworks.com/hrinsider/ai-marketing.html"
     },
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
         "keySkills": ["Basic content writing", "Social media posting/scheduling", "Learning brand guidelines", "Basic reporting/data entry", "Following campaign briefs"],
-        "salaryRange": { "value": "~3-8 triệu VNĐ/tháng", "source": "https://vieclammarketing.vn/blog/kien-thuc-marketing/luong-nganh-marketing-2025-thong-ke-va-xu-huong-tai-viet-nam" },
+        "salaryRange": { "value": "~8 – 12 triệu VNĐ/tháng", "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/" },
         "avgTimeToNextStage": "6-12 tháng"
       },
       {
         "stageName": "Junior",
         "keySkills": ["Independent campaign execution", "Basic SEO/SEM/social ads management", "Content calendar ownership", "Performance reporting", "Vendor/agency coordination"],
-        "salaryRange": { "value": "~8-15 triệu VNĐ/tháng", "source": "https://vieclammarketing.vn/blog/kien-thuc-marketing/luong-nganh-marketing-2025-thong-ke-va-xu-huong-tai-viet-nam" },
+        "salaryRange": { "value": "~12 – 18 triệu VNĐ/tháng", "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/" },
         "avgTimeToNextStage": "2-3 năm"
       },
       {
         "stageName": "Senior",
         "keySkills": ["Multi-channel campaign strategy", "Budget ownership", "Data-driven optimization", "Mentoring junior marketers", "Stakeholder presentations"],
-        "salaryRange": { "value": "~12-30 triệu VNĐ/tháng", "source": "https://vieclammarketing.vn/blog/kien-thuc-marketing/luong-nganh-marketing-2025-thong-ke-va-xu-huong-tai-viet-nam" },
+        "salaryRange": { "value": "~20 – 35 triệu VNĐ/tháng", "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/" },
         "avgTimeToNextStage": "3-4 năm"
       },
       {
         "stageName": "Lead/Manager",
         "keySkills": ["Marketing strategy & brand ownership", "Team leadership & hiring", "Cross-department alignment (sales, product)", "P&L / budget accountability", "Market & competitor strategy"],
-        "salaryRange": { "value": "~20-45+ triệu VNĐ/tháng", "source": "https://vieclammarketing.vn/blog/kien-thuc-marketing/luong-nganh-marketing-2025-thong-ke-va-xu-huong-tai-viet-nam" },
+        "salaryRange": { "value": "~35 – 60 triệu VNĐ/tháng", "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/" },
         "avgTimeToNextStage": "N/A (management/director track)"
       }
     ]
