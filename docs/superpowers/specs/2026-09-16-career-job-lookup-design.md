@@ -61,6 +61,14 @@ Mercer/ManpowerGroup, tác giả/chuyên gia HR có tên tuổi ở VN). Lưu t�
 AI generate on-demand kèm web search để tìm nguồn trích dẫn được. Cache kết quả,
 badge **"AI tổng hợp, đang chờ xác thực"**.
 
+Web search cho Luồng B **không phải search mở tự do** — giới hạn cứng vào danh sách domain
+uy tín cố định (`data/trusted-sources.json`): công ty tư vấn chiến lược lớn (McKinsey, KPMG,
+BCG, Deloitte, PwC) cho xu hướng thị trường/ngành, và công ty tuyển dụng/nhân sự (Adecco,
+Michael Page, Mercer, ManpowerGroup, Robert Walters, Hays, VietnamWorks, TopCV, ITviec,
+Indeed, GSO) cho số liệu lương cụ thể — cộng lọc chỉ lấy nội dung xuất bản trong 3 năm gần
+đây. Không tìm được nguồn nào thỏa cả 2 điều kiện → không mở rộng tìm kiếm ra ngoài danh
+sách, trả lỗi thân thiện thay vì hạ chuẩn nguồn.
+
 **Vòng lặp tự cải thiện:** long-tail job title được tra đủ nhiều lượt → trở thành ứng viên
 để đối chiếu thủ công, nâng cấp lên seed set. Seed set lớn dần theo nhu cầu thật.
 
@@ -146,9 +154,13 @@ graph TB
     end
 
     subgraph External["External"]
-        Search["Web Search API"]
+        Search["Web Search API<br/>(Tavily)"]
         LLM["LLM"]
-        Sources["Nguồn uy tín<br/>GSO, Adecco, Michael Page..."]
+        Sources["Nguồn uy tín, ≤3 năm<br/>McKinsey/KPMG/BCG/Deloitte/PwC<br/>Adecco/Michael Page/Mercer/ManpowerGroup<br/>VietnamWorks/TopCV/ITviec/GSO..."]
+    end
+
+    subgraph Config["Config (tĩnh, đối chiếu thủ công)"]
+        TrustedList[("trusted-sources.json<br/>domain allowlist + maxAgeYears")]
     end
 
     UI -->|job title| API
@@ -156,8 +168,9 @@ graph TB
     API -->|check cache| CacheDB
     API -->|chưa có -> generate| Gen
     Gen --> LLM
-    Gen --> Search
-    Search --> Sources
+    Gen -->|query + include_domains + start_date| Search
+    TrustedList -.->|domain allowlist + date cutoff| Gen
+    Search -->|chỉ trong allowlist, đã lọc ngày| Sources
     Gen -->|kết quả + nguồn| CacheDB
     API -->|ghi nhận lượt tra| ViewLog
     SeedDB -->|kết quả| API
@@ -177,7 +190,11 @@ flowchart TD
     CheckSeed -- "Có" --> ReturnSeed["Trả kết quả tĩnh<br/>badge: Đã đối chiếu nguồn"]
     CheckSeed -- "Chưa" --> CheckCache{"Đã cache từ<br/>long-tail (Luồng B) trước?"}
     CheckCache -- "Có" --> ReturnCache["Trả kết quả cache<br/>badge: AI tổng hợp, đang chờ xác thực"]
-    CheckCache -- "Chưa" --> Generate["Generate mới<br/>LLM + Web Search"]
+    CheckCache -- "Chưa" --> TrustedSearch["Search giới hạn:<br/>domain uy tín (trusted-sources.json)<br/>+ chỉ nội dung ≤3 năm gần đây"]
+    TrustedSearch --> HasResults{"Có kết quả nào<br/>thỏa cả 2 điều kiện?"}
+    HasResults -- "Không" --> GenFailed["Báo lỗi thân thiện<br/>(generation_failed)<br/>KHÔNG mở rộng tìm kiếm"]
+    GenFailed --> Render
+    HasResults -- "Có" --> Generate["Generate với LLM<br/>chỉ dùng các trích dẫn đã lọc"]
     Generate --> Cite{"Tìm được nguồn<br/>đủ tin cậy cho mục?"}
     Cite -- "Có" --> FillCited["Điền mục kèm nguồn cụ thể"]
     Cite -- "Không" --> FillEmpty["Hiển thị 'chưa có dữ liệu xác thực'<br/>(không bịa)"]
