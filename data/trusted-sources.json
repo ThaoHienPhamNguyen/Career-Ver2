@@ -1,0 +1,22 @@
+{
+  "domains": [
+    "mckinsey.com",
+    "kpmg.com",
+    "bcg.com",
+    "deloitte.com",
+    "pwc.com",
+    "adecco.com",
+    "michaelpage.com.vn",
+    "mercer.com",
+    "manpowergroup.com.vn",
+    "robertwalters.com.vn",
+    "hays.com.vn",
+    "vietnamworks.com",
+    "topcv.vn",
+    "itviec.com",
+    "careerlink.vn",
+    "indeed.com",
+    "gso.gov.vn"
+  ],
+  "maxAgeYears": 3
+}

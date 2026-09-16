@@ -60,4 +60,37 @@ describe("generateJobContent", () => {
 
     await expect(generateJobContent("Data Analyst")).rejects.toThrow(GenerationError);
   });
+
+  it("searches only trusted domains published within the configured recency window", async () => {
+    vi.useFakeTimers();
+    vi.setSystemTime(new Date("2026-09-16T00:00:00Z"));
+    const searchSpy = vi.spyOn(tavilyModule, "searchTavily").mockResolvedValue([
+      { title: "X", url: "https://mckinsey.com/report", content: "..." },
+    ]);
+    vi.spyOn(deepseekModule, "completeWithDeepSeek").mockResolvedValue(
+      JSON.stringify({
+        description: "Mô tả",
+        vnMarket: { value: null, source: null },
+        salary: { value: null, source: null },
+        demand: { value: null, source: null },
+        similarJobs: [],
+        hardSkills: [],
+        softSkills: [],
+        futureSkills: { value: null, source: null },
+        careerPath: [],
+      })
+    );
+
+    await generateJobContent("Data Analyst");
+
+    expect(searchSpy).toHaveBeenCalledWith(
+      expect.any(String),
+      expect.objectContaining({
+        includeDomains: expect.arrayContaining(["mckinsey.com", "vietnamworks.com"]),
+        startDate: "2023-09-16",
+      })
+    );
+
+    vi.useRealTimers();
+  });
 });

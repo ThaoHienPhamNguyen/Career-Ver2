@@ -6,7 +6,17 @@ export interface SearchResultItem {
   content: string;
 }
 
-export async function searchTavily(query: string): Promise<SearchResultItem[]> {
+export interface SearchTavilyOptions {
+  /** Restrict results to these domains only (Tavily include_domains_mode: "filter"). */
+  includeDomains?: string[];
+  /** Drop results published before this date (YYYY-MM-DD). */
+  startDate?: string;
+}
+
+export async function searchTavily(
+  query: string,
+  options?: SearchTavilyOptions
+): Promise<SearchResultItem[]> {
   const apiKey = getRequiredEnv("TAVILY_API_KEY");
   const response = await fetch("https://api.tavily.com/search", {
     method: "POST",
@@ -16,6 +26,14 @@ export async function searchTavily(query: string): Promise<SearchResultItem[]> {
       query,
       max_results: 5,
       search_depth: "advanced",
+      ...(options?.includeDomains && {
+        include_domains: options.includeDomains,
+        include_domains_mode: "filter",
+      }),
+      ...(options?.startDate && {
+        start_date: options.startDate,
+        filter_by_published_date: true,
+      }),
     }),
   });
 

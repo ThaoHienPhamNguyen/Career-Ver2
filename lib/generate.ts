@@ -1,6 +1,13 @@
 import { searchTavily, type SearchResultItem } from "./tavily";
 import { completeWithDeepSeek } from "./deepseek";
 import type { JobContent } from "@/types/job-content";
+import trustedSources from "@/data/trusted-sources.json";
+
+function computeStartDate(maxAgeYears: number): string {
+  const date = new Date();
+  date.setFullYear(date.getFullYear() - maxAgeYears);
+  return date.toISOString().slice(0, 10);
+}
 
 const SYSTEM_PROMPT = `Bạn là trợ lý tổng hợp thông tin nghề nghiệp cho thị trường Việt Nam.
 Chỉ được dùng thông tin có trong các đoạn trích dẫn được cung cấp — không được bịa số liệu.
@@ -38,11 +45,17 @@ export class GenerationError extends Error {}
 
 export async function generateJobContent(jobTitle: string): Promise<JobContent> {
   const searchResults = await searchTavily(
-    `${jobTitle} lương kỹ năng thị trường việc làm Việt Nam`
+    `${jobTitle} lương kỹ năng thị trường việc làm Việt Nam`,
+    {
+      includeDomains: trustedSources.domains,
+      startDate: computeStartDate(trustedSources.maxAgeYears),
+    }
   );
 
   if (searchResults.length === 0) {
-    throw new GenerationError(`Không tìm thấy nguồn nào cho "${jobTitle}"`);
+    throw new GenerationError(
+      `Không tìm thấy nguồn uy tín (trong ${trustedSources.maxAgeYears} năm gần đây) cho "${jobTitle}"`
+    );
   }
 
   const userPrompt = buildUserPrompt(jobTitle, searchResults);
