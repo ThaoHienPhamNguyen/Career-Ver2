@@ -24,7 +24,7 @@ export function SourcedField({ label, field }: { label: string; field: SourcedVa
       <dt className="text-sm font-semibold text-zinc-600 dark:text-zinc-400">{label}</dt>
       <dd className="mt-1 text-base text-zinc-900 dark:text-zinc-100">
         {formatSourcedText(field)}
-        <SourceLink source={field.source} />
+        <SourceLink source={field.value ? field.source : null} />
       </dd>
     </div>
   );
@@ -51,7 +51,7 @@ export function SourcedListField({
         ) : (
           NO_VERIFIED_DATA_TEXT
         )}
-        <SourceLink source={field.source} />
+        <SourceLink source={items ? field.source : null} />
       </dd>
     </div>
   );
