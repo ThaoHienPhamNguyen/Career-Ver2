@@ -91,4 +91,22 @@ describe("JobSearchForm", () => {
       expect(screen.getByText('Không tìm thấy nguồn nào cho "Nghề Lạ"')).toBeInTheDocument();
     });
   });
+
+  it("shows an error and re-enables the submit button when the action rejects", async () => {
+    vi.mocked(actionsModule.lookupJobAction).mockRejectedValue(new Error("boom"));
+
+    const user = userEvent.setup();
+    render(<JobSearchForm />);
+
+    await user.type(screen.getByPlaceholderText("Nhập tên nghề, ví dụ: Data Analyst"), "Data Analyst");
+    const submitButton = screen.getByRole("button", { name: "Tra cứu" });
+    await user.click(submitButton);
+
+    await waitFor(() => {
+      expect(submitButton).not.toBeDisabled();
+    });
+    expect(
+      screen.getByText("Có lỗi xảy ra khi tra cứu, vui lòng thử lại sau")
+    ).toBeInTheDocument();
+  });
 });

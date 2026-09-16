@@ -48,4 +48,22 @@ describe("JobResultView", () => {
     render(<JobResultView canonicalName="Data Analyst" source="seed" content={SAMPLE_CONTENT} />);
     expect(screen.getByText("Chưa có dữ liệu xác thực")).toBeInTheDocument();
   });
+
+  it("renders the no-verified-data fallback for empty description, arrays, and career-path fields", () => {
+    const EMPTY_CONTENT: JobContent = {
+      description: "",
+      vnMarket: { value: null, source: null },
+      salary: { value: null, source: null },
+      demand: { value: null, source: null },
+      similarJobs: [],
+      hardSkills: [],
+      softSkills: [],
+      futureSkills: { value: [], source: "https://example.com" },
+      careerPath: [],
+    };
+    render(<JobResultView canonicalName="Data Analyst" source="seed" content={EMPTY_CONTENT} />);
+    const fallbackTexts = screen.getAllByText("Chưa có dữ liệu xác thực");
+    // description, vnMarket, salary, demand, futureSkills, similarJobs, hardSkills, softSkills, careerPath
+    expect(fallbackTexts.length).toBeGreaterThanOrEqual(9);
+  });
 });

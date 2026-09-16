@@ -23,4 +23,8 @@ describe("formatSourcedList", () => {
   it("returns null when value is null", () => {
     expect(formatSourcedList({ value: null, source: null })).toBeNull();
   });
+
+  it("returns null when value is an empty array", () => {
+    expect(formatSourcedList({ value: [], source: "https://x" })).toBeNull();
+  });
 });

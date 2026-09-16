@@ -7,5 +7,5 @@ export function formatSourcedText(field: SourcedValue<string>): string {
 }
 
 export function formatSourcedList(field: SourcedValue<string[]>): string[] | null {
-  return field.value;
+  return field.value && field.value.length > 0 ? field.value : null;
 }

@@ -1,7 +1,16 @@
 import type { JobSource } from "@/types/job-content";
 
 export function getSourceBadgeLabel(source: JobSource): string {
-  return source === "seed" ? "Đã đối chiếu nguồn" : "AI tổng hợp, đang chờ xác thực";
+  switch (source) {
+    case "seed":
+      return "Đã đối chiếu nguồn";
+    case "generated":
+      return "AI tổng hợp, đang chờ xác thực";
+    default: {
+      const _exhaustive: never = source;
+      return _exhaustive;
+    }
+  }
 }
 
 export function SourceBadge({ source }: { source: JobSource }) {

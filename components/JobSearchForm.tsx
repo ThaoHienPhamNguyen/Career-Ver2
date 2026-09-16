@@ -14,9 +14,17 @@ export function JobSearchForm() {
 
   async function runSearch(jobTitle: string) {
     setStatus("loading");
-    const nextResult = await lookupJobAction(jobTitle);
-    setResult(nextResult);
-    setStatus("idle");
+    setResult(null);
+    try {
+      setResult(await lookupJobAction(jobTitle));
+    } catch {
+      setResult({
+        status: "generation_failed",
+        message: "Có lỗi xảy ra khi tra cứu, vui lòng thử lại sau",
+      });
+    } finally {
+      setStatus("idle");
+    }
   }
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
@@ -33,6 +41,7 @@ export function JobSearchForm() {
           value={input}
           onChange={(event) => setInput(event.target.value)}
           placeholder="Nhập tên nghề, ví dụ: Data Analyst"
+          aria-label="Tên nghề"
           className="flex-1 rounded-lg border border-zinc-300 px-4 py-2 text-base dark:border-zinc-700 dark:bg-zinc-900"
         />
         <button
@@ -44,35 +53,43 @@ export function JobSearchForm() {
         </button>
       </form>
 
-      {result?.status === "ambiguous" && (
-        <div className="flex flex-col gap-2">
-          <p className="text-zinc-900 dark:text-zinc-100">Bạn muốn tra cứu nghề nào?</p>
-          <div className="flex flex-wrap gap-2">
-            {result.candidates.map((candidate) => (
-              <button
-                key={candidate}
-                type="button"
-                onClick={() => void runSearch(candidate)}
-                className="rounded-full border border-zinc-300 px-4 py-2 text-sm dark:border-zinc-700"
-              >
-                {candidate}
-              </button>
-            ))}
+      <div aria-live="polite">
+        {result?.status === "ambiguous" && (
+          <div className="flex flex-col gap-2">
+            <p className="text-zinc-900 dark:text-zinc-100">Bạn muốn tra cứu nghề nào?</p>
+            <div className="flex flex-wrap gap-2">
+              {result.candidates.map((candidate) => (
+                <button
+                  key={candidate}
+                  type="button"
+                  disabled={status === "loading"}
+                  onClick={() => {
+                    setInput(candidate);
+                    void runSearch(candidate);
+                  }}
+                  className="rounded-full border border-zinc-300 px-4 py-2 text-sm disabled:opacity-50 dark:border-zinc-700"
+                >
+                  {candidate}
+                </button>
+              ))}
+            </div>
           </div>
-        </div>
-      )}
+        )}
 
-      {result?.status === "generation_failed" && (
-        <p className="text-red-600 dark:text-red-400">{result.message}</p>
-      )}
+        {result?.status === "generation_failed" && (
+          <p role="alert" className="text-red-600 dark:text-red-400">
+            {result.message}
+          </p>
+        )}
 
-      {result?.status === "found" && (
-        <JobResultView
-          canonicalName={result.canonicalName}
-          source={result.source}
-          content={result.content}
-        />
-      )}
+        {result?.status === "found" && (
+          <JobResultView
+            canonicalName={result.canonicalName}
+            source={result.source}
+            content={result.content}
+          />
+        )}
+      </div>
     </div>
   );
 }
