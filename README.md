@@ -86,6 +86,27 @@ xuất bản trong 3 năm gần đây — không có nguồn đạt chuẩn thì
 npx tsx scripts/list-upgrade-candidates.ts [số-lượt-tra-tối-thiểu]   # mặc định: 5
 ```
 
+## Deploy
+
+Kiến trúc phù hợp với **Vercel** (hosting Next.js) + **Supabase** (Postgres đã dùng sẵn cho
+dev). Không cần config gì thêm ngoài Next.js mặc định (không có `vercel.json`).
+
+1. Push repo lên GitHub (nếu chưa có remote).
+2. Vào [vercel.com](https://vercel.com) → "Add New Project" → import repo.
+3. Ở bước cấu hình, thêm 3 environment variable giống `.env` local:
+   `DATABASE_URL`, `TAVILY_API_KEY`, `DEEPSEEK_API_KEY`.
+   - `DATABASE_URL` nên dùng connection string ở chế độ **"Connection pooling"** của Supabase
+     (không phải direct connection) — phù hợp môi trường serverless của Vercel.
+4. Deploy. Vercel tự chạy `npm install` → `postinstall` (đã có sẵn `prisma generate`) →
+   `npm run build`.
+5. Chạy migration trên DB production (một lần, từ máy local trỏ `DATABASE_URL` tới
+   production): `npx prisma migrate deploy`.
+6. Nạp seed set vào DB production: chạy `scripts/add-seed.ts` cho từng file trong
+   `data/seeds/`, với `.env` local trỏ tạm sang `DATABASE_URL` production.
+
+Việc này cần tài khoản Vercel + Supabase project thật của bạn — báo khi bạn đã có cả hai để
+tôi hỗ trợ từng bước cụ thể hơn.
+
 ## Cấu trúc thư mục
 
 ```
