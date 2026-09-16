@@ -82,22 +82,46 @@ function resolveSource(
   return searchResults[index]?.url ?? null;
 }
 
+interface RawSourcedField {
+  value?: unknown;
+  source?: string | null;
+}
+
+interface RawCareerStage {
+  stageName?: string;
+  keySkills?: string[];
+  salaryRange?: RawSourcedField;
+  avgTimeToNextStage?: string;
+}
+
+interface RawJobContent {
+  description?: string;
+  vnMarket?: RawSourcedField;
+  salary?: RawSourcedField;
+  demand?: RawSourcedField;
+  similarJobs?: JobContent["similarJobs"];
+  hardSkills?: JobContent["hardSkills"];
+  softSkills?: JobContent["softSkills"];
+  futureSkills?: RawSourcedField;
+  careerPath?: RawCareerStage[];
+}
+
 function sourcedField<T>(
-  field: { value: T | null; source: string | null } | undefined,
+  field: RawSourcedField | undefined,
   searchResults: SearchResultItem[]
 ): { value: T | null; source: string | null } {
   const resolvedSource = resolveSource(field?.source, searchResults);
   if (!resolvedSource) {
     return { value: null, source: null };
   }
-  return { value: field?.value ?? null, source: resolvedSource };
+  return { value: (field?.value as T | undefined) ?? null, source: resolvedSource };
 }
 
 function validateAndNormalizeContent(
   parsed: unknown,
   searchResults: SearchResultItem[]
 ): JobContent {
-  const obj = parsed as Record<string, any>;
+  const obj = parsed as RawJobContent;
 
   return {
     description: obj.description ?? "",
@@ -108,8 +132,8 @@ function validateAndNormalizeContent(
     hardSkills: obj.hardSkills ?? [],
     softSkills: obj.softSkills ?? [],
     futureSkills: sourcedField(obj.futureSkills, searchResults),
-    careerPath: (obj.careerPath ?? []).map((stage: any) => ({
-      stageName: stage.stageName,
+    careerPath: (obj.careerPath ?? []).map((stage) => ({
+      stageName: stage.stageName ?? "",
       keySkills: stage.keySkills ?? [],
       salaryRange: sourcedField(stage.salaryRange, searchResults),
       avgTimeToNextStage: stage.avgTimeToNextStage ?? "",

@@ -3,6 +3,7 @@ import { lookupJob } from "./lookup";
 import * as canonicalModule from "./canonical";
 import * as repoModule from "./job-repository";
 import * as generateModule from "./generate";
+import type { JobContent } from "@/types/job-content";
 
 describe("lookupJob", () => {
   beforeEach(() => {
@@ -35,7 +36,7 @@ describe("lookupJob", () => {
     vi.spyOn(repoModule, "findJobByCanonicalName").mockResolvedValue({
       canonicalName: "Data Analyst",
       source: "seed",
-      content: { description: "..." } as any,
+      content: { description: "..." } as unknown as JobContent,
       viewCount: 5,
     });
     const incrementSpy = vi.spyOn(repoModule, "incrementViewCount").mockResolvedValue(6);
@@ -55,7 +56,7 @@ describe("lookupJob", () => {
       canonicalName: "Product Manager",
     });
     vi.spyOn(repoModule, "findJobByCanonicalName").mockResolvedValue(null);
-    const newContent = { description: "Quản lý sản phẩm" } as any;
+    const newContent = { description: "Quản lý sản phẩm" } as unknown as JobContent;
     vi.spyOn(generateModule, "generateJobContent").mockResolvedValue(newContent);
     const saveSpy = vi.spyOn(repoModule, "saveGeneratedJob").mockResolvedValue();
 
