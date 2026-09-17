@@ -1,0 +1,73 @@
+{
+  "canonicalName": "Graphic Designer",
+  "content": {
+    "description": "A Graphic Designer creates visual assets — logos, brand identity systems, marketing collateral, packaging, social media graphics, and print/digital layouts — that communicate a message or brand clearly and attractively. They work primarily in tools like Adobe Photoshop, Illustrator, and InDesign, translating a client's or marketing team's brief into finished visual output, and typically collaborate with marketing, content, and sometimes product teams. Unlike a UI/UX Designer, who focuses on interactive digital product interfaces, user flows, and usability testing, a Graphic Designer more often works on static or campaign-based visual output for branding, advertising, and print. Unlike an Illustrator, who creates original artwork from scratch, a Graphic Designer more often composes and arranges existing visual elements (photography, typography, icons, brand assets) into a cohesive layout.",
+    "vnMarket": {
+      "value": "Thị trường thiết kế đồ họa tại Việt Nam đang mở rộng nhờ ba động lực chính: sự bùng nổ thương mại điện tử trên Shopee, TikTok Shop, Lazada khiến doanh nghiệp cần lượng lớn banner, ảnh sản phẩm và video ngắn mỗi tháng; xu hướng xây dựng thương hiệu cá nhân và doanh nghiệp trên mạng xã hội đòi hỏi nội dung hình ảnh chuyên nghiệp, nhất quán; và làn sóng chuyển đổi số khiến cả startup công nghệ và doanh nghiệp truyền thống đều cần thiết kế UI/UX cho website và ứng dụng di động. Nhu cầu nhân lực trải rộng trên nhiều mảng: nhận diện thương hiệu, UI/UX, quảng cáo, in ấn, bao bì, game, hoạt hình.",
+      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/co-hoi-viec-lam-hap-dan-cua-nganh-thiet-ke-do-hoa"
+    },
+    "salary": {
+      "value": "Theo Indeed (312 mức lương được báo cáo trong 36 tháng qua, cập nhật 6/9/2026), mức lương trung bình của Graphic Designer tại Việt Nam khoảng 12,37 triệu VNĐ/tháng, dao động từ 7,82 đến 19,56 triệu VNĐ/tháng.",
+      "source": "https://vn.indeed.com/career/graphic-designer/salaries"
+    },
+    "demand": {
+      "value": "Theo CareerLink, nhu cầu tuyển dụng ngành Thiết kế đồ họa tại Việt Nam tăng khoảng 15-20% mỗi năm trong giai đoạn 2024-2026, cao hơn tốc độ tăng trưởng toàn cầu của ngành (dự kiến khoảng 3% trong giai đoạn 2023-2033), do quá trình chuyển đổi số diễn ra nhanh.",
+      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/co-hoi-viec-lam-hap-dan-cua-nganh-thiet-ke-do-hoa"
+    },
+    "similarJobs": [
+      { "name": "UI/UX Designer", "distinction": "Focuses on interface usability, user flows, and interaction/wireframe testing for digital products, rather than static or print visual assets." },
+      { "name": "Motion Graphic Designer", "distinction": "Specializes in animated graphics and video-based visual content rather than static layouts and print/digital collateral." },
+      { "name": "Illustrator", "distinction": "Creates original hand-drawn or digitally illustrated artwork from scratch, rather than composing layouts from existing visual elements like a Graphic Designer." },
+      { "name": "Art Director", "distinction": "Oversees the creative vision and output of a design team across projects, rather than personally executing individual design deliverables." }
+    ],
+    "hardSkills": [
+      { "name": "Adobe Creative Suite (Photoshop, Illustrator, InDesign)", "description": "The industry-standard toolset for producing, editing, and laying out professional graphic design work in Vietnam." },
+      { "name": "Typography & layout principles", "description": "Choosing and arranging type and visual hierarchy correctly is fundamental to legible, effective design across all formats." },
+      { "name": "Brand identity & logo design", "description": "Many roles require building or extending a consistent visual identity system across multiple brand touchpoints." },
+      { "name": "Print & packaging production knowledge", "description": "Understanding color modes, bleed, resolution, and print specifications is necessary for work that goes to physical production." },
+      { "name": "Basic motion graphics (After Effects)", "description": "Increasing demand for short-form video content on social platforms makes basic animation skills a valuable addition to static design." },
+      { "name": "UI design basics (Figma)", "description": "Many Graphic Designer roles in Vietnam now overlap with simple digital/UI layout work, especially at smaller companies without a dedicated UI/UX hire." }
+    ],
+    "softSkills": [
+      { "name": "Creativity & visual storytelling", "description": "Translating a brand message or campaign idea into a compelling visual is the core value a designer brings." },
+      { "name": "Attention to detail", "description": "Alignment, spacing, and color consistency errors are highly visible in finished design work." },
+      { "name": "Receptiveness to feedback", "description": "Design work goes through multiple client or stakeholder review rounds, requiring the ability to revise without losing quality or motivation." },
+      { "name": "Time management", "description": "Designers typically juggle several concurrent briefs with overlapping deadlines." },
+      { "name": "Client/stakeholder communication", "description": "Explaining and defending design decisions to marketing teams or clients is a routine part of the job." }
+    ],
+    "futureSkills": {
+      "value": [
+        "Công cụ AI hỗ trợ thiết kế (AI design, ví dụ Adobe Firefly, Midjourney)",
+        "Thiết kế 3D",
+        "Motion Graphic"
+      ],
+      "source": "https://www.vietnamworks.com/hrinsider/luong-thiet-ke-do-hoa.html"
+    },
+    "careerPath": [
+      {
+        "stageName": "Fresher/Intern",
+        "keySkills": ["Sử dụng cơ bản Photoshop/Illustrator", "Áp dụng đúng brand guideline có sẵn", "Layout cơ bản theo template", "Nhận và thực hiện chỉnh sửa theo feedback", "Quản lý file & đặt tên đúng quy chuẩn"],
+        "salaryRange": { "value": "7-10 triệu VNĐ/tháng", "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-thiet-ke-do-hoa/" },
+        "avgTimeToNextStage": "6-12 tháng"
+      },
+      {
+        "stageName": "Junior",
+        "keySkills": ["Thành thạo bộ Adobe Creative Suite", "Tự triển khai concept từ brief ngắn", "Thiết kế đa định dạng (social, print, digital)", "Hiểu cơ bản về in ấn/màu sắc", "Làm việc độc lập với ít giám sát hơn"],
+        "salaryRange": { "value": "10-16 triệu VNĐ/tháng", "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-thiet-ke-do-hoa/" },
+        "avgTimeToNextStage": "2-3 năm"
+      },
+      {
+        "stageName": "Senior",
+        "keySkills": ["Xây dựng và duy trì hệ thống nhận diện thương hiệu", "Tư duy concept & định hướng sáng tạo cho dự án", "Mentor designer junior", "Làm việc trực tiếp với khách hàng/marketing lead", "Ứng dụng công cụ AI design vào workflow"],
+        "salaryRange": { "value": "18-30 triệu VNĐ/tháng", "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-thiet-ke-do-hoa/" },
+        "avgTimeToNextStage": "3-4 năm"
+      },
+      {
+        "stageName": "Lead/Manager",
+        "keySkills": ["Định hướng chiến lược sáng tạo (Art Direction) cho toàn bộ team", "Quản lý và phát triển đội ngũ designer", "Làm việc với ban lãnh đạo về ngân sách & mục tiêu thương hiệu", "Đánh giá và chuẩn hóa quy trình thiết kế", "Xây dựng portfolio/case study cấp doanh nghiệp"],
+        "salaryRange": { "value": "30-50 triệu VNĐ/tháng", "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-thiet-ke-do-hoa/" },
+        "avgTimeToNextStage": "N/A (hướng phát triển thành Creative Director)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "canonicalName": "Logistics Executive",
+  "content": {
+    "description": "A Logistics Executive coordinates the day-to-day movement of goods: managing shipment bookings, customs documentation, warehouse handoffs, and carrier/freight-forwarder communication so that orders move on time and within cost. The role sits between hands-on warehouse/transport staff and higher-level supply chain planning, acting as the operational point person who tracks shipments end-to-end, resolves delays, and keeps import-export paperwork compliant.",
+    "vnMarket": {
+      "value": "Vietnam's logistics sector pays a wide range depending on company type and specialization: international/3PL companies (e.g. multinational freight forwarders) generally pay more than domestic firms, and English/Mandarin proficiency plus international certifications (APICS CSCP, CILT, FIATA Diploma) or software skills (Oracle TMS, SAP ERP) create bigger income gaps than years of experience alone.",
+      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nganh-logistics-luong-bao-nhieu"
+    },
+    "salary": {
+      "value": "Entry-level (0-2 years): 7-12 million VND/month. Import-export/logistics executive level (2-5 years): 12-20 million VND/month. Supply chain specialist: 18-30 million VND/month. Logistics/Supply Chain Manager (5+ years): 35-60 million VND/month. A related overall-average figure reported for similar logistics roles is approximately 16 million VND/month.",
+      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nganh-logistics-luong-bao-nhieu"
+    },
+    "demand": {
+      "value": "Recruitment demand in the Logistics/Transportation/Warehousing sector grew 42% year-over-year in Q2 2026, making it one of the fastest-growing hiring sectors in Vietnam's job market that quarter.",
+      "source": "https://www.vietnamworks.com/hrinsider/bao-cao-thi-truong-tuyen-dung-q2-2026-vietnamworks.html"
+    },
+    "similarJobs": [
+      {
+        "name": "Warehouse Staff",
+        "distinction": "Warehouse Staff handles physical receiving, storage, and picking within one site; Logistics Executive coordinates the broader movement of goods across transport, customs, and multiple parties."
+      },
+      {
+        "name": "Import-Export Specialist",
+        "distinction": "Import-Export Specialist focuses narrowly on trade documentation and customs declarations; Logistics Executive has a broader remit covering shipment tracking, carrier coordination, and cost negotiation in addition to documentation."
+      },
+      {
+        "name": "Supply Chain Planner",
+        "distinction": "Supply Chain Planner works on demand forecasting and inventory/network planning at a higher, more strategic level; Logistics Executive is operational, executing the day-to-day movement of goods against that plan."
+      },
+      {
+        "name": "Freight Forwarder Agent",
+        "distinction": "Freight Forwarder Agent typically works for a carrier/forwarding company representing that company's services to shippers; Logistics Executive typically works client-side or in-house, managing the shipper's own logistics operations."
+      }
+    ],
+    "hardSkills": [
+      { "name": "Customs & trade documentation", "description": "Preparing commercial documents and customs declarations, including using systems like VNACCS/VCIS for import-export clearance." },
+      { "name": "Incoterms & trade compliance", "description": "Applying international trade terms correctly to shipping contracts to avoid cost or liability disputes." },
+      { "name": "WMS/TMS & ERP proficiency", "description": "Operating warehouse and transport management systems and enterprise systems like SAP ERP to track inventory and shipments." },
+      { "name": "Advanced Excel", "description": "Using VLOOKUP, pivot tables, and similar functions to reconcile shipment data, costs, and delivery schedules." },
+      { "name": "Freight cost & carrier negotiation", "description": "Comparing carrier quotes and negotiating rates and terms to control transport costs." }
+    ],
+    "softSkills": [
+      { "name": "Cross-team coordination", "description": "Aligning warehouse, transport, customs brokers, and customers so shipments move without handoff delays." },
+      { "name": "Problem-solving under time pressure", "description": "Resolving shipment delays, documentation errors, or customs holds quickly to avoid missed deadlines." },
+      { "name": "Negotiation", "description": "Securing favorable rates and terms with carriers, vendors, and freight forwarders." },
+      { "name": "Attention to detail", "description": "Avoiding costly errors in customs paperwork, quantities, or shipping instructions." },
+      { "name": "Adaptability", "description": "Adjusting plans quickly when disruptions occur (port congestion, weather, customs changes)." }
+    ],
+    "futureSkills": {
+      "value": [
+        "Digital procurement and e-sourcing",
+        "Supply chain technology and automation (TMS/WMS, data analytics)",
+        "Cross-border trade and compliance management",
+        "Supplier diversification and risk management"
+      ],
+      "source": "https://www.michaelpage.com.vn/advice/career-advice/salary-and-negotiation/highest-paying-jobs-vietnam"
+    },
+    "careerPath": [
+      {
+        "stageName": "Fresher",
+        "keySkills": ["Basic warehouse/documentation support", "Order and inventory checking", "Learning WMS/TMS systems", "Following FIFO/FEFO storage standards"],
+        "salaryRange": {
+          "value": "7-12 million VND/month",
+          "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nganh-logistics-luong-bao-nhieu"
+        },
+        "avgTimeToNextStage": "1-2 years"
+      },
+      {
+        "stageName": "Junior",
+        "keySkills": ["Import-export documentation", "Shipment tracking and carrier coordination", "Customs declaration via VNACCS/VCIS", "Basic freight cost comparison"],
+        "salaryRange": {
+          "value": "12-20 million VND/month",
+          "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nganh-logistics-luong-bao-nhieu"
+        },
+        "avgTimeToNextStage": "2-3 years"
+      },
+      {
+        "stageName": "Senior",
+        "keySkills": ["End-to-end supply chain coordination", "Carrier and vendor negotiation", "Process improvement", "Mentoring junior logistics staff"],
+        "salaryRange": {
+          "value": "18-30 million VND/month",
+          "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nganh-logistics-luong-bao-nhieu"
+        },
+        "avgTimeToNextStage": "2-4 years"
+      },
+      {
+        "stageName": "Lead/Manager",
+        "keySkills": ["Supply chain strategy and network design", "Team leadership and budget ownership", "Vendor/3PL contract management", "Cross-functional executive reporting"],
+        "salaryRange": {
+          "value": "35-60 million VND/month",
+          "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nganh-logistics-luong-bao-nhieu"
+        },
+        "avgTimeToNextStage": "N/A (senior leadership track)"
+      }
+    ]
+  }
+}

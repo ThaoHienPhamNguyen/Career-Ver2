@@ -1,0 +1,74 @@
+{
+  "canonicalName": "Content Writer",
+  "content": {
+    "description": "A Content Writer creates written material — blog posts, articles, social media captions, email campaigns, video/TikTok scripts, and advertising copy — designed to inform, engage, or persuade a target audience on behalf of a brand or publisher. They research topics, adapt tone and format to the platform (SEO blog vs. Instagram caption vs. TikTok script), and work closely with marketing, SEO, and design teams to ship content that supports business goals. Unlike a Copywriter, who typically focuses on short, high-conversion ad and campaign copy, a Content Writer more often produces longer-form, informational, or narrative content. Unlike a Content Creator, who usually also shoots/edits video or visual media themselves, a Content Writer's primary output is text, even when it is written to accompany visuals produced by others.",
+    "vnMarket": {
+      "value": "Nghề Content Writer tại Việt Nam trải rộng trên nhiều định dạng: viết blog SEO, caption mạng xã hội, kịch bản TikTok/YouTube, email marketing, và slogan quảng cáo. Theo CareerLink, tại thời điểm khảo sát có hơn 4.844 việc làm marketing/content đang được đăng tuyển trên nền tảng, cho thấy nhu cầu tuyển dụng vẫn ở mức cao dù mức độ cạnh tranh giữa ứng viên cũng lớn.",
+      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/7-thac-mac-ve-nghe-content-ma-ai-cung-muon-biet"
+    },
+    "salary": {
+      "value": "Theo Indeed (63 mức lương được báo cáo trong 36 tháng qua, cập nhật 4/9/2026), mức lương trung bình của Content Writer tại Việt Nam là khoảng 10,65 triệu VNĐ/tháng, dao động từ 6,69 đến 16,95 triệu VNĐ/tháng tùy kinh nghiệm và công ty.",
+      "source": "https://vn.indeed.com/career/content-writer/salaries"
+    },
+    "demand": {
+      "value": "Theo CareerLink, ngành content tại Việt Nam đang chuyển dịch nhanh cùng làn sóng ứng dụng AI: các doanh nghiệp e-commerce, fintech và edtech đang dẫn đầu nhu cầu tuyển content writer/copywriter am hiểu công cụ AI, với mức thu nhập cao hơn khoảng 15-30% so với content writer truyền thống cùng mức kinh nghiệm.",
+      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ai-copywriting-la-gi"
+    },
+    "similarJobs": [
+      { "name": "Copywriter", "distinction": "Focuses on short, high-impact persuasive text (ad headlines, slogans, campaign copy) meant to drive immediate action, rather than the longer-form informational or narrative content a Content Writer typically produces." },
+      { "name": "Content Creator", "distinction": "Usually produces and edits the visual/video media itself (Reels, TikTok, YouTube) in addition to writing, whereas a Content Writer's core deliverable is text, often written to accompany media others produce." },
+      { "name": "SEO Specialist", "distinction": "Focuses on technical and strategic search optimization (keyword research, site structure, backlinks) rather than on writing the content itself." },
+      { "name": "Social Media Executive/Specialist", "distinction": "Owns channel strategy, posting calendar, and community management across platforms, rather than focusing purely on producing written content." }
+    ],
+    "hardSkills": [
+      { "name": "SEO writing & keyword research", "description": "Most brand and agency content briefs in Vietnam require writing that ranks in search, so understanding keyword intent and on-page SEO is a baseline skill." },
+      { "name": "Content planning & editorial calendars", "description": "Content Writers coordinate publishing schedules across blog, social, and email channels, requiring organized planning." },
+      { "name": "CMS proficiency (WordPress and similar)", "description": "Writers are frequently expected to format and publish their own drafts directly into a content management system." },
+      { "name": "Editing & proofreading", "description": "Clean, error-free copy in Vietnamese (and often English) is a non-negotiable baseline for professional content work." },
+      { "name": "AI-assisted writing tools & prompt engineering", "description": "Using generative AI tools effectively to draft faster, then editing and fact-checking the output, is increasingly expected rather than optional." },
+      { "name": "Basic content analytics (Google Analytics, platform insights)", "description": "Writers are increasingly asked to read performance data (traffic, CTR, engagement) to judge whether content is working and iterate." }
+    ],
+    "softSkills": [
+      { "name": "Creativity & storytelling", "description": "Turning a product feature or brand message into an engaging narrative is central to standing out in a crowded content feed." },
+      { "name": "Research skills", "description": "Producing credible, specific content requires quickly researching unfamiliar topics, industries, or products." },
+      { "name": "Adaptability to trends", "description": "Content trends on platforms like TikTok and Facebook shift quickly, so writers must adjust tone and format often." },
+      { "name": "Cross-functional communication", "description": "Content Writers work closely with marketing, SEO, and design teams and must align on brand voice and campaign goals." },
+      { "name": "Time management", "description": "Juggling multiple content pieces across channels with tight publishing deadlines is a constant part of the role." }
+    ],
+    "futureSkills": {
+      "value": [
+        "Prompt engineering (viết câu lệnh AI hiệu quả)",
+        "Biên tập và kiểm chứng thông tin (fact-checking) nội dung do AI tạo",
+        "Xây dựng chiến lược nội dung (content strategy)",
+        "Phân tích dữ liệu cơ bản (open rate, CTR) để đánh giá hiệu quả nội dung"
+      ],
+      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ai-copywriting-la-gi"
+    },
+    "careerPath": [
+      {
+        "stageName": "Fresher/Intern",
+        "keySkills": ["Viết cơ bản đúng chính tả/ngữ pháp", "Hiểu brand voice qua brief có sẵn", "Nghiên cứu chủ đề đơn giản", "Làm quen công cụ AI hỗ trợ viết", "Nhận và áp dụng feedback từ người hướng dẫn"],
+        "salaryRange": { "value": null, "source": null },
+        "avgTimeToNextStage": "6-12 tháng"
+      },
+      {
+        "stageName": "Junior",
+        "keySkills": ["Viết SEO cơ bản", "Tự lên kế hoạch nội dung theo lịch đăng", "Viết đa định dạng (blog, caption, script ngắn)", "Sử dụng AI để tăng tốc độ viết có kiểm soát", "Làm việc độc lập với brief rõ ràng"],
+        "salaryRange": { "value": null, "source": null },
+        "avgTimeToNextStage": "1.5-2.5 năm"
+      },
+      {
+        "stageName": "Senior",
+        "keySkills": ["Xây dựng chiến lược nội dung xuyên kênh", "Tối ưu content dựa trên dữ liệu hiệu suất", "Đảm bảo nhất quán brand voice trên quy mô lớn", "Mentor content writer junior", "Làm việc trực tiếp với marketing lead/khách hàng"],
+        "salaryRange": { "value": null, "source": null },
+        "avgTimeToNextStage": "2-3 năm"
+      },
+      {
+        "stageName": "Lead/Manager",
+        "keySkills": ["Quản lý team content & quy trình biên tập", "Định hướng chiến lược nội dung theo mục tiêu kinh doanh", "Quản lý ngân sách/nguồn lực nội dung", "Đánh giá và ứng dụng công nghệ AI vào workflow team", "Báo cáo hiệu quả nội dung cho cấp quản lý cao hơn"],
+        "salaryRange": { "value": null, "source": null },
+        "avgTimeToNextStage": "N/A (hướng phát triển thành Content/Marketing Director)"
+      }
+    ]
+  }
+}

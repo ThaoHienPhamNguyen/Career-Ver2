@@ -1,0 +1,92 @@
+{
+  "canonicalName": "Financial Analyst",
+  "content": {
+    "description": "A Financial Analyst evaluates a company's financial data, market trends, and investment opportunities to support business decisions. Core work includes building financial models, forecasting revenue and cash flow, valuing assets or deals, and preparing recommendations for management, investors, or lenders. Unlike an Accountant, who focuses on recording transactions and ensuring compliance with accounting standards, a Financial Analyst is forward-looking: the job is about interpreting numbers to answer \"what should we do next\" rather than \"did we record this correctly.\"",
+    "vnMarket": {
+      "value": "In Vietnam, Financial Analyst roles are hired across commercial banks, Big 4 professional services firms, and investment funds/securities companies, with pay and progression differing by employer type. Entry-level analysts typically start around 10-13 million VND/month at Big 4 firms and 11-15 million VND/month at commercial banks, rising quickly with 2-3 years of experience.",
+      "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-tai-chinh/"
+    },
+    "salary": {
+      "value": "Fresher/entry-level: 10-15 million VND/month. Analyst (1-3 years): 15-25 million VND/month. Senior Analyst/Assistant Manager (3-5 years): 25-45 million VND/month. International certifications (CFA, ACCA, FRM) can add roughly 20-35% to compensation. Overall average reported for the title is approximately 13.5 million VND/month.",
+      "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-tai-chinh/"
+    },
+    "demand": {
+      "value": "Recruitment demand in Banking & Financial Services grew 38.1% year-over-year in Q2 2026, one of the sectors driving hiring growth in Vietnam's job market, alongside a 56.7% YoY jump in Accounting/Auditing demand.",
+      "source": "https://www.vietnamworks.com/hrinsider/bao-cao-thi-truong-tuyen-dung-q2-2026-vietnamworks.html"
+    },
+    "similarJobs": [
+      {
+        "name": "Accountant",
+        "distinction": "Accountant is bookkeeping- and compliance-focused: recording transactions, closing books, and ensuring adherence to accounting standards (VAS/IFRS). Financial Analyst is forecasting-, valuation-, and decision-support-focused: building models and recommending actions based on financial data rather than producing it."
+      },
+      {
+        "name": "Business Analyst",
+        "distinction": "Business Analyst focuses on process, systems, and requirements analysis across the business; Financial Analyst focuses specifically on financial statements, models, and monetary outcomes."
+      },
+      {
+        "name": "Investment Analyst",
+        "distinction": "Investment Analyst evaluates securities, portfolios, or deals for external investment decisions (funds, banks); Financial Analyst more often supports internal corporate planning and budgeting, though skill sets overlap."
+      },
+      {
+        "name": "Risk Analyst",
+        "distinction": "Risk Analyst specializes in identifying and quantifying credit, market, or operational risk exposure; Financial Analyst has a broader remit spanning forecasting, budgeting, and performance analysis, not just risk."
+      }
+    ],
+    "hardSkills": [
+      { "name": "Financial modeling", "description": "Building three-statement models, DCF valuations, and scenario/sensitivity analyses in Excel to project company or project performance." },
+      { "name": "Budgeting & forecasting", "description": "Preparing and updating revenue, cost, and cash-flow forecasts, and tracking actual-vs-budget variance." },
+      { "name": "Valuation techniques", "description": "Applying DCF, comparable company, and precedent transaction methods to value businesses, assets, or investment opportunities." },
+      { "name": "Data analysis tools", "description": "Using Excel (advanced functions, pivot tables), SQL, or BI tools (Power BI/Tableau) to extract and analyze financial and operational data." },
+      { "name": "Accounting & reporting standards literacy", "description": "Reading and interpreting financial statements prepared under VAS/IFRS well enough to build accurate models, without performing the bookkeeping itself." }
+    ],
+    "softSkills": [
+      { "name": "Business partnering", "description": "Working closely with sales, operations, and leadership to translate numbers into decisions, not just deliver reports." },
+      { "name": "Communication & presentation", "description": "Explaining complex financial analysis clearly to non-finance stakeholders and senior management." },
+      { "name": "Critical thinking", "description": "Questioning assumptions behind forecasts and models rather than accepting inputs at face value." },
+      { "name": "Attention to detail", "description": "Catching modeling errors and inconsistencies that could lead to costly misjudgments." },
+      { "name": "Time management under deadlines", "description": "Delivering accurate analysis on tight reporting or deal timelines, often for month-end close or live transactions." }
+    ],
+    "futureSkills": {
+      "value": null,
+      "source": null
+    },
+    "careerPath": [
+      {
+        "stageName": "Fresher",
+        "keySkills": ["Basic Excel modeling", "Reading financial statements", "Data entry and reconciliation support", "Understanding of accounting fundamentals"],
+        "salaryRange": {
+          "value": "10-15 million VND/month",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-tai-chinh/"
+        },
+        "avgTimeToNextStage": "1-2 years"
+      },
+      {
+        "stageName": "Junior",
+        "keySkills": ["Financial modeling", "Variance analysis", "Forecasting and budget support", "Cross-checking data sources"],
+        "salaryRange": {
+          "value": "15-25 million VND/month",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-tai-chinh/"
+        },
+        "avgTimeToNextStage": "2-3 years"
+      },
+      {
+        "stageName": "Senior",
+        "keySkills": ["Valuation and deal analysis", "Business partnering with senior stakeholders", "Mentoring junior analysts", "Leading forecasting cycles"],
+        "salaryRange": {
+          "value": "25-45 million VND/month",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-tai-chinh/"
+        },
+        "avgTimeToNextStage": "2-3 years"
+      },
+      {
+        "stageName": "Lead/Manager",
+        "keySkills": ["Strategic financial planning", "Team leadership and hiring", "Cross-functional influence on major decisions", "Investment/M&A decision support"],
+        "salaryRange": {
+          "value": null,
+          "source": null
+        },
+        "avgTimeToNextStage": "N/A (senior leadership track)"
+      }
+    ]
+  }
+}
