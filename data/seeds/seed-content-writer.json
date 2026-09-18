@@ -15,60 +15,183 @@
       "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ai-copywriting-la-gi"
     },
     "similarJobs": [
-      { "name": "Copywriter", "distinction": "Focuses on short, high-impact persuasive text (ad headlines, slogans, campaign copy) meant to drive immediate action, rather than the longer-form informational or narrative content a Content Writer typically produces." },
-      { "name": "Content Creator", "distinction": "Usually produces and edits the visual/video media itself (Reels, TikTok, YouTube) in addition to writing, whereas a Content Writer's core deliverable is text, often written to accompany media others produce." },
-      { "name": "SEO Specialist", "distinction": "Focuses on technical and strategic search optimization (keyword research, site structure, backlinks) rather than on writing the content itself." },
-      { "name": "Social Media Executive/Specialist", "distinction": "Owns channel strategy, posting calendar, and community management across platforms, rather than focusing purely on producing written content." }
+      {
+        "name": "Copywriter",
+        "distinction": "Focuses on short, high-impact persuasive text (ad headlines, slogans, campaign copy) meant to drive immediate action, rather than the longer-form informational or narrative content a Content Writer typically produces."
+      },
+      {
+        "name": "Content Creator",
+        "distinction": "Usually produces and edits the visual/video media itself (Reels, TikTok, YouTube) in addition to writing, whereas a Content Writer's core deliverable is text, often written to accompany media others produce."
+      },
+      {
+        "name": "SEO Specialist",
+        "distinction": "Focuses on technical and strategic search optimization (keyword research, site structure, backlinks) rather than on writing the content itself."
+      },
+      {
+        "name": "Social Media Executive/Specialist",
+        "distinction": "Owns channel strategy, posting calendar, and community management across platforms, rather than focusing purely on producing written content."
+      }
     ],
     "hardSkills": [
-      { "name": "SEO writing & keyword research", "description": "Most brand and agency content briefs in Vietnam require writing that ranks in search, so understanding keyword intent and on-page SEO is a baseline skill." },
-      { "name": "Content planning & editorial calendars", "description": "Content Writers coordinate publishing schedules across blog, social, and email channels, requiring organized planning." },
-      { "name": "CMS proficiency (WordPress and similar)", "description": "Writers are frequently expected to format and publish their own drafts directly into a content management system." },
-      { "name": "Editing & proofreading", "description": "Clean, error-free copy in Vietnamese (and often English) is a non-negotiable baseline for professional content work." },
-      { "name": "AI-assisted writing tools & prompt engineering", "description": "Using generative AI tools effectively to draft faster, then editing and fact-checking the output, is increasingly expected rather than optional." },
-      { "name": "Basic content analytics (Google Analytics, platform insights)", "description": "Writers are increasingly asked to read performance data (traffic, CTR, engagement) to judge whether content is working and iterate." }
+      {
+        "name": "SEO writing & keyword research",
+        "description": "Most brand and agency content briefs in Vietnam require writing that ranks in search, so understanding keyword intent and on-page SEO is a baseline skill."
+      },
+      {
+        "name": "Content planning & editorial calendars",
+        "description": "Content Writers coordinate publishing schedules across blog, social, and email channels, requiring organized planning."
+      },
+      {
+        "name": "CMS proficiency (WordPress and similar)",
+        "description": "Writers are frequently expected to format and publish their own drafts directly into a content management system."
+      },
+      {
+        "name": "Editing & proofreading",
+        "description": "Clean, error-free copy in Vietnamese (and often English) is a non-negotiable baseline for professional content work."
+      },
+      {
+        "name": "AI-assisted writing tools & prompt engineering",
+        "description": "Using generative AI tools effectively to draft faster, then editing and fact-checking the output, is increasingly expected rather than optional."
+      },
+      {
+        "name": "Basic content analytics (Google Analytics, platform insights)",
+        "description": "Writers are increasingly asked to read performance data (traffic, CTR, engagement) to judge whether content is working and iterate."
+      }
     ],
     "softSkills": [
-      { "name": "Creativity & storytelling", "description": "Turning a product feature or brand message into an engaging narrative is central to standing out in a crowded content feed." },
-      { "name": "Research skills", "description": "Producing credible, specific content requires quickly researching unfamiliar topics, industries, or products." },
-      { "name": "Adaptability to trends", "description": "Content trends on platforms like TikTok and Facebook shift quickly, so writers must adjust tone and format often." },
-      { "name": "Cross-functional communication", "description": "Content Writers work closely with marketing, SEO, and design teams and must align on brand voice and campaign goals." },
-      { "name": "Time management", "description": "Juggling multiple content pieces across channels with tight publishing deadlines is a constant part of the role." }
+      {
+        "name": "Creativity & storytelling",
+        "description": "Turning a product feature or brand message into an engaging narrative is central to standing out in a crowded content feed."
+      },
+      {
+        "name": "Research skills",
+        "description": "Producing credible, specific content requires quickly researching unfamiliar topics, industries, or products."
+      },
+      {
+        "name": "Adaptability to trends",
+        "description": "Content trends on platforms like TikTok and Facebook shift quickly, so writers must adjust tone and format often."
+      },
+      {
+        "name": "Cross-functional communication",
+        "description": "Content Writers work closely with marketing, SEO, and design teams and must align on brand voice and campaign goals."
+      },
+      {
+        "name": "Time management",
+        "description": "Juggling multiple content pieces across channels with tight publishing deadlines is a constant part of the role."
+      }
     ],
-    "futureSkills": {
-      "value": [
-        "Prompt engineering (viết câu lệnh AI hiệu quả)",
-        "Biên tập và kiểm chứng thông tin (fact-checking) nội dung do AI tạo",
-        "Xây dựng chiến lược nội dung (content strategy)",
-        "Phân tích dữ liệu cơ bản (open rate, CTR) để đánh giá hiệu quả nội dung"
-      ],
-      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ai-copywriting-la-gi"
-    },
+    "futureSkills": [
+      {
+        "name": "Prompt engineering (viết câu lệnh AI hiệu quả)",
+        "label": "critical",
+        "quote": null,
+        "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ai-copywriting-la-gi",
+        "description": "Viết câu lệnh AI hiệu quả để tạo nội dung nháp chất lượng, rút ngắn thời gian sản xuất."
+      },
+      {
+        "name": "Biên tập và kiểm chứng thông tin (fact-checking) nội dung do AI tạo",
+        "label": "critical",
+        "quote": null,
+        "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ai-copywriting-la-gi",
+        "description": "Kiểm chứng, biên tập lại nội dung do AI tạo để đảm bảo chính xác và đúng giọng văn thương hiệu — việc AI chưa thể tự làm tốt."
+      },
+      {
+        "name": "Xây dựng chiến lược nội dung (content strategy)",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ai-copywriting-la-gi",
+        "description": "Lên kế hoạch nội dung theo mục tiêu kinh doanh, không chỉ viết bài đơn lẻ."
+      },
+      {
+        "name": "Phân tích dữ liệu cơ bản (open rate, CTR) để đánh giá hiệu quả nội dung",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ai-copywriting-la-gi",
+        "description": "Đọc chỉ số open rate, CTR để biết nội dung nào hiệu quả và điều chỉnh hướng viết."
+      }
+    ],
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
-        "keySkills": ["Viết cơ bản đúng chính tả/ngữ pháp", "Hiểu brand voice qua brief có sẵn", "Nghiên cứu chủ đề đơn giản", "Làm quen công cụ AI hỗ trợ viết", "Nhận và áp dụng feedback từ người hướng dẫn"],
-        "salaryRange": { "value": null, "source": null },
+        "keySkills": [
+          "Viết cơ bản đúng chính tả/ngữ pháp",
+          "Hiểu brand voice qua brief có sẵn",
+          "Nghiên cứu chủ đề đơn giản",
+          "Làm quen công cụ AI hỗ trợ viết",
+          "Nhận và áp dụng feedback từ người hướng dẫn"
+        ],
+        "salaryRange": {
+          "value": null,
+          "source": null
+        },
         "avgTimeToNextStage": "6-12 tháng"
       },
       {
         "stageName": "Junior",
-        "keySkills": ["Viết SEO cơ bản", "Tự lên kế hoạch nội dung theo lịch đăng", "Viết đa định dạng (blog, caption, script ngắn)", "Sử dụng AI để tăng tốc độ viết có kiểm soát", "Làm việc độc lập với brief rõ ràng"],
-        "salaryRange": { "value": null, "source": null },
+        "keySkills": [
+          "Viết SEO cơ bản",
+          "Tự lên kế hoạch nội dung theo lịch đăng",
+          "Viết đa định dạng (blog, caption, script ngắn)",
+          "Sử dụng AI để tăng tốc độ viết có kiểm soát",
+          "Làm việc độc lập với brief rõ ràng"
+        ],
+        "salaryRange": {
+          "value": null,
+          "source": null
+        },
         "avgTimeToNextStage": "1.5-2.5 năm"
       },
       {
         "stageName": "Senior",
-        "keySkills": ["Xây dựng chiến lược nội dung xuyên kênh", "Tối ưu content dựa trên dữ liệu hiệu suất", "Đảm bảo nhất quán brand voice trên quy mô lớn", "Mentor content writer junior", "Làm việc trực tiếp với marketing lead/khách hàng"],
-        "salaryRange": { "value": null, "source": null },
+        "keySkills": [
+          "Xây dựng chiến lược nội dung xuyên kênh",
+          "Tối ưu content dựa trên dữ liệu hiệu suất",
+          "Đảm bảo nhất quán brand voice trên quy mô lớn",
+          "Mentor content writer junior",
+          "Làm việc trực tiếp với marketing lead/khách hàng"
+        ],
+        "salaryRange": {
+          "value": null,
+          "source": null
+        },
         "avgTimeToNextStage": "2-3 năm"
       },
       {
         "stageName": "Lead/Manager",
-        "keySkills": ["Quản lý team content & quy trình biên tập", "Định hướng chiến lược nội dung theo mục tiêu kinh doanh", "Quản lý ngân sách/nguồn lực nội dung", "Đánh giá và ứng dụng công nghệ AI vào workflow team", "Báo cáo hiệu quả nội dung cho cấp quản lý cao hơn"],
-        "salaryRange": { "value": null, "source": null },
+        "keySkills": [
+          "Quản lý team content & quy trình biên tập",
+          "Định hướng chiến lược nội dung theo mục tiêu kinh doanh",
+          "Quản lý ngân sách/nguồn lực nội dung",
+          "Đánh giá và ứng dụng công nghệ AI vào workflow team",
+          "Báo cáo hiệu quả nội dung cho cấp quản lý cao hơn"
+        ],
+        "salaryRange": {
+          "value": null,
+          "source": null
+        },
         "avgTimeToNextStage": "N/A (hướng phát triển thành Content/Marketing Director)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "Wall Street English",
+          "domain": "wallstreetenglish.edu.vn"
+        },
+        {
+          "name": "Dalat Hasfarm",
+          "domain": "dalathasfarm.com"
+        },
+        {
+          "name": "Orient Software Development Corp.",
+          "domain": "orientsoftware.com"
+        },
+        {
+          "name": "Traveloka",
+          "domain": "traveloka.com"
+        }
+      ],
+      "source": "https://vn.joboko.com/viec-lam-content-writer-xvi6353453"
+    }
   }
 }

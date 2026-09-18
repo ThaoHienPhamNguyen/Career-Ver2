@@ -33,32 +33,88 @@
       }
     ],
     "hardSkills": [
-      { "name": "Customs & trade documentation", "description": "Preparing commercial documents and customs declarations, including using systems like VNACCS/VCIS for import-export clearance." },
-      { "name": "Incoterms & trade compliance", "description": "Applying international trade terms correctly to shipping contracts to avoid cost or liability disputes." },
-      { "name": "WMS/TMS & ERP proficiency", "description": "Operating warehouse and transport management systems and enterprise systems like SAP ERP to track inventory and shipments." },
-      { "name": "Advanced Excel", "description": "Using VLOOKUP, pivot tables, and similar functions to reconcile shipment data, costs, and delivery schedules." },
-      { "name": "Freight cost & carrier negotiation", "description": "Comparing carrier quotes and negotiating rates and terms to control transport costs." }
+      {
+        "name": "Customs & trade documentation",
+        "description": "Preparing commercial documents and customs declarations, including using systems like VNACCS/VCIS for import-export clearance."
+      },
+      {
+        "name": "Incoterms & trade compliance",
+        "description": "Applying international trade terms correctly to shipping contracts to avoid cost or liability disputes."
+      },
+      {
+        "name": "WMS/TMS & ERP proficiency",
+        "description": "Operating warehouse and transport management systems and enterprise systems like SAP ERP to track inventory and shipments."
+      },
+      {
+        "name": "Advanced Excel",
+        "description": "Using VLOOKUP, pivot tables, and similar functions to reconcile shipment data, costs, and delivery schedules."
+      },
+      {
+        "name": "Freight cost & carrier negotiation",
+        "description": "Comparing carrier quotes and negotiating rates and terms to control transport costs."
+      }
     ],
     "softSkills": [
-      { "name": "Cross-team coordination", "description": "Aligning warehouse, transport, customs brokers, and customers so shipments move without handoff delays." },
-      { "name": "Problem-solving under time pressure", "description": "Resolving shipment delays, documentation errors, or customs holds quickly to avoid missed deadlines." },
-      { "name": "Negotiation", "description": "Securing favorable rates and terms with carriers, vendors, and freight forwarders." },
-      { "name": "Attention to detail", "description": "Avoiding costly errors in customs paperwork, quantities, or shipping instructions." },
-      { "name": "Adaptability", "description": "Adjusting plans quickly when disruptions occur (port congestion, weather, customs changes)." }
+      {
+        "name": "Cross-team coordination",
+        "description": "Aligning warehouse, transport, customs brokers, and customers so shipments move without handoff delays."
+      },
+      {
+        "name": "Problem-solving under time pressure",
+        "description": "Resolving shipment delays, documentation errors, or customs holds quickly to avoid missed deadlines."
+      },
+      {
+        "name": "Negotiation",
+        "description": "Securing favorable rates and terms with carriers, vendors, and freight forwarders."
+      },
+      {
+        "name": "Attention to detail",
+        "description": "Avoiding costly errors in customs paperwork, quantities, or shipping instructions."
+      },
+      {
+        "name": "Adaptability",
+        "description": "Adjusting plans quickly when disruptions occur (port congestion, weather, customs changes)."
+      }
     ],
-    "futureSkills": {
-      "value": [
-        "Digital procurement and e-sourcing",
-        "Supply chain technology and automation (TMS/WMS, data analytics)",
-        "Cross-border trade and compliance management",
-        "Supplier diversification and risk management"
-      ],
-      "source": "https://www.michaelpage.com.vn/advice/career-advice/salary-and-negotiation/highest-paying-jobs-vietnam"
-    },
+    "futureSkills": [
+      {
+        "name": "Digital procurement and e-sourcing",
+        "label": "critical",
+        "quote": null,
+        "source": "https://www.michaelpage.com.vn/advice/career-advice/salary-and-negotiation/highest-paying-jobs-vietnam",
+        "description": "Số hoá quy trình thu mua và tìm nguồn cung ứng (e-sourcing), giảm phụ thuộc vào quy trình giấy tờ thủ công."
+      },
+      {
+        "name": "Supply chain technology and automation (TMS/WMS, data analytics)",
+        "label": "critical",
+        "quote": null,
+        "source": "https://www.michaelpage.com.vn/advice/career-advice/salary-and-negotiation/highest-paying-jobs-vietnam",
+        "description": "Vận hành hệ thống TMS/WMS và phân tích dữ liệu chuỗi cung ứng để tối ưu vận chuyển, tồn kho."
+      },
+      {
+        "name": "Cross-border trade and compliance management",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.michaelpage.com.vn/advice/career-advice/salary-and-negotiation/highest-paying-jobs-vietnam",
+        "description": "Nắm quy định thương mại quốc tế và tuân thủ hải quan khi doanh nghiệp mở rộng xuất nhập khẩu."
+      },
+      {
+        "name": "Supplier diversification and risk management",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.michaelpage.com.vn/advice/career-advice/salary-and-negotiation/highest-paying-jobs-vietnam",
+        "description": "Đa dạng hoá nhà cung cấp và quản trị rủi ro chuỗi cung ứng trước biến động thị trường toàn cầu."
+      }
+    ],
     "careerPath": [
       {
         "stageName": "Fresher",
-        "keySkills": ["Basic warehouse/documentation support", "Order and inventory checking", "Learning WMS/TMS systems", "Following FIFO/FEFO storage standards"],
+        "keySkills": [
+          "Basic warehouse/documentation support",
+          "Order and inventory checking",
+          "Learning WMS/TMS systems",
+          "Following FIFO/FEFO storage standards"
+        ],
         "salaryRange": {
           "value": "7-12 million VND/month",
           "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nganh-logistics-luong-bao-nhieu"
@@ -67,7 +123,12 @@
       },
       {
         "stageName": "Junior",
-        "keySkills": ["Import-export documentation", "Shipment tracking and carrier coordination", "Customs declaration via VNACCS/VCIS", "Basic freight cost comparison"],
+        "keySkills": [
+          "Import-export documentation",
+          "Shipment tracking and carrier coordination",
+          "Customs declaration via VNACCS/VCIS",
+          "Basic freight cost comparison"
+        ],
         "salaryRange": {
           "value": "12-20 million VND/month",
           "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nganh-logistics-luong-bao-nhieu"
@@ -76,7 +137,12 @@
       },
       {
         "stageName": "Senior",
-        "keySkills": ["End-to-end supply chain coordination", "Carrier and vendor negotiation", "Process improvement", "Mentoring junior logistics staff"],
+        "keySkills": [
+          "End-to-end supply chain coordination",
+          "Carrier and vendor negotiation",
+          "Process improvement",
+          "Mentoring junior logistics staff"
+        ],
         "salaryRange": {
           "value": "18-30 million VND/month",
           "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nganh-logistics-luong-bao-nhieu"
@@ -85,13 +151,39 @@
       },
       {
         "stageName": "Lead/Manager",
-        "keySkills": ["Supply chain strategy and network design", "Team leadership and budget ownership", "Vendor/3PL contract management", "Cross-functional executive reporting"],
+        "keySkills": [
+          "Supply chain strategy and network design",
+          "Team leadership and budget ownership",
+          "Vendor/3PL contract management",
+          "Cross-functional executive reporting"
+        ],
         "salaryRange": {
           "value": "35-60 million VND/month",
           "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nganh-logistics-luong-bao-nhieu"
         },
         "avgTimeToNextStage": "N/A (senior leadership track)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "MSC Vietnam",
+          "domain": "msc.com"
+        },
+        {
+          "name": "Maersk Vietnam",
+          "domain": "maersk.com"
+        },
+        {
+          "name": "Breeze Industrial Ventilation",
+          "domain": "breeze.com.vn"
+        },
+        {
+          "name": "Interflour Vietnam",
+          "domain": "vn.interflour.com"
+        }
+      ],
+      "source": "https://careerviet.vn/vi/tim-viec-lam/logistics-executive-open-for-fresher.35C57834.html"
+    }
   }
 }

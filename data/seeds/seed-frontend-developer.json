@@ -15,61 +15,183 @@
       "source": "https://itviec.com/blog/front-end-developer-la-gi/"
     },
     "similarJobs": [
-      { "name": "Backend Developer", "distinction": "Builds server-side logic, APIs, and databases that run behind the scenes, rather than the visual interface and client-side code users interact with directly." },
-      { "name": "Full-stack Developer", "distinction": "Works across both frontend and backend layers, trading depth in UI architecture and client-side performance for broader end-to-end coverage of a feature." },
-      { "name": "UI/UX Designer", "distinction": "Designs wireframes, visual mockups, and interaction flows in design tools; does not write the production code that renders them in a browser." },
-      { "name": "Mobile Developer (iOS/Android)", "distinction": "Builds native or cross-platform mobile app interfaces (Swift/Kotlin/Flutter/React Native) rather than browser-based web interfaces." }
+      {
+        "name": "Backend Developer",
+        "distinction": "Builds server-side logic, APIs, and databases that run behind the scenes, rather than the visual interface and client-side code users interact with directly."
+      },
+      {
+        "name": "Full-stack Developer",
+        "distinction": "Works across both frontend and backend layers, trading depth in UI architecture and client-side performance for broader end-to-end coverage of a feature."
+      },
+      {
+        "name": "UI/UX Designer",
+        "distinction": "Designs wireframes, visual mockups, and interaction flows in design tools; does not write the production code that renders them in a browser."
+      },
+      {
+        "name": "Mobile Developer (iOS/Android)",
+        "distinction": "Builds native or cross-platform mobile app interfaces (Swift/Kotlin/Flutter/React Native) rather than browser-based web interfaces."
+      }
     ],
     "hardSkills": [
-      { "name": "HTML & CSS", "description": "The foundational languages for structuring content and styling every web interface a Frontend Developer ships." },
-      { "name": "JavaScript & TypeScript", "description": "JavaScript powers all client-side interactivity; TypeScript adds static typing that Vietnamese product teams increasingly require for maintainability at scale." },
-      { "name": "Modern frontend framework (React, Vue, or Angular)", "description": "Most production Vietnamese web products are built on a component-based framework rather than plain JavaScript, so fluency in at least one is a baseline hiring requirement." },
-      { "name": "Responsive & cross-browser design", "description": "Interfaces must render correctly across phones, tablets, desktops, and different browsers — a constant practical constraint in frontend work." },
-      { "name": "API integration (REST/GraphQL)", "description": "Frontend code consumes backend-provided APIs to fetch and submit data, so understanding request/response contracts is essential." },
-      { "name": "Version control (Git)", "description": "Nearly all frontend teams collaborate through Git-based workflows, branching, and code review." },
-      { "name": "Build tooling & performance optimization (Webpack/Vite, bundling, lazy-loading)", "description": "Shipping fast-loading pages requires understanding how code is bundled, minified, and split for delivery." }
+      {
+        "name": "HTML & CSS",
+        "description": "The foundational languages for structuring content and styling every web interface a Frontend Developer ships."
+      },
+      {
+        "name": "JavaScript & TypeScript",
+        "description": "JavaScript powers all client-side interactivity; TypeScript adds static typing that Vietnamese product teams increasingly require for maintainability at scale."
+      },
+      {
+        "name": "Modern frontend framework (React, Vue, or Angular)",
+        "description": "Most production Vietnamese web products are built on a component-based framework rather than plain JavaScript, so fluency in at least one is a baseline hiring requirement."
+      },
+      {
+        "name": "Responsive & cross-browser design",
+        "description": "Interfaces must render correctly across phones, tablets, desktops, and different browsers — a constant practical constraint in frontend work."
+      },
+      {
+        "name": "API integration (REST/GraphQL)",
+        "description": "Frontend code consumes backend-provided APIs to fetch and submit data, so understanding request/response contracts is essential."
+      },
+      {
+        "name": "Version control (Git)",
+        "description": "Nearly all frontend teams collaborate through Git-based workflows, branching, and code review."
+      },
+      {
+        "name": "Build tooling & performance optimization (Webpack/Vite, bundling, lazy-loading)",
+        "description": "Shipping fast-loading pages requires understanding how code is bundled, minified, and split for delivery."
+      }
     ],
     "softSkills": [
-      { "name": "Attention to detail", "description": "Pixel-level UI discrepancies and small interaction bugs are highly visible to end users, so precision matters more than in many other engineering roles." },
-      { "name": "Cross-functional communication", "description": "Frontend Developers coordinate constantly with designers (on feasibility/handoff) and backend engineers (on API contracts)." },
-      { "name": "Problem-solving / debugging", "description": "Diagnosing rendering issues, state bugs, and browser-specific quirks is a daily part of the job." },
-      { "name": "Adaptability", "description": "Frontend frameworks, tooling, and best practices evolve quickly, so staying current with new patterns is expected." },
-      { "name": "Time management", "description": "Frontend work is often on the critical path just before a release/demo, requiring reliable estimation and delivery." }
+      {
+        "name": "Attention to detail",
+        "description": "Pixel-level UI discrepancies and small interaction bugs are highly visible to end users, so precision matters more than in many other engineering roles."
+      },
+      {
+        "name": "Cross-functional communication",
+        "description": "Frontend Developers coordinate constantly with designers (on feasibility/handoff) and backend engineers (on API contracts)."
+      },
+      {
+        "name": "Problem-solving / debugging",
+        "description": "Diagnosing rendering issues, state bugs, and browser-specific quirks is a daily part of the job."
+      },
+      {
+        "name": "Adaptability",
+        "description": "Frontend frameworks, tooling, and best practices evolve quickly, so staying current with new patterns is expected."
+      },
+      {
+        "name": "Time management",
+        "description": "Frontend work is often on the critical path just before a release/demo, requiring reliable estimation and delivery."
+      }
     ],
-    "futureSkills": {
-      "value": [
-        "TypeScript (for safer, more maintainable large-scale codebases)",
-        "Automated testing tools (Jest, Mocha, Chai)",
-        "Performance optimization (minification, bundling, lazy-loading)",
-        "Modern build tooling (Webpack, Babel and equivalents)"
-      ],
-      "source": "https://itviec.com/blog/lo-trinh-hoc-front-end/"
-    },
+    "futureSkills": [
+      {
+        "name": "TypeScript (for safer, more maintainable large-scale codebases)",
+        "label": "critical",
+        "quote": null,
+        "source": "https://itviec.com/blog/lo-trinh-hoc-front-end/",
+        "description": "Giúp code an toàn hơn, dễ bảo trì hơn ở các dự án quy mô lớn — gần như tiêu chuẩn mặc định hiện nay."
+      },
+      {
+        "name": "Automated testing tools (Jest, Mocha, Chai)",
+        "label": "important",
+        "quote": null,
+        "source": "https://itviec.com/blog/lo-trinh-hoc-front-end/",
+        "description": "Viết test tự động (Jest, Mocha, Chai) để phát hiện lỗi sớm, giảm rủi ro khi refactor."
+      },
+      {
+        "name": "Performance optimization (minification, bundling, lazy-loading)",
+        "label": "important",
+        "quote": null,
+        "source": "https://itviec.com/blog/lo-trinh-hoc-front-end/",
+        "description": "Tối ưu tốc độ tải trang qua minify, bundling, lazy-loading — ảnh hưởng trực tiếp đến trải nghiệm người dùng."
+      },
+      {
+        "name": "Modern build tooling (Webpack, Babel and equivalents)",
+        "label": "watch",
+        "quote": null,
+        "source": "https://itviec.com/blog/lo-trinh-hoc-front-end/",
+        "description": "Thành thạo công cụ build (Webpack, Babel...) để cấu hình và tối ưu quy trình phát triển."
+      }
+    ],
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
-        "keySkills": ["HTML/CSS/JavaScript fundamentals", "Basic use of one framework (React/Vue)", "Git basics", "Following design specs closely", "Willingness to learn from code review"],
-        "salaryRange": { "value": null, "source": null },
+        "keySkills": [
+          "HTML/CSS/JavaScript fundamentals",
+          "Basic use of one framework (React/Vue)",
+          "Git basics",
+          "Following design specs closely",
+          "Willingness to learn from code review"
+        ],
+        "salaryRange": {
+          "value": null,
+          "source": null
+        },
         "avgTimeToNextStage": "6-12 tháng"
       },
       {
         "stageName": "Junior",
-        "keySkills": ["Solid framework proficiency", "Responsive/cross-browser implementation", "Basic API integration", "Writing simple unit tests", "Debugging with some independence"],
-        "salaryRange": { "value": "~30,8 triệu VNĐ/tháng (mốc 3-4 năm kinh nghiệm)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "keySkills": [
+          "Solid framework proficiency",
+          "Responsive/cross-browser implementation",
+          "Basic API integration",
+          "Writing simple unit tests",
+          "Debugging with some independence"
+        ],
+        "salaryRange": {
+          "value": "~30,8 triệu VNĐ/tháng (mốc 3-4 năm kinh nghiệm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
         "avgTimeToNextStage": "2-3 năm"
       },
       {
         "stageName": "Senior",
-        "keySkills": ["UI architecture & design-system ownership", "Performance profiling and optimization", "Mentoring juniors", "State management at scale", "Close collaboration with design/product leads"],
-        "salaryRange": { "value": "~41,8 triệu VNĐ/tháng (5-8 năm kinh nghiệm)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "keySkills": [
+          "UI architecture & design-system ownership",
+          "Performance profiling and optimization",
+          "Mentoring juniors",
+          "State management at scale",
+          "Close collaboration with design/product leads"
+        ],
+        "salaryRange": {
+          "value": "~41,8 triệu VNĐ/tháng (5-8 năm kinh nghiệm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
         "avgTimeToNextStage": "3-4 năm"
       },
       {
         "stageName": "Lead/Manager",
-        "keySkills": ["Frontend technical architecture ownership", "Team leadership & hiring", "Cross-team standards (design systems, tooling)", "Roadmap & stakeholder communication", "Technical mentorship at scale"],
-        "salaryRange": { "value": "~46,3 triệu VNĐ/tháng (trên 8 năm kinh nghiệm)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "keySkills": [
+          "Frontend technical architecture ownership",
+          "Team leadership & hiring",
+          "Cross-team standards (design systems, tooling)",
+          "Roadmap & stakeholder communication",
+          "Technical mentorship at scale"
+        ],
+        "salaryRange": {
+          "value": "~46,3 triệu VNĐ/tháng (trên 8 năm kinh nghiệm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
         "avgTimeToNextStage": "N/A (senior leadership track)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "Viettel Group",
+          "domain": "viettel.com.vn"
+        },
+        {
+          "name": "FPT IS",
+          "domain": "fpt-is.com"
+        },
+        {
+          "name": "Hitachi Digital Services",
+          "domain": "hitachids.com"
+        }
+      ],
+      "source": "https://itviec.com/it-jobs/front-end-web-developer"
+    }
   }
 }

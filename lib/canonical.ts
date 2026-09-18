@@ -6,7 +6,17 @@ export type CanonicalMatchResult =
   | { status: "ambiguous"; candidates: string[] }
   | { status: "new"; canonicalName: string };
 
-const FUZZY_MATCH_MAX_DISTANCE = 2;
+const FUZZY_MATCH_MIN_DISTANCE = 2;
+const FUZZY_MATCH_RATIO = 0.25;
+
+/**
+ * A fixed edit-distance cutoff is too strict for long, multi-word titles (a typo in each
+ * of 2-3 words easily exceeds a flat distance of 2). Scale the tolerance with name length
+ * instead, with a floor of 2 so short titles keep the original tight tolerance.
+ */
+function fuzzyThreshold(name: string): number {
+  return Math.max(FUZZY_MATCH_MIN_DISTANCE, Math.floor(name.length * FUZZY_MATCH_RATIO));
+}
 
 function toTitleCase(input: string): string {
   return input
@@ -38,7 +48,7 @@ export function matchCanonical(
   let closest: { name: string; dist: number } | null = null;
   for (const name of knownCanonicalNames) {
     const dist = distance(normalized, name.toLowerCase());
-    if (dist <= FUZZY_MATCH_MAX_DISTANCE && (!closest || dist < closest.dist)) {
+    if (dist <= fuzzyThreshold(name) && (!closest || dist < closest.dist)) {
       closest = { name, dist };
     }
   }

@@ -39,7 +39,10 @@
     "sang tao noi dung": "Content Writer",
     "content writer": "Content Writer",
     "thiet ke do hoa": "Graphic Designer",
-    "designer do hoa": "Graphic Designer"
+    "designer do hoa": "Graphic Designer",
+    "phan tich nghiep vu": "Business Analyst",
+    "chuyen vien phan tich nghiep vu": "Business Analyst",
+    "business analyst": "Business Analyst"
   },
   "ambiguous": {
     "ba": ["Business Analyst", "Backend Developer"]

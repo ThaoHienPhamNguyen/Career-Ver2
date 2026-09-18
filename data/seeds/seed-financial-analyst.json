@@ -33,27 +33,59 @@
       }
     ],
     "hardSkills": [
-      { "name": "Financial modeling", "description": "Building three-statement models, DCF valuations, and scenario/sensitivity analyses in Excel to project company or project performance." },
-      { "name": "Budgeting & forecasting", "description": "Preparing and updating revenue, cost, and cash-flow forecasts, and tracking actual-vs-budget variance." },
-      { "name": "Valuation techniques", "description": "Applying DCF, comparable company, and precedent transaction methods to value businesses, assets, or investment opportunities." },
-      { "name": "Data analysis tools", "description": "Using Excel (advanced functions, pivot tables), SQL, or BI tools (Power BI/Tableau) to extract and analyze financial and operational data." },
-      { "name": "Accounting & reporting standards literacy", "description": "Reading and interpreting financial statements prepared under VAS/IFRS well enough to build accurate models, without performing the bookkeeping itself." }
+      {
+        "name": "Financial modeling",
+        "description": "Building three-statement models, DCF valuations, and scenario/sensitivity analyses in Excel to project company or project performance."
+      },
+      {
+        "name": "Budgeting & forecasting",
+        "description": "Preparing and updating revenue, cost, and cash-flow forecasts, and tracking actual-vs-budget variance."
+      },
+      {
+        "name": "Valuation techniques",
+        "description": "Applying DCF, comparable company, and precedent transaction methods to value businesses, assets, or investment opportunities."
+      },
+      {
+        "name": "Data analysis tools",
+        "description": "Using Excel (advanced functions, pivot tables), SQL, or BI tools (Power BI/Tableau) to extract and analyze financial and operational data."
+      },
+      {
+        "name": "Accounting & reporting standards literacy",
+        "description": "Reading and interpreting financial statements prepared under VAS/IFRS well enough to build accurate models, without performing the bookkeeping itself."
+      }
     ],
     "softSkills": [
-      { "name": "Business partnering", "description": "Working closely with sales, operations, and leadership to translate numbers into decisions, not just deliver reports." },
-      { "name": "Communication & presentation", "description": "Explaining complex financial analysis clearly to non-finance stakeholders and senior management." },
-      { "name": "Critical thinking", "description": "Questioning assumptions behind forecasts and models rather than accepting inputs at face value." },
-      { "name": "Attention to detail", "description": "Catching modeling errors and inconsistencies that could lead to costly misjudgments." },
-      { "name": "Time management under deadlines", "description": "Delivering accurate analysis on tight reporting or deal timelines, often for month-end close or live transactions." }
+      {
+        "name": "Business partnering",
+        "description": "Working closely with sales, operations, and leadership to translate numbers into decisions, not just deliver reports."
+      },
+      {
+        "name": "Communication & presentation",
+        "description": "Explaining complex financial analysis clearly to non-finance stakeholders and senior management."
+      },
+      {
+        "name": "Critical thinking",
+        "description": "Questioning assumptions behind forecasts and models rather than accepting inputs at face value."
+      },
+      {
+        "name": "Attention to detail",
+        "description": "Catching modeling errors and inconsistencies that could lead to costly misjudgments."
+      },
+      {
+        "name": "Time management under deadlines",
+        "description": "Delivering accurate analysis on tight reporting or deal timelines, often for month-end close or live transactions."
+      }
     ],
-    "futureSkills": {
-      "value": null,
-      "source": null
-    },
+    "futureSkills": [],
     "careerPath": [
       {
         "stageName": "Fresher",
-        "keySkills": ["Basic Excel modeling", "Reading financial statements", "Data entry and reconciliation support", "Understanding of accounting fundamentals"],
+        "keySkills": [
+          "Basic Excel modeling",
+          "Reading financial statements",
+          "Data entry and reconciliation support",
+          "Understanding of accounting fundamentals"
+        ],
         "salaryRange": {
           "value": "10-15 million VND/month",
           "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-tai-chinh/"
@@ -62,7 +94,12 @@
       },
       {
         "stageName": "Junior",
-        "keySkills": ["Financial modeling", "Variance analysis", "Forecasting and budget support", "Cross-checking data sources"],
+        "keySkills": [
+          "Financial modeling",
+          "Variance analysis",
+          "Forecasting and budget support",
+          "Cross-checking data sources"
+        ],
         "salaryRange": {
           "value": "15-25 million VND/month",
           "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-tai-chinh/"
@@ -71,7 +108,12 @@
       },
       {
         "stageName": "Senior",
-        "keySkills": ["Valuation and deal analysis", "Business partnering with senior stakeholders", "Mentoring junior analysts", "Leading forecasting cycles"],
+        "keySkills": [
+          "Valuation and deal analysis",
+          "Business partnering with senior stakeholders",
+          "Mentoring junior analysts",
+          "Leading forecasting cycles"
+        ],
         "salaryRange": {
           "value": "25-45 million VND/month",
           "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-tai-chinh/"
@@ -80,13 +122,35 @@
       },
       {
         "stageName": "Lead/Manager",
-        "keySkills": ["Strategic financial planning", "Team leadership and hiring", "Cross-functional influence on major decisions", "Investment/M&A decision support"],
+        "keySkills": [
+          "Strategic financial planning",
+          "Team leadership and hiring",
+          "Cross-functional influence on major decisions",
+          "Investment/M&A decision support"
+        ],
         "salaryRange": {
           "value": null,
           "source": null
         },
         "avgTimeToNextStage": "N/A (senior leadership track)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "Viet Thai International (Highlands Coffee)",
+          "domain": "highlandscoffee.com.vn"
+        },
+        {
+          "name": "AB Mauri Vietnam",
+          "domain": "abmauri.vn"
+        },
+        {
+          "name": "VPBank",
+          "domain": "vpbank.com.vn"
+        }
+      ],
+      "source": "https://careerviet.vn/en/search-job/corporate-finance-analyst-investment.35C2ED2D.html"
+    }
   }
 }

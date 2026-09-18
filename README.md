@@ -14,15 +14,18 @@ Xem đầy đủ bối cảnh/thiết kế tại:
 Next.js (App Router, TypeScript) làm app shell; toàn bộ logic nằm trong các module
 framework-agnostic ở `lib/`, dùng Prisma + PostgreSQL (Supabase) để lưu dữ liệu.
 
-- **Luồng A — Seed set:** ~8 job title phổ biến (xem `data/seeds/`) đã được đối chiếu thủ
+- **Luồng A — Seed set:** ~16 job title phổ biến (xem `data/seeds/`) đã được đối chiếu thủ
   công với nguồn uy tín, lưu tĩnh, badge "Đã đối chiếu nguồn".
 - **Luồng B — Long-tail:** job title ngoài seed set được AI generate on-demand (Tavily
-  search + DeepSeek synthesis), giới hạn cứng vào danh sách domain uy tín trong
+  search + OpenAI synthesis). Ưu tiên tìm trong danh sách domain uy tín ở
   `data/trusted-sources.json` (McKinsey, KPMG, BCG, Deloitte, PwC, Adecco, Michael Page,
-  Mercer, ManpowerGroup, Robert Walters, Hays, VietnamWorks, TopCV, ITviec, Indeed, GSO) và
-  chỉ nhận nội dung xuất bản trong 3 năm gần đây. Không có nguồn thoả điều kiện → báo lỗi
-  thân thiện, không mở rộng tìm kiếm, không bịa số liệu. Kết quả được cache, badge "AI tổng
-  hợp, đang chờ xác thực".
+  Mercer, ManpowerGroup, Robert Walters, Hays, VietnamWorks, TopCV, ITviec, Indeed, GSO),
+  chỉ nhận nội dung xuất bản trong 3 năm gần đây, badge "AI tổng hợp, đang chờ xác thực".
+  Nếu 17 domain đó không có kết quả, tự động fallback sang tìm kiếm không giới hạn domain
+  (vẫn giữ cửa sổ 3 năm) để bất kỳ job title nào cũng ra được kết quả đầy đủ — badge riêng
+  "AI tổng hợp, nguồn mở rộng" để phân biệt độ tin cậy thấp hơn. Không bịa số liệu ở cả 2
+  trường hợp — chỉ khi cả 2 lượt tìm kiếm đều rỗng mới báo lỗi thân thiện. Kết quả được
+  cache vĩnh viễn vào DB sau lần generate đầu tiên (bất kể tier nào).
 
 ## Bắt đầu
 
@@ -39,7 +42,7 @@ Copy `.env.example` thành `.env` và điền:
 ```
 DATABASE_URL=       # connection string Supabase/Postgres
 TAVILY_API_KEY=      # từ tavily.com → Overview → API Keys (free tier ~1000 request/tháng)
-DEEPSEEK_API_KEY=    # từ platform.deepseek.com → API Keys (key có dạng "sk-...", KHÔNG phải "sk-proj-..." — đó là định dạng của OpenAI)
+OPENAI_API_KEY=      # từ platform.openai.com → API Keys
 ```
 
 ### 3. Generate Prisma client + migrate
@@ -94,7 +97,7 @@ dev). Không cần config gì thêm ngoài Next.js mặc định (không có `ve
 1. Push repo lên GitHub (nếu chưa có remote).
 2. Vào [vercel.com](https://vercel.com) → "Add New Project" → import repo.
 3. Ở bước cấu hình, thêm 3 environment variable giống `.env` local:
-   `DATABASE_URL`, `TAVILY_API_KEY`, `DEEPSEEK_API_KEY`.
+   `DATABASE_URL`, `TAVILY_API_KEY`, `OPENAI_API_KEY`.
    - `DATABASE_URL` nên dùng connection string ở chế độ **"Connection pooling"** của Supabase
      (không phải direct connection) — phù hợp môi trường serverless của Vercel.
 4. Deploy. Vercel tự chạy `npm install` → `postinstall` (đã có sẵn `prisma generate`) →

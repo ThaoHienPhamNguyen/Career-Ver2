@@ -15,10 +15,11 @@ const SAMPLE_CONTENT: JobContent = {
   vnMarket: { value: null, source: null },
   salary: { value: null, source: null },
   demand: { value: null, source: null },
+  hiringCompanies: { value: null, source: null },
   similarJobs: [],
   hardSkills: [],
   softSkills: [],
-  futureSkills: { value: null, source: null },
+  futureSkills: [],
   careerPath: [],
 };
 

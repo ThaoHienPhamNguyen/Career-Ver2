@@ -68,16 +68,43 @@
         "description": "Kế toán tiếp cận thông tin tài chính nhạy cảm của doanh nghiệp, đòi hỏi tính chính trực cao."
       }
     ],
-    "futureSkills": {
-      "value": [
-        "Ứng dụng công nghệ, phân tích dữ liệu tài chính và thích ứng với AI trong nghiệp vụ kế toán",
-        "Thành thạo hệ thống ERP và phần mềm kế toán trên nền tảng đám mây (cloud)",
-        "Am hiểu chuẩn mực báo cáo tài chính quốc tế IFRS",
-        "Tư duy đối tác kinh doanh (business partnering), hỗ trợ ra quyết định và quản trị rủi ro/kiểm soát nội bộ",
-        "Tư duy chiến lược, khả năng phối hợp liên phòng ban và thích ứng với thay đổi"
-      ],
-      "source": "https://www.vietnamworks.com/hrinsider/vietnamworks-bao-cao-xu-huong-nganh-ke-toan-kiem-toan-2026-ky-1.html"
-    },
+    "futureSkills": [
+      {
+        "name": "Ứng dụng công nghệ, phân tích dữ liệu tài chính và thích ứng với AI trong nghiệp vụ kế toán",
+        "label": "critical",
+        "quote": null,
+        "source": "https://www.vietnamworks.com/hrinsider/vietnamworks-bao-cao-xu-huong-nganh-ke-toan-kiem-toan-2026-ky-1.html",
+        "description": "Dùng công cụ số và AI để tự động hoá các tác vụ ghi sổ, đối chiếu lặp lại, tập trung thời gian vào phân tích và tư vấn tài chính."
+      },
+      {
+        "name": "Thành thạo hệ thống ERP và phần mềm kế toán trên nền tảng đám mây (cloud)",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.vietnamworks.com/hrinsider/vietnamworks-bao-cao-xu-huong-nganh-ke-toan-kiem-toan-2026-ky-1.html",
+        "description": "Vận hành thành thạo ERP và phần mềm kế toán trên nền tảng đám mây — nền tảng hầu hết doanh nghiệp vừa và lớn đang chuyển sang dùng."
+      },
+      {
+        "name": "Am hiểu chuẩn mực báo cáo tài chính quốc tế IFRS",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.vietnamworks.com/hrinsider/vietnamworks-bao-cao-xu-huong-nganh-ke-toan-kiem-toan-2026-ky-1.html",
+        "description": "Hiểu và áp dụng đúng chuẩn báo cáo tài chính quốc tế, cần thiết khi doanh nghiệp mở rộng ra thị trường nước ngoài hoặc gọi vốn FDI."
+      },
+      {
+        "name": "Tư duy đối tác kinh doanh (business partnering), hỗ trợ ra quyết định và quản trị rủi ro/kiểm soát nội bộ",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.vietnamworks.com/hrinsider/vietnamworks-bao-cao-xu-huong-nganh-ke-toan-kiem-toan-2026-ky-1.html",
+        "description": "Không chỉ ghi nhận số liệu mà còn diễn giải để hỗ trợ ban lãnh đạo ra quyết định và kiểm soát rủi ro tài chính."
+      },
+      {
+        "name": "Tư duy chiến lược, khả năng phối hợp liên phòng ban và thích ứng với thay đổi",
+        "label": "emerging",
+        "quote": null,
+        "source": "https://www.vietnamworks.com/hrinsider/vietnamworks-bao-cao-xu-huong-nganh-ke-toan-kiem-toan-2026-ky-1.html",
+        "description": "Khả năng nhìn bức tranh tổng thể, phối hợp đa phòng ban khi vai trò kế toán ngày càng gắn với chiến lược doanh nghiệp."
+      }
+    ],
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
@@ -135,6 +162,35 @@
         },
         "avgTimeToNextStage": "Không xác định (cấp quản lý cao nhất trong lộ trình phổ biến; có thể tiến xa hơn lên CFO/Giám đốc tài chính)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "Vingroup",
+          "domain": "vingroup.net"
+        },
+        {
+          "name": "GSM / Green SM",
+          "domain": "greensm.com"
+        },
+        {
+          "name": "Techcombank",
+          "domain": "techcombank.com"
+        },
+        {
+          "name": "Masterise Group",
+          "domain": "masterisegroup.com"
+        },
+        {
+          "name": "Metub Việt Nam",
+          "domain": "metub.net"
+        },
+        {
+          "name": "Moneyveo Việt Nam",
+          "domain": "moneyveo.vn"
+        }
+      ],
+      "source": "https://www.vietnamworks.com/ke-toan-kv"
+    }
   }
 }

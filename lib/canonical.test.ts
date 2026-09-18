@@ -23,4 +23,10 @@ describe("matchCanonical", () => {
     const result = matchCanonical("product manager", KNOWN_NAMES);
     expect(result).toEqual({ status: "new", canonicalName: "Product Manager" });
   });
+
+  it("matches typos spread across multiple words in a long canonical name", () => {
+    const names = [...KNOWN_NAMES, "Customer Service Executive"];
+    const result = matchCanonical("Custmer Servce Exective", names);
+    expect(result).toEqual({ status: "matched", canonicalName: "Customer Service Executive" });
+  });
 });

@@ -15,60 +15,187 @@
       "source": "https://www.vietnamworks.com/ux-ui-design-kv"
     },
     "similarJobs": [
-      { "name": "Product Designer", "distinction": "Carries broader ownership of end-to-end product strategy and UX outcomes, versus a UI/UX Designer's more execution-focused interface and flow design work." },
-      { "name": "Graphic Designer", "distinction": "Focuses on static visual/brand assets (logos, marketing collateral, print) rather than interactive product flows and usability." },
-      { "name": "Frontend Developer", "distinction": "Implements the visual design in production code rather than producing the wireframes, mockups, and prototypes themselves." },
-      { "name": "UX Researcher", "distinction": "Specializes in user research methods (interviews, usability testing, surveys) rather than producing the visual and interaction design deliverables directly." }
+      {
+        "name": "Product Designer",
+        "distinction": "Carries broader ownership of end-to-end product strategy and UX outcomes, versus a UI/UX Designer's more execution-focused interface and flow design work."
+      },
+      {
+        "name": "Graphic Designer",
+        "distinction": "Focuses on static visual/brand assets (logos, marketing collateral, print) rather than interactive product flows and usability."
+      },
+      {
+        "name": "Frontend Developer",
+        "distinction": "Implements the visual design in production code rather than producing the wireframes, mockups, and prototypes themselves."
+      },
+      {
+        "name": "UX Researcher",
+        "distinction": "Specializes in user research methods (interviews, usability testing, surveys) rather than producing the visual and interaction design deliverables directly."
+      }
     ],
     "hardSkills": [
-      { "name": "Wireframing & prototyping (Figma, Adobe XD, Sketch)", "description": "The core toolset for turning ideas into testable low- and high-fidelity representations of a product before any code is written." },
-      { "name": "User research & usability testing", "description": "Running interviews, surveys, and usability tests (e.g. with Maze, UserTesting, Miro) to validate that a design actually solves the user's problem." },
-      { "name": "Visual design & design systems", "description": "Applying typography, color, layout, and a consistent component library so the product looks and behaves coherently at scale." },
-      { "name": "Information architecture & user flow mapping", "description": "Structuring content and navigation so users can find what they need with minimal friction." },
-      { "name": "Basic HTML/CSS for developer handoff", "description": "Understanding what is technically feasible and communicating design intent precisely to the engineers who will build it." },
-      { "name": "Accessibility standards (WCAG)", "description": "Designing interfaces usable by people with disabilities is an increasingly explicit requirement from employers and clients." }
+      {
+        "name": "Wireframing & prototyping (Figma, Adobe XD, Sketch)",
+        "description": "The core toolset for turning ideas into testable low- and high-fidelity representations of a product before any code is written."
+      },
+      {
+        "name": "User research & usability testing",
+        "description": "Running interviews, surveys, and usability tests (e.g. with Maze, UserTesting, Miro) to validate that a design actually solves the user's problem."
+      },
+      {
+        "name": "Visual design & design systems",
+        "description": "Applying typography, color, layout, and a consistent component library so the product looks and behaves coherently at scale."
+      },
+      {
+        "name": "Information architecture & user flow mapping",
+        "description": "Structuring content and navigation so users can find what they need with minimal friction."
+      },
+      {
+        "name": "Basic HTML/CSS for developer handoff",
+        "description": "Understanding what is technically feasible and communicating design intent precisely to the engineers who will build it."
+      },
+      {
+        "name": "Accessibility standards (WCAG)",
+        "description": "Designing interfaces usable by people with disabilities is an increasingly explicit requirement from employers and clients."
+      }
     ],
     "softSkills": [
-      { "name": "User empathy", "description": "Designing from the user's actual context and pain points rather than personal aesthetic preference is central to good UX." },
-      { "name": "Creative problem-solving", "description": "Translating a business or user problem into a workable, elegant interface solution, often under tight constraints." },
-      { "name": "Cross-functional collaboration", "description": "Working closely with Product Managers, developers, and stakeholders throughout the design and handoff process." },
-      { "name": "Presentation & storytelling", "description": "Defending design decisions with a clear rationale in design reviews and stakeholder presentations." },
-      { "name": "Adaptability to feedback", "description": "Iterating quickly on designs based on user testing results, stakeholder feedback, and changing requirements." }
+      {
+        "name": "User empathy",
+        "description": "Designing from the user's actual context and pain points rather than personal aesthetic preference is central to good UX."
+      },
+      {
+        "name": "Creative problem-solving",
+        "description": "Translating a business or user problem into a workable, elegant interface solution, often under tight constraints."
+      },
+      {
+        "name": "Cross-functional collaboration",
+        "description": "Working closely with Product Managers, developers, and stakeholders throughout the design and handoff process."
+      },
+      {
+        "name": "Presentation & storytelling",
+        "description": "Defending design decisions with a clear rationale in design reviews and stakeholder presentations."
+      },
+      {
+        "name": "Adaptability to feedback",
+        "description": "Iterating quickly on designs based on user testing results, stakeholder feedback, and changing requirements."
+      }
     ],
-    "futureSkills": {
-      "value": [
-        "Human-centered design practice (ISO 9241-210)",
-        "Accessibility standards (WCAG 2.1)",
-        "Data-driven design decision-making",
-        "AI-assisted design & prototyping tools"
-      ],
-      "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ux-designer-la-gi"
-    },
+    "futureSkills": [
+      {
+        "name": "Human-centered design practice (ISO 9241-210)",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ux-designer-la-gi",
+        "description": "Thiết kế lấy người dùng làm trung tâm theo chuẩn ISO 9241-210, đảm bảo sản phẩm thực sự giải quyết đúng nhu cầu."
+      },
+      {
+        "name": "Accessibility standards (WCAG 2.1)",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ux-designer-la-gi",
+        "description": "Đảm bảo sản phẩm dùng được cho người khuyết tật — ngày càng là yêu cầu bắt buộc ở nhiều thị trường."
+      },
+      {
+        "name": "Data-driven design decision-making",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ux-designer-la-gi",
+        "description": "Dùng dữ liệu hành vi người dùng để ra quyết định thiết kế thay vì chỉ dựa vào cảm tính."
+      },
+      {
+        "name": "AI-assisted design & prototyping tools",
+        "label": "critical",
+        "quote": null,
+        "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ux-designer-la-gi",
+        "description": "Dùng công cụ AI hỗ trợ thiết kế và tạo prototype nhanh hơn, dành thời gian cho tư duy chiến lược sản phẩm."
+      }
+    ],
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
-        "keySkills": ["Basic Figma/Adobe XD proficiency", "Following existing design systems", "Simple wireframes under supervision", "Learning UX fundamentals", "Receiving and applying design feedback"],
-        "salaryRange": { "value": "~10-15 triệu VNĐ/tháng (mới ra trường)", "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ui-ux-design-la-gi" },
+        "keySkills": [
+          "Basic Figma/Adobe XD proficiency",
+          "Following existing design systems",
+          "Simple wireframes under supervision",
+          "Learning UX fundamentals",
+          "Receiving and applying design feedback"
+        ],
+        "salaryRange": {
+          "value": "~10-15 triệu VNĐ/tháng (mới ra trường)",
+          "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ui-ux-design-la-gi"
+        },
         "avgTimeToNextStage": "6-12 tháng"
       },
       {
         "stageName": "Junior",
-        "keySkills": ["Independent wireframing & prototyping", "Basic usability testing", "Contributing to a design system", "Collaborating directly with developers on handoff", "Simple user flow design"],
-        "salaryRange": { "value": "~12-18 triệu VNĐ/tháng (0-2 năm kinh nghiệm)", "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ux-designer-la-gi" },
+        "keySkills": [
+          "Independent wireframing & prototyping",
+          "Basic usability testing",
+          "Contributing to a design system",
+          "Collaborating directly with developers on handoff",
+          "Simple user flow design"
+        ],
+        "salaryRange": {
+          "value": "~12-18 triệu VNĐ/tháng (0-2 năm kinh nghiệm)",
+          "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ux-designer-la-gi"
+        },
         "avgTimeToNextStage": "2-3 năm"
       },
       {
         "stageName": "Senior",
-        "keySkills": ["End-to-end UX ownership for a product area", "Advanced user research & data-informed design", "Design system architecture", "Mentoring junior designers", "Strategic input on product decisions"],
-        "salaryRange": { "value": "~30-45 triệu VNĐ/tháng (4-7 năm kinh nghiệm)", "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ux-designer-la-gi" },
+        "keySkills": [
+          "End-to-end UX ownership for a product area",
+          "Advanced user research & data-informed design",
+          "Design system architecture",
+          "Mentoring junior designers",
+          "Strategic input on product decisions"
+        ],
+        "salaryRange": {
+          "value": "~30-45 triệu VNĐ/tháng (4-7 năm kinh nghiệm)",
+          "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ux-designer-la-gi"
+        },
         "avgTimeToNextStage": "3-4 năm"
       },
       {
         "stageName": "Lead/Manager",
-        "keySkills": ["Design team leadership & hiring", "Org-wide design vision & standards", "Cross-functional strategic influence", "Design ops & process ownership", "Executive/client-facing design presentations"],
-        "salaryRange": { "value": "~45-70+ triệu VNĐ/tháng (trên 7 năm kinh nghiệm)", "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ux-designer-la-gi" },
+        "keySkills": [
+          "Design team leadership & hiring",
+          "Org-wide design vision & standards",
+          "Cross-functional strategic influence",
+          "Design ops & process ownership",
+          "Executive/client-facing design presentations"
+        ],
+        "salaryRange": {
+          "value": "~45-70+ triệu VNĐ/tháng (trên 7 năm kinh nghiệm)",
+          "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/ux-designer-la-gi"
+        },
         "avgTimeToNextStage": "N/A (senior leadership track)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "DatVietVAC",
+          "domain": "datvietvac.vn"
+        },
+        {
+          "name": "MoMo (M_Service)",
+          "domain": "momo.vn"
+        },
+        {
+          "name": "VNPT",
+          "domain": "vnpt.com.vn"
+        },
+        {
+          "name": "VIB (Vietnam International Bank)",
+          "domain": "vib.com.vn"
+        },
+        {
+          "name": "Simpson Strong-Tie Vietnam",
+          "domain": "strongtie.com"
+        }
+      ],
+      "source": "https://itviec.com/it-jobs/ui-ux"
+    }
   }
 }

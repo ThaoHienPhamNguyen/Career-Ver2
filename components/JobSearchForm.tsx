@@ -1,40 +1,33 @@
 "use client";
 
 import { useState, type FormEvent } from "react";
-import { lookupJobAction } from "@/app/actions";
-import type { LookupResult } from "@/lib/lookup";
-import { JobResultView } from "./JobResultView";
 
-type Status = "idle" | "loading";
+const SUGGESTED_JOBS = [
+  "Data Analyst",
+  "Backend Developer",
+  "Business Analyst",
+  "Marketing Executive",
+  "UI/UX Designer",
+  "Project Manager",
+];
 
-export function JobSearchForm() {
+export function JobSearchForm({ onSubmit }: { onSubmit: (jobTitle: string) => void }) {
   const [input, setInput] = useState("");
-  const [status, setStatus] = useState<Status>("idle");
-  const [result, setResult] = useState<LookupResult | null>(null);
-
-  async function runSearch(jobTitle: string) {
-    setStatus("loading");
-    setResult(null);
-    try {
-      setResult(await lookupJobAction(jobTitle));
-    } catch {
-      setResult({
-        status: "generation_failed",
-        message: "Có lỗi xảy ra khi tra cứu, vui lòng thử lại sau",
-      });
-    } finally {
-      setStatus("idle");
-    }
-  }
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    if (!input.trim()) return;
-    void runSearch(input.trim());
+    const trimmed = input.trim();
+    if (!trimmed) return;
+    onSubmit(trimmed);
+  }
+
+  function handleSuggestionClick(jobTitle: string) {
+    setInput(jobTitle);
+    onSubmit(jobTitle);
   }
 
   return (
-    <div className="flex w-full max-w-2xl flex-col gap-6">
+    <div className="flex flex-col gap-3">
       <form onSubmit={handleSubmit} className="flex gap-2">
         <input
           type="text"
@@ -42,53 +35,30 @@ export function JobSearchForm() {
           onChange={(event) => setInput(event.target.value)}
           placeholder="Nhập tên nghề, ví dụ: Data Analyst"
           aria-label="Tên nghề"
-          className="flex-1 rounded-lg border border-zinc-300 px-4 py-2 text-base dark:border-zinc-700 dark:bg-zinc-900"
+          className="flex-1 rounded-full border border-zinc-300 bg-zinc-50 px-5 py-2.5 text-base outline-none focus:border-brand focus:ring-2 focus:ring-brand/20 dark:border-zinc-700 dark:bg-zinc-900"
         />
         <button
           type="submit"
-          disabled={status === "loading"}
-          className="rounded-lg bg-zinc-900 px-4 py-2 font-medium text-white disabled:opacity-50 dark:bg-zinc-100 dark:text-zinc-900"
+          className="rounded-full bg-brand px-5 py-2.5 font-heading font-semibold text-white shadow-sm shadow-brand/30 transition hover:bg-brand-dark disabled:opacity-50"
         >
-          {status === "loading" ? "Đang tra cứu..." : "Tra cứu"}
+          Tra cứu
         </button>
       </form>
 
-      <div aria-live="polite">
-        {result?.status === "ambiguous" && (
-          <div className="flex flex-col gap-2">
-            <p className="text-zinc-900 dark:text-zinc-100">Bạn muốn tra cứu nghề nào?</p>
-            <div className="flex flex-wrap gap-2">
-              {result.candidates.map((candidate) => (
-                <button
-                  key={candidate}
-                  type="button"
-                  disabled={status === "loading"}
-                  onClick={() => {
-                    setInput(candidate);
-                    void runSearch(candidate);
-                  }}
-                  className="rounded-full border border-zinc-300 px-4 py-2 text-sm disabled:opacity-50 dark:border-zinc-700"
-                >
-                  {candidate}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-
-        {result?.status === "generation_failed" && (
-          <p role="alert" className="text-red-600 dark:text-red-400">
-            {result.message}
-          </p>
-        )}
-
-        {result?.status === "found" && (
-          <JobResultView
-            canonicalName={result.canonicalName}
-            source={result.source}
-            content={result.content}
-          />
-        )}
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="font-heading text-[13px] font-bold text-brand dark:text-brand">
+          ✨ Gợi ý cho bạn:
+        </span>
+        {SUGGESTED_JOBS.map((jobTitle) => (
+          <button
+            key={jobTitle}
+            type="button"
+            onClick={() => handleSuggestionClick(jobTitle)}
+            className="rounded-full border border-zinc-300 bg-white px-3 py-1.5 text-[12.5px] font-medium text-zinc-600 transition hover:border-brand hover:text-brand dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-300"
+          >
+            {jobTitle}
+          </button>
+        ))}
       </div>
     </div>
   );

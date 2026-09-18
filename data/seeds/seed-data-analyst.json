@@ -29,30 +29,80 @@
       }
     ],
     "hardSkills": [
-      { "name": "SQL", "description": "Kỹ năng bắt buộc để truy vấn, lọc và tổng hợp dữ liệu trực tiếp từ cơ sở dữ liệu quan hệ." },
-      { "name": "Excel", "description": "Công cụ phổ biến nhất để xử lý, tính toán và trình bày dữ liệu nhanh trong môi trường doanh nghiệp Việt Nam." },
-      { "name": "Trực quan hóa dữ liệu (Power BI/Tableau)", "description": "Dùng để xây dựng dashboard giúp các bên liên quan không chuyên kỹ thuật hiểu và hành động theo insight." },
-      { "name": "Python/R", "description": "Cần thiết khi làm việc với tập dữ liệu lớn, phân tích thống kê nâng cao hoặc tự động hoá quy trình phân tích." },
-      { "name": "Data modeling & hiểu nghiệp vụ", "description": "Giúp thiết kế báo cáo đúng logic nghiệp vụ và đảm bảo số liệu phản ánh đúng thực tế kinh doanh." }
+      {
+        "name": "SQL",
+        "description": "Kỹ năng bắt buộc để truy vấn, lọc và tổng hợp dữ liệu trực tiếp từ cơ sở dữ liệu quan hệ."
+      },
+      {
+        "name": "Excel",
+        "description": "Công cụ phổ biến nhất để xử lý, tính toán và trình bày dữ liệu nhanh trong môi trường doanh nghiệp Việt Nam."
+      },
+      {
+        "name": "Trực quan hóa dữ liệu (Power BI/Tableau)",
+        "description": "Dùng để xây dựng dashboard giúp các bên liên quan không chuyên kỹ thuật hiểu và hành động theo insight."
+      },
+      {
+        "name": "Python/R",
+        "description": "Cần thiết khi làm việc với tập dữ liệu lớn, phân tích thống kê nâng cao hoặc tự động hoá quy trình phân tích."
+      },
+      {
+        "name": "Data modeling & hiểu nghiệp vụ",
+        "description": "Giúp thiết kế báo cáo đúng logic nghiệp vụ và đảm bảo số liệu phản ánh đúng thực tế kinh doanh."
+      }
     ],
     "softSkills": [
-      { "name": "Tư duy phản biện & giải quyết vấn đề", "description": "Cần để đặt đúng câu hỏi kinh doanh trước khi đi tìm số liệu, tránh phân tích lạc đề." },
-      { "name": "Giao tiếp & kể chuyện bằng dữ liệu (data storytelling)", "description": "Insight chỉ có giá trị khi truyền đạt được rõ ràng cho người không có nền tảng kỹ thuật." },
-      { "name": "Tỉ mỉ, cẩn thận", "description": "Sai sót nhỏ trong xử lý dữ liệu có thể dẫn đến kết luận sai lệch nghiêm trọng cho doanh nghiệp." }
+      {
+        "name": "Tư duy phản biện & giải quyết vấn đề",
+        "description": "Cần để đặt đúng câu hỏi kinh doanh trước khi đi tìm số liệu, tránh phân tích lạc đề."
+      },
+      {
+        "name": "Giao tiếp & kể chuyện bằng dữ liệu (data storytelling)",
+        "description": "Insight chỉ có giá trị khi truyền đạt được rõ ràng cho người không có nền tảng kỹ thuật."
+      },
+      {
+        "name": "Tỉ mỉ, cẩn thận",
+        "description": "Sai sót nhỏ trong xử lý dữ liệu có thể dẫn đến kết luận sai lệch nghiêm trọng cho doanh nghiệp."
+      }
     ],
-    "futureSkills": {
-      "value": [
-        "Tăng: Kỹ năng ứng dụng AI/GenAI để tăng tốc độ phân tích và tự động hoá báo cáo",
-        "Tăng: Kỹ năng giải quyết vấn đề và tư duy phản biện",
-        "Tăng: Kỹ năng giao tiếp, phối hợp liên phòng ban",
-        "Giảm ưu tiên tương đối: kỹ năng kỹ thuật thuần tuý khi công cụ AI hỗ trợ nhiều tác vụ phân tích cơ bản"
-      ],
-      "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
-    },
+    "futureSkills": [
+      {
+        "name": "Tăng: Kỹ năng ứng dụng AI/GenAI để tăng tốc độ phân tích và tự động hoá báo cáo",
+        "label": "critical",
+        "quote": null,
+        "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market",
+        "description": "Dùng AI để tự động hoá báo cáo và tăng tốc độ phân tích, dành thời gian cho việc diễn giải insight."
+      },
+      {
+        "name": "Tăng: Kỹ năng giải quyết vấn đề và tư duy phản biện",
+        "label": "important",
+        "quote": null,
+        "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market",
+        "description": "Đặt đúng câu hỏi phân tích và phản biện kết quả, thay vì chỉ chạy số theo yêu cầu."
+      },
+      {
+        "name": "Tăng: Kỹ năng giao tiếp, phối hợp liên phòng ban",
+        "label": "important",
+        "quote": null,
+        "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market",
+        "description": "Trình bày insight dễ hiểu cho người không chuyên kỹ thuật để dữ liệu thực sự được dùng vào quyết định."
+      },
+      {
+        "name": "Giảm ưu tiên tương đối: kỹ năng kỹ thuật thuần tuý khi công cụ AI hỗ trợ nhiều tác vụ phân tích cơ bản",
+        "label": "watch",
+        "quote": null,
+        "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market",
+        "description": "Các thao tác phân tích cơ bản dần được công cụ AI hỗ trợ, nên không còn là lợi thế cạnh tranh chính như trước."
+      }
+    ],
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
-        "keySkills": ["SQL cơ bản", "Excel", "Thống kê mô tả", "Trực quan hoá dữ liệu cơ bản (Power BI/Google Data Studio)"],
+        "keySkills": [
+          "SQL cơ bản",
+          "Excel",
+          "Thống kê mô tả",
+          "Trực quan hoá dữ liệu cơ bản (Power BI/Google Data Studio)"
+        ],
         "salaryRange": {
           "value": "10 - 15 triệu đồng/tháng (Fresher, 0-1 năm kinh nghiệm)",
           "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-data-analyst/"
@@ -61,7 +111,12 @@
       },
       {
         "stageName": "Junior",
-        "keySkills": ["SQL nâng cao", "Power BI/Tableau", "Python/R cơ bản", "Hiểu quy trình nghiệp vụ liên quan"],
+        "keySkills": [
+          "SQL nâng cao",
+          "Power BI/Tableau",
+          "Python/R cơ bản",
+          "Hiểu quy trình nghiệp vụ liên quan"
+        ],
         "salaryRange": {
           "value": "Khoảng 23.8 triệu đồng/tháng (1-2 năm kinh nghiệm)",
           "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
@@ -70,7 +125,12 @@
       },
       {
         "stageName": "Senior",
-        "keySkills": ["Phân tích thống kê nâng cao/A-B testing", "Data storytelling", "Thiết kế data model/dashboard phức tạp", "Tư vấn giải pháp dữ liệu cho stakeholder"],
+        "keySkills": [
+          "Phân tích thống kê nâng cao/A-B testing",
+          "Data storytelling",
+          "Thiết kế data model/dashboard phức tạp",
+          "Tư vấn giải pháp dữ liệu cho stakeholder"
+        ],
         "salaryRange": {
           "value": "Khoảng 42.5 triệu đồng/tháng (5-8 năm kinh nghiệm)",
           "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
@@ -79,10 +139,35 @@
       },
       {
         "stageName": "Lead/Manager",
-        "keySkills": ["Quản lý đội ngũ phân tích dữ liệu", "Xây dựng chiến lược dữ liệu cho tổ chức", "Làm việc trực tiếp với lãnh đạo cấp cao", "Quản lý dự án/stakeholder đa phòng ban"],
-        "salaryRange": { "value": null, "source": null },
+        "keySkills": [
+          "Quản lý đội ngũ phân tích dữ liệu",
+          "Xây dựng chiến lược dữ liệu cho tổ chức",
+          "Làm việc trực tiếp với lãnh đạo cấp cao",
+          "Quản lý dự án/stakeholder đa phòng ban"
+        ],
+        "salaryRange": {
+          "value": null,
+          "source": null
+        },
         "avgTimeToNextStage": "Không có dữ liệu đáng tin cậy"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "Techcombank",
+          "domain": "techcombank.com"
+        },
+        {
+          "name": "MB Bank",
+          "domain": "mbbank.com.vn"
+        },
+        {
+          "name": "Golden Gate Group",
+          "domain": "ggg.com.vn"
+        }
+      ],
+      "source": "https://itviec.com/it-jobs/data-analysis"
+    }
   }
 }

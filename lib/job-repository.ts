@@ -27,11 +27,15 @@ export async function findJobByCanonicalName(canonicalName: string): Promise<Job
   return row ? toJobRecord(row) : null;
 }
 
-export async function saveGeneratedJob(canonicalName: string, content: JobContent): Promise<void> {
+export async function saveGeneratedJob(
+  canonicalName: string,
+  content: JobContent,
+  source: Extract<JobSource, "generated" | "generated_extended"> = "generated"
+): Promise<void> {
   await prisma.jobTitle.upsert({
     where: { canonicalName },
-    create: { canonicalName, source: "generated", content: content as object, viewCount: 1 },
-    update: { content: content as object },
+    create: { canonicalName, source, content: content as object, viewCount: 1 },
+    update: { source, content: content as object },
   });
 }
 
@@ -58,7 +62,7 @@ export async function listAllCanonicalNames(): Promise<string[]> {
 
 export async function listUpgradeCandidates(minViews: number): Promise<JobRecord[]> {
   const rows = await prisma.jobTitle.findMany({
-    where: { source: "generated", viewCount: { gte: minViews } },
+    where: { source: { in: ["generated", "generated_extended"] }, viewCount: { gte: minViews } },
   });
   return rows.map(toJobRecord);
 }

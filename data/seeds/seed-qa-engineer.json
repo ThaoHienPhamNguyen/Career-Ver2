@@ -15,60 +15,195 @@
       "source": "https://www.vietnamworks.com/qc-tester-kv"
     },
     "similarJobs": [
-      { "name": "Automation Test Engineer", "distinction": "Specializes in writing and maintaining automated test scripts/frameworks, versus a general QA Engineer who typically balances manual and automated testing." },
-      { "name": "Business Analyst", "distinction": "Focuses on gathering and documenting business requirements rather than verifying that the built product meets those requirements." },
-      { "name": "SDET (Software Development Engineer in Test)", "distinction": "Writes production-grade code for test infrastructure/tooling, closer to a developer role, versus a QA Engineer's broader test-design and quality-process focus." },
-      { "name": "DevOps Engineer", "distinction": "Focuses on CI/CD pipelines and infrastructure automation rather than designing test cases and validating functional/non-functional requirements." }
+      {
+        "name": "Automation Test Engineer",
+        "distinction": "Specializes in writing and maintaining automated test scripts/frameworks, versus a general QA Engineer who typically balances manual and automated testing."
+      },
+      {
+        "name": "Business Analyst",
+        "distinction": "Focuses on gathering and documenting business requirements rather than verifying that the built product meets those requirements."
+      },
+      {
+        "name": "SDET (Software Development Engineer in Test)",
+        "distinction": "Writes production-grade code for test infrastructure/tooling, closer to a developer role, versus a QA Engineer's broader test-design and quality-process focus."
+      },
+      {
+        "name": "DevOps Engineer",
+        "distinction": "Focuses on CI/CD pipelines and infrastructure automation rather than designing test cases and validating functional/non-functional requirements."
+      }
     ],
     "hardSkills": [
-      { "name": "Test case design & test planning", "description": "Translating requirements into concrete, traceable test cases and a coverage plan is the core deliverable of the role." },
-      { "name": "Manual/functional testing", "description": "Exploring the application like a real user to catch usability and functional issues that scripted tests may miss." },
-      { "name": "Automation testing (Selenium, Cypress, or similar) & scripting", "description": "Writing automated test scripts (often in Java, Python, or JavaScript) to run regression tests continuously as the product changes." },
-      { "name": "SQL & database validation", "description": "Many defects trace back to incorrect data, so querying and verifying database state is a routine part of testing." },
-      { "name": "API testing (Postman or similar)", "description": "Modern applications rely heavily on APIs, so validating requests, responses, and edge cases at the API layer is essential." },
-      { "name": "Bug tracking & Agile tools (Jira)", "description": "QA Engineers log, prioritize, and track defects through their lifecycle alongside developers and product owners." }
+      {
+        "name": "Test case design & test planning",
+        "description": "Translating requirements into concrete, traceable test cases and a coverage plan is the core deliverable of the role."
+      },
+      {
+        "name": "Manual/functional testing",
+        "description": "Exploring the application like a real user to catch usability and functional issues that scripted tests may miss."
+      },
+      {
+        "name": "Automation testing (Selenium, Cypress, or similar) & scripting",
+        "description": "Writing automated test scripts (often in Java, Python, or JavaScript) to run regression tests continuously as the product changes."
+      },
+      {
+        "name": "SQL & database validation",
+        "description": "Many defects trace back to incorrect data, so querying and verifying database state is a routine part of testing."
+      },
+      {
+        "name": "API testing (Postman or similar)",
+        "description": "Modern applications rely heavily on APIs, so validating requests, responses, and edge cases at the API layer is essential."
+      },
+      {
+        "name": "Bug tracking & Agile tools (Jira)",
+        "description": "QA Engineers log, prioritize, and track defects through their lifecycle alongside developers and product owners."
+      }
     ],
     "softSkills": [
-      { "name": "Attention to detail", "description": "Catching subtle inconsistencies and edge cases is what separates effective testing from a superficial pass." },
-      { "name": "Clear communication & bug reporting", "description": "A bug report must give developers enough detail (steps, environment, expected vs. actual) to reproduce and fix the issue quickly." },
-      { "name": "Critical / analytical thinking", "description": "Good testers think adversarially about a feature — anticipating how it could break rather than just confirming it works as expected." },
-      { "name": "Patience & persistence", "description": "Reproducing intermittent bugs and running repetitive regression passes requires sustained, careful attention." },
-      { "name": "Collaboration with developers", "description": "QA and development work in a tight feedback loop, especially in Agile/Scrum teams shipping frequent releases." }
+      {
+        "name": "Attention to detail",
+        "description": "Catching subtle inconsistencies and edge cases is what separates effective testing from a superficial pass."
+      },
+      {
+        "name": "Clear communication & bug reporting",
+        "description": "A bug report must give developers enough detail (steps, environment, expected vs. actual) to reproduce and fix the issue quickly."
+      },
+      {
+        "name": "Critical / analytical thinking",
+        "description": "Good testers think adversarially about a feature — anticipating how it could break rather than just confirming it works as expected."
+      },
+      {
+        "name": "Patience & persistence",
+        "description": "Reproducing intermittent bugs and running repetitive regression passes requires sustained, careful attention."
+      },
+      {
+        "name": "Collaboration with developers",
+        "description": "QA and development work in a tight feedback loop, especially in Agile/Scrum teams shipping frequent releases."
+      }
     ],
-    "futureSkills": {
-      "value": [
-        "Automation testing frameworks (e.g. Selenium) built on solid programming fundamentals",
-        "Programming languages for test automation (Java, C#, Ruby, or Python)",
-        "SQL and XML for data-driven test validation",
-        "Software design patterns, for building maintainable automation frameworks"
-      ],
-      "source": "https://itviec.com/blog/automation-test/"
-    },
+    "futureSkills": [
+      {
+        "name": "Automation testing frameworks (e.g. Selenium) built on solid programming fundamentals",
+        "label": "critical",
+        "quote": null,
+        "source": "https://itviec.com/blog/automation-test/",
+        "description": "Xây dựng bộ test tự động (vd Selenium) trên nền tảng lập trình vững, thay vì chỉ test thủ công."
+      },
+      {
+        "name": "Programming languages for test automation (Java, C#, Ruby, or Python)",
+        "label": "critical",
+        "quote": null,
+        "source": "https://itviec.com/blog/automation-test/",
+        "description": "Biết ít nhất một ngôn ngữ lập trình (Java, C#, Ruby, Python) để viết và bảo trì test tự động."
+      },
+      {
+        "name": "SQL and XML for data-driven test validation",
+        "label": "important",
+        "quote": null,
+        "source": "https://itviec.com/blog/automation-test/",
+        "description": "Kiểm thử dựa trên dữ liệu thực tế qua truy vấn SQL và xử lý XML."
+      },
+      {
+        "name": "Software design patterns, for building maintainable automation frameworks",
+        "label": "watch",
+        "quote": null,
+        "source": "https://itviec.com/blog/automation-test/",
+        "description": "Áp dụng design pattern để xây dựng framework automation dễ bảo trì, mở rộng lâu dài."
+      }
+    ],
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
-        "keySkills": ["Basic manual testing concepts", "Writing simple test cases from requirements", "Bug reporting basics", "Basic SQL", "Following test plans under guidance"],
-        "salaryRange": { "value": "~14,15 triệu VNĐ/tháng (dưới 1 năm kinh nghiệm, vị trí Tester)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "keySkills": [
+          "Basic manual testing concepts",
+          "Writing simple test cases from requirements",
+          "Bug reporting basics",
+          "Basic SQL",
+          "Following test plans under guidance"
+        ],
+        "salaryRange": {
+          "value": "~14,15 triệu VNĐ/tháng (dưới 1 năm kinh nghiệm, vị trí Tester)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
         "avgTimeToNextStage": "6-12 tháng"
       },
       {
         "stageName": "Junior",
-        "keySkills": ["Independent test case design", "Manual regression testing", "Basic automation scripting", "API testing with Postman", "Clear, structured bug reports"],
-        "salaryRange": { "value": "~14,2-24,4 triệu VNĐ/tháng (1-4 năm kinh nghiệm, Tester/QA-QC)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "keySkills": [
+          "Independent test case design",
+          "Manual regression testing",
+          "Basic automation scripting",
+          "API testing with Postman",
+          "Clear, structured bug reports"
+        ],
+        "salaryRange": {
+          "value": "~14,2-24,4 triệu VNĐ/tháng (1-4 năm kinh nghiệm, Tester/QA-QC)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
         "avgTimeToNextStage": "2-3 năm"
       },
       {
         "stageName": "Senior",
-        "keySkills": ["Test strategy & planning across a product area", "Automation framework design", "Performance/security testing awareness", "Mentoring junior testers", "Cross-team quality process ownership"],
-        "salaryRange": { "value": "~25,3-29,75 triệu VNĐ/tháng (5-8 năm kinh nghiệm, Tester/QA-QC)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "keySkills": [
+          "Test strategy & planning across a product area",
+          "Automation framework design",
+          "Performance/security testing awareness",
+          "Mentoring junior testers",
+          "Cross-team quality process ownership"
+        ],
+        "salaryRange": {
+          "value": "~25,3-29,75 triệu VNĐ/tháng (5-8 năm kinh nghiệm, Tester/QA-QC)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
         "avgTimeToNextStage": "3-4 năm"
       },
       {
         "stageName": "Lead/Manager",
-        "keySkills": ["QA/Test team leadership & hiring", "Org-wide quality standards & process ownership", "Stakeholder & release management", "Automation strategy at scale", "Risk-based test prioritization"],
-        "salaryRange": { "value": "~36,5-38,5 triệu VNĐ/tháng (trên 8 năm kinh nghiệm, Tester/QA-QC)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "keySkills": [
+          "QA/Test team leadership & hiring",
+          "Org-wide quality standards & process ownership",
+          "Stakeholder & release management",
+          "Automation strategy at scale",
+          "Risk-based test prioritization"
+        ],
+        "salaryRange": {
+          "value": "~36,5-38,5 triệu VNĐ/tháng (trên 8 năm kinh nghiệm, Tester/QA-QC)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
         "avgTimeToNextStage": "N/A (senior leadership track)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "NAVER Vietnam",
+          "domain": "navercorp.vn"
+        },
+        {
+          "name": "DXC Technology Vietnam",
+          "domain": "dxc.com"
+        },
+        {
+          "name": "Motorola Solutions Vietnam",
+          "domain": "motorolasolutions.com"
+        },
+        {
+          "name": "FPT Digital",
+          "domain": "digital.fpt.com"
+        },
+        {
+          "name": "LG Innotek Vietnam",
+          "domain": "lginnotek.com"
+        },
+        {
+          "name": "Hasbro Sourcing & Operations Vietnam",
+          "domain": "hasbro.com"
+        },
+        {
+          "name": "Sonion Vietnam",
+          "domain": "sonion.com"
+        }
+      ],
+      "source": "https://itviec.com/it-jobs/qa"
+    }
   }
 }

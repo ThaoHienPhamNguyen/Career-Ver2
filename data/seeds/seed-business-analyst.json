@@ -29,31 +29,84 @@
       }
     ],
     "hardSkills": [
-      { "name": "Phân tích & tài liệu hoá yêu cầu (BRD/SRS/User Story)", "description": "Là kỹ năng lõi để chuyển yêu cầu nghiệp vụ còn mơ hồ thành tài liệu rõ ràng cho đội phát triển." },
-      { "name": "Vẽ quy trình nghiệp vụ (BPMN, flowchart, use case diagram)", "description": "Giúp mô hình hoá quy trình hiện tại và quy trình đề xuất một cách trực quan, dễ thống nhất giữa các bên." },
-      { "name": "SQL & phân tích dữ liệu cơ bản", "description": "Cần để tự kiểm tra dữ liệu, xác thực giả định nghiệp vụ và hỗ trợ ra quyết định dựa trên số liệu thực tế." },
-      { "name": "Kiến thức domain (ngân hàng, bảo hiểm, retail...)", "description": "Hiểu đặc thù ngành giúp BA đặt đúng câu hỏi và đề xuất giải pháp khả thi, sát với thực tế vận hành." },
-      { "name": "Công cụ quản lý dự án/yêu cầu (Jira, Confluence, Visio)", "description": "Dùng hàng ngày để quản lý backlog, tài liệu hoá và theo dõi tiến độ triển khai yêu cầu." }
+      {
+        "name": "Phân tích & tài liệu hoá yêu cầu (BRD/SRS/User Story)",
+        "description": "Là kỹ năng lõi để chuyển yêu cầu nghiệp vụ còn mơ hồ thành tài liệu rõ ràng cho đội phát triển."
+      },
+      {
+        "name": "Vẽ quy trình nghiệp vụ (BPMN, flowchart, use case diagram)",
+        "description": "Giúp mô hình hoá quy trình hiện tại và quy trình đề xuất một cách trực quan, dễ thống nhất giữa các bên."
+      },
+      {
+        "name": "SQL & phân tích dữ liệu cơ bản",
+        "description": "Cần để tự kiểm tra dữ liệu, xác thực giả định nghiệp vụ và hỗ trợ ra quyết định dựa trên số liệu thực tế."
+      },
+      {
+        "name": "Kiến thức domain (ngân hàng, bảo hiểm, retail...)",
+        "description": "Hiểu đặc thù ngành giúp BA đặt đúng câu hỏi và đề xuất giải pháp khả thi, sát với thực tế vận hành."
+      },
+      {
+        "name": "Công cụ quản lý dự án/yêu cầu (Jira, Confluence, Visio)",
+        "description": "Dùng hàng ngày để quản lý backlog, tài liệu hoá và theo dõi tiến độ triển khai yêu cầu."
+      }
     ],
     "softSkills": [
-      { "name": "Giao tiếp & đàm phán", "description": "BA phải làm cầu nối, dung hoà kỳ vọng khác nhau giữa khách hàng, nghiệp vụ và đội kỹ thuật." },
-      { "name": "Tư duy phân tích & giải quyết vấn đề", "description": "Cần bóc tách vấn đề kinh doanh phức tạp thành các yêu cầu cụ thể, khả thi cho đội phát triển." },
-      { "name": "Quản lý stakeholder", "description": "Dự án thường có nhiều bên liên quan với lợi ích khác nhau, BA cần cân bằng và giữ đồng thuận." },
-      { "name": "Thích ứng & học hỏi nhanh", "description": "Mỗi dự án/khách hàng có domain và quy trình khác nhau, đòi hỏi BA nắm bắt nhanh kiến thức mới." }
+      {
+        "name": "Giao tiếp & đàm phán",
+        "description": "BA phải làm cầu nối, dung hoà kỳ vọng khác nhau giữa khách hàng, nghiệp vụ và đội kỹ thuật."
+      },
+      {
+        "name": "Tư duy phân tích & giải quyết vấn đề",
+        "description": "Cần bóc tách vấn đề kinh doanh phức tạp thành các yêu cầu cụ thể, khả thi cho đội phát triển."
+      },
+      {
+        "name": "Quản lý stakeholder",
+        "description": "Dự án thường có nhiều bên liên quan với lợi ích khác nhau, BA cần cân bằng và giữ đồng thuận."
+      },
+      {
+        "name": "Thích ứng & học hỏi nhanh",
+        "description": "Mỗi dự án/khách hàng có domain và quy trình khác nhau, đòi hỏi BA nắm bắt nhanh kiến thức mới."
+      }
     ],
-    "futureSkills": {
-      "value": [
-        "Tăng: Kỹ năng ứng dụng AI/GenAI để hỗ trợ phân tích, viết tài liệu và tăng năng suất",
-        "Tăng: Kỹ năng giải quyết vấn đề và tư duy phản biện",
-        "Tăng: Kỹ năng giao tiếp, phối hợp đa phòng ban trong bối cảnh chuyển đổi số",
-        "Giảm ưu tiên tương đối: các tác vụ tài liệu hoá thủ công, lặp lại khi công cụ AI hỗ trợ soạn thảo"
-      ],
-      "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
-    },
+    "futureSkills": [
+      {
+        "name": "Tăng: Kỹ năng ứng dụng AI/GenAI để hỗ trợ phân tích, viết tài liệu và tăng năng suất",
+        "label": "critical",
+        "quote": null,
+        "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market",
+        "description": "Dùng công cụ GenAI để tăng tốc phân tích, soạn tài liệu yêu cầu và tổng hợp insight từ dữ liệu lớn."
+      },
+      {
+        "name": "Tăng: Kỹ năng giải quyết vấn đề và tư duy phản biện",
+        "label": "important",
+        "quote": null,
+        "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market",
+        "description": "Đánh giá vấn đề nghiệp vụ đa chiều, phản biện giả định thay vì chỉ ghi nhận yêu cầu theo bề mặt."
+      },
+      {
+        "name": "Tăng: Kỹ năng giao tiếp, phối hợp đa phòng ban trong bối cảnh chuyển đổi số",
+        "label": "important",
+        "quote": null,
+        "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market",
+        "description": "Kết nối giữa nghiệp vụ và kỹ thuật, đặc biệt quan trọng khi doanh nghiệp đẩy nhanh chuyển đổi số."
+      },
+      {
+        "name": "Giảm ưu tiên tương đối: các tác vụ tài liệu hoá thủ công, lặp lại khi công cụ AI hỗ trợ soạn thảo",
+        "label": "watch",
+        "quote": null,
+        "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market",
+        "description": "Các tác vụ soạn tài liệu lặp lại dần được AI hỗ trợ, nên không còn là kỹ năng cần đầu tư sâu như trước."
+      }
+    ],
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
-        "keySkills": ["Thu thập yêu cầu cơ bản", "Vẽ flowchart/use case đơn giản", "Excel, PowerPoint", "Hiểu quy trình phát triển phần mềm (SDLC) cơ bản"],
+        "keySkills": [
+          "Thu thập yêu cầu cơ bản",
+          "Vẽ flowchart/use case đơn giản",
+          "Excel, PowerPoint",
+          "Hiểu quy trình phát triển phần mềm (SDLC) cơ bản"
+        ],
         "salaryRange": {
           "value": "Khoảng 12.2 triệu đồng/tháng (dưới 1 năm kinh nghiệm)",
           "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
@@ -62,7 +115,12 @@
       },
       {
         "stageName": "Junior",
-        "keySkills": ["Viết BRD/SRS/User Story", "BPMN cơ bản", "SQL cơ bản", "Giao tiếp với stakeholder nội bộ"],
+        "keySkills": [
+          "Viết BRD/SRS/User Story",
+          "BPMN cơ bản",
+          "SQL cơ bản",
+          "Giao tiếp với stakeholder nội bộ"
+        ],
         "salaryRange": {
           "value": "Khoảng 14 triệu đồng/tháng (1-2 năm kinh nghiệm)",
           "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
@@ -71,7 +129,12 @@
       },
       {
         "stageName": "Senior",
-        "keySkills": ["Phân tích quy trình phức tạp đa hệ thống", "Tư vấn giải pháp cho khách hàng/nội bộ", "Quản lý yêu cầu thay đổi (change request)", "Kèm cặp, đào tạo BA junior"],
+        "keySkills": [
+          "Phân tích quy trình phức tạp đa hệ thống",
+          "Tư vấn giải pháp cho khách hàng/nội bộ",
+          "Quản lý yêu cầu thay đổi (change request)",
+          "Kèm cặp, đào tạo BA junior"
+        ],
         "salaryRange": {
           "value": "28 - 37.4 triệu đồng/tháng (3-8 năm kinh nghiệm)",
           "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
@@ -80,13 +143,43 @@
       },
       {
         "stageName": "Lead/Manager",
-        "keySkills": ["Quản lý đội ngũ BA", "Định hướng chiến lược phân tích nghiệp vụ toàn công ty", "Làm việc trực tiếp với ban lãnh đạo/khách hàng lớn", "Quản lý danh mục dự án"],
+        "keySkills": [
+          "Quản lý đội ngũ BA",
+          "Định hướng chiến lược phân tích nghiệp vụ toàn công ty",
+          "Làm việc trực tiếp với ban lãnh đạo/khách hàng lớn",
+          "Quản lý danh mục dự án"
+        ],
         "salaryRange": {
           "value": "Từ khoảng 41.35 triệu đồng/tháng trở lên (trên 8 năm kinh nghiệm)",
           "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
         },
         "avgTimeToNextStage": "Không xác định (giai đoạn cuối lộ trình)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "Techcombank",
+          "domain": "techcombank.com"
+        },
+        {
+          "name": "Sacombank",
+          "domain": "sacombank.com.vn"
+        },
+        {
+          "name": "MB Bank",
+          "domain": "mbbank.com.vn"
+        },
+        {
+          "name": "Unilever Vietnam",
+          "domain": "unilever.com.vn"
+        },
+        {
+          "name": "Mi-Jack Manufacturing Global Vietnam",
+          "domain": "mi-jack.com"
+        }
+      ],
+      "source": "https://itviec.com/it-jobs/business-analyst"
+    }
   }
 }

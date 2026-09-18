@@ -57,7 +57,10 @@ describe("lookupJob", () => {
     });
     vi.spyOn(repoModule, "findJobByCanonicalName").mockResolvedValue(null);
     const newContent = { description: "Quản lý sản phẩm" } as unknown as JobContent;
-    vi.spyOn(generateModule, "generateJobContent").mockResolvedValue(newContent);
+    vi.spyOn(generateModule, "generateJobContent").mockResolvedValue({
+      content: newContent,
+      source: "generated",
+    });
     const saveSpy = vi.spyOn(repoModule, "saveGeneratedJob").mockResolvedValue();
 
     const result = await lookupJob("product manager");
@@ -68,7 +71,32 @@ describe("lookupJob", () => {
       source: "generated",
       content: newContent,
     });
-    expect(saveSpy).toHaveBeenCalledWith("Product Manager", newContent);
+    expect(saveSpy).toHaveBeenCalledWith("Product Manager", newContent, "generated");
+  });
+
+  it("passes through the generated_extended tier when trusted domains had no results", async () => {
+    vi.spyOn(repoModule, "listAllCanonicalNames").mockResolvedValue([]);
+    vi.spyOn(canonicalModule, "matchCanonical").mockReturnValue({
+      status: "new",
+      canonicalName: "Nghề Hiếm Gặp",
+    });
+    vi.spyOn(repoModule, "findJobByCanonicalName").mockResolvedValue(null);
+    const newContent = { description: "..." } as unknown as JobContent;
+    vi.spyOn(generateModule, "generateJobContent").mockResolvedValue({
+      content: newContent,
+      source: "generated_extended",
+    });
+    const saveSpy = vi.spyOn(repoModule, "saveGeneratedJob").mockResolvedValue();
+
+    const result = await lookupJob("nghề hiếm gặp");
+
+    expect(result).toEqual({
+      status: "found",
+      canonicalName: "Nghề Hiếm Gặp",
+      source: "generated_extended",
+      content: newContent,
+    });
+    expect(saveSpy).toHaveBeenCalledWith("Nghề Hiếm Gặp", newContent, "generated_extended");
   });
 
   it("returns generation_failed with the error message when generation throws", async () => {

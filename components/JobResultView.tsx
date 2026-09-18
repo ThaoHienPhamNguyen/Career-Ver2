@@ -1,131 +1,69 @@
-import type { JobContent, JobSource } from "@/types/job-content";
-import { SourceBadge } from "./SourceBadge";
-import { SourcedField, SourcedListField } from "./SourcedField";
+import type { JobContent } from "@/types/job-content";
+import { SalaryTagField, DemandTagField } from "./MarketTagField";
+import { HiringCompaniesField } from "./HiringCompaniesField";
+import { FutureSkillsSection } from "./FutureSkillsSection";
+import { SkillsMatrix } from "./SkillsMatrix";
+import { SectionTitle } from "./SectionTitle";
+import { CareerPathTimeline } from "./CareerPathTimeline";
 import { NO_VERIFIED_DATA_TEXT } from "@/lib/format-sourced";
+
+function Eyebrow({ children }: { children: React.ReactNode }) {
+  return (
+    <p className="mb-2 text-[11px] font-semibold tracking-wide text-brand uppercase">{children}</p>
+  );
+}
+
+function EmptyNote({ children }: { children: React.ReactNode }) {
+  return <p className="text-[13px] text-zinc-500 italic dark:text-zinc-400">{children}</p>;
+}
+
+function OverviewCard({ title, text }: { title: string; text: string }) {
+  return (
+    <div className="rounded-xl border border-zinc-200 bg-white p-3.5 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
+      <h3 className="mb-1.5 text-[13px] font-semibold text-zinc-900 dark:text-zinc-100">{title}</h3>
+      <p className="text-[13px] leading-relaxed text-zinc-600 dark:text-zinc-400">{text}</p>
+    </div>
+  );
+}
 
 export function JobResultView({
   canonicalName,
-  source,
   content,
 }: {
   canonicalName: string;
-  source: JobSource;
   content: JobContent;
 }) {
   return (
-    <article className="flex w-full flex-col gap-6">
-      <header className="flex flex-wrap items-center gap-3">
-        <h2 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">
+    <article className="flex w-full flex-col gap-8">
+      <header>
+        <Eyebrow>Tổng quan nghề nghiệp</Eyebrow>
+        <h2 className="text-[22px] font-bold text-zinc-900 dark:text-zinc-100">
           {canonicalName}
         </h2>
-        <SourceBadge source={source} />
       </header>
 
-      <section>
-        <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">Mô tả nghề</h3>
-        <p className="mt-1 text-base text-zinc-900 dark:text-zinc-100">
-          {content.description || NO_VERIFIED_DATA_TEXT}
-        </p>
+      <div className="grid gap-3 sm:grid-cols-2">
+        <SalaryTagField field={content.salary} />
+        <DemandTagField field={content.demand} />
+      </div>
+
+      <OverviewCard title="Mô tả nghề" text={content.description || NO_VERIFIED_DATA_TEXT} />
+
+      <HiringCompaniesField field={content.hiringCompanies} />
+
+      <section className="flex flex-col gap-3">
+        <SectionTitle>Kỹ năng</SectionTitle>
+        <SkillsMatrix hardSkills={content.hardSkills} softSkills={content.softSkills} />
       </section>
 
-      <dl className="grid gap-4 sm:grid-cols-2">
-        <SourcedField label="Thị trường VN" field={content.vnMarket} />
-        <SourcedField label="Mức lương" field={content.salary} />
-        <SourcedField label="Nhu cầu tuyển dụng" field={content.demand} />
-        <SourcedListField label="Skill tương lai" field={content.futureSkills} />
-      </dl>
+      <FutureSkillsSection skills={content.futureSkills} />
 
-      <section>
-        <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
-          Ngành dễ nhầm lẫn
-        </h3>
-        {content.similarJobs.length > 0 ? (
-          <ul className="mt-2 flex flex-col gap-2">
-            {content.similarJobs.map((job, index) => (
-              <li key={index}>
-                <span className="font-medium text-zinc-900 dark:text-zinc-100">{job.name}</span>
-                <span className="text-zinc-600 dark:text-zinc-400"> — {job.distinction}</span>
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p className="mt-2 text-base text-zinc-900 dark:text-zinc-100">
-            {NO_VERIFIED_DATA_TEXT}
-          </p>
-        )}
-      </section>
-
-      <section className="grid gap-4 sm:grid-cols-2">
-        <div>
-          <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">Hard skill</h3>
-          {content.hardSkills.length > 0 ? (
-            <ul className="mt-2 flex flex-col gap-2">
-              {content.hardSkills.map((skill, index) => (
-                <li key={index}>
-                  <span className="font-medium text-zinc-900 dark:text-zinc-100">
-                    {skill.name}
-                  </span>
-                  <span className="text-zinc-600 dark:text-zinc-400"> — {skill.description}</span>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p className="mt-2 text-base text-zinc-900 dark:text-zinc-100">
-              {NO_VERIFIED_DATA_TEXT}
-            </p>
-          )}
-        </div>
-        <div>
-          <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">Soft skill</h3>
-          {content.softSkills.length > 0 ? (
-            <ul className="mt-2 flex flex-col gap-2">
-              {content.softSkills.map((skill, index) => (
-                <li key={index}>
-                  <span className="font-medium text-zinc-900 dark:text-zinc-100">
-                    {skill.name}
-                  </span>
-                  <span className="text-zinc-600 dark:text-zinc-400"> — {skill.description}</span>
-                </li>
-              ))}
-            </ul>
-          ) : (
-            <p className="mt-2 text-base text-zinc-900 dark:text-zinc-100">
-              {NO_VERIFIED_DATA_TEXT}
-            </p>
-          )}
-        </div>
-      </section>
-
-      <section>
-        <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">Career path</h3>
+      <section className="flex flex-col gap-3">
+        <SectionTitle>Lộ trình sự nghiệp</SectionTitle>
         {content.careerPath.length > 0 ? (
-          <ol className="mt-2 flex flex-col gap-4">
-            {content.careerPath.map((stage, index) => (
-              <li
-                key={index}
-                className="rounded-lg border border-zinc-200 p-4 dark:border-zinc-800"
-              >
-                <h4 className="font-semibold text-zinc-900 dark:text-zinc-100">
-                  {stage.stageName}
-                </h4>
-                <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-                  Skill trọng tâm:{" "}
-                  {stage.keySkills.length > 0 ? stage.keySkills.join(", ") : NO_VERIFIED_DATA_TEXT}
-                </p>
-                <p className="mt-1 text-sm text-zinc-600 dark:text-zinc-400">
-                  Thời gian trung bình lên giai đoạn kế:{" "}
-                  {stage.avgTimeToNextStage || NO_VERIFIED_DATA_TEXT}
-                </p>
-                <dl className="mt-2">
-                  <SourcedField label="Lương tham khảo" field={stage.salaryRange} />
-                </dl>
-              </li>
-            ))}
-          </ol>
+          <CareerPathTimeline stages={content.careerPath} />
         ) : (
-          <p className="mt-2 text-base text-zinc-900 dark:text-zinc-100">
-            {NO_VERIFIED_DATA_TEXT}
-          </p>
+          <EmptyNote>{NO_VERIFIED_DATA_TEXT}</EmptyNote>
         )}
       </section>
     </article>

@@ -61,13 +61,19 @@ Mercer/ManpowerGroup, tác giả/chuyên gia HR có tên tuổi ở VN). Lưu t�
 AI generate on-demand kèm web search để tìm nguồn trích dẫn được. Cache kết quả,
 badge **"AI tổng hợp, đang chờ xác thực"**.
 
-Web search cho Luồng B **không phải search mở tự do** — giới hạn cứng vào danh sách domain
-uy tín cố định (`data/trusted-sources.json`): công ty tư vấn chiến lược lớn (McKinsey, KPMG,
-BCG, Deloitte, PwC) cho xu hướng thị trường/ngành, và công ty tuyển dụng/nhân sự (Adecco,
-Michael Page, Mercer, ManpowerGroup, Robert Walters, Hays, VietnamWorks, TopCV, ITviec,
-Indeed, GSO) cho số liệu lương cụ thể — cộng lọc chỉ lấy nội dung xuất bản trong 3 năm gần
-đây. Không tìm được nguồn nào thỏa cả 2 điều kiện → không mở rộng tìm kiếm ra ngoài danh
-sách, trả lỗi thân thiện thay vì hạ chuẩn nguồn.
+Web search cho Luồng B **ưu tiên** danh sách domain uy tín cố định (`data/trusted-sources.json`):
+công ty tư vấn chiến lược lớn (McKinsey, KPMG, BCG, Deloitte, PwC) cho xu hướng thị
+trường/ngành, và công ty tuyển dụng/nhân sự (Adecco, Michael Page, Mercer, ManpowerGroup,
+Robert Walters, Hays, VietnamWorks, TopCV, ITviec, Indeed, GSO) cho số liệu lương cụ thể —
+cộng lọc chỉ lấy nội dung xuất bản trong 3 năm gần đây, badge **"AI tổng hợp, đang chờ xác
+thực"**.
+
+Nếu danh sách domain uy tín không có kết quả nào (nghề quá ngách/lạ), hệ thống **fallback
+sang tìm kiếm không giới hạn domain** (vẫn giữ cửa sổ 3 năm) để mọi job title đều tra ra
+được kết quả đầy đủ, thay vì báo lỗi ngay — kết quả loại này gắn badge riêng **"AI tổng
+hợp, nguồn mở rộng"** để user biết độ tin cậy thấp hơn tier domain uy tín. Chỉ khi cả 2 lượt
+tìm kiếm (uy tín rồi mở rộng) đều rỗng mới trả lỗi thân thiện — không có trường hợp nào bịa
+số liệu.
 
 **Vòng lặp tự cải thiện:** long-tail job title được tra đủ nhiều lượt → trở thành ứng viên
 để đối chiếu thủ công, nâng cấp lên seed set. Seed set lớn dần theo nhu cầu thật.
@@ -192,13 +198,17 @@ flowchart TD
     CheckCache -- "Có" --> ReturnCache["Trả kết quả cache<br/>badge: AI tổng hợp, đang chờ xác thực"]
     CheckCache -- "Chưa" --> TrustedSearch["Search giới hạn:<br/>domain uy tín (trusted-sources.json)<br/>+ chỉ nội dung ≤3 năm gần đây"]
     TrustedSearch --> HasResults{"Có kết quả nào<br/>thỏa cả 2 điều kiện?"}
-    HasResults -- "Không" --> GenFailed["Báo lỗi thân thiện<br/>(generation_failed)<br/>KHÔNG mở rộng tìm kiếm"]
-    GenFailed --> Render
     HasResults -- "Có" --> Generate["Generate với LLM<br/>chỉ dùng các trích dẫn đã lọc"]
+    HasResults -- "Không" --> FallbackSearch["Fallback: search không giới hạn<br/>domain, vẫn giữ cửa sổ ≤3 năm"]
+    FallbackSearch --> HasFallbackResults{"Có kết quả nào<br/>không?"}
+    HasFallbackResults -- "Không" --> GenFailed["Báo lỗi thân thiện<br/>(generation_failed)"]
+    GenFailed --> Render
+    HasFallbackResults -- "Có" --> GenerateExtended["Generate với LLM<br/>chỉ dùng các trích dẫn đã lọc<br/>(tier: nguồn mở rộng)"]
     Generate --> Cite{"Tìm được nguồn<br/>đủ tin cậy cho mục?"}
+    GenerateExtended --> Cite
     Cite -- "Có" --> FillCited["Điền mục kèm nguồn cụ thể"]
     Cite -- "Không" --> FillEmpty["Hiển thị 'chưa có dữ liệu xác thực'<br/>(không bịa)"]
-    FillCited --> SaveCache["Lưu cache + badge<br/>AI tổng hợp, đang chờ xác thực"]
+    FillCited --> SaveCache["Lưu cache + badge tương ứng<br/>(AI tổng hợp: đang chờ xác thực / nguồn mở rộng)"]
     FillEmpty --> SaveCache
     SaveCache --> LogView["Ghi nhận lượt tra"]
     LogView --> ReturnCache

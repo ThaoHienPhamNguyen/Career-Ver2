@@ -1,57 +1,37 @@
-import { formatSourcedText, formatSourcedList, NO_VERIFIED_DATA_TEXT } from "@/lib/format-sourced";
+import { formatSourcedText } from "@/lib/format-sourced";
+import { getSourceDisplayName } from "@/lib/source-display";
 import type { SourcedValue } from "@/types/job-content";
 
-function SourceLink({ source }: { source: string | null }) {
+export function SourceLink({ source }: { source: string | null }) {
   if (!source) return null;
   if (!/^https?:\/\//.test(source)) {
-    return <span className="ml-2 text-sm text-zinc-500 dark:text-zinc-400">{source}</span>;
+    return <span className="mt-1.5 block font-mono text-[10px] text-zinc-400">{source}</span>;
   }
   return (
-    <a
-      href={source}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="ml-2 text-sm text-blue-600 hover:underline dark:text-blue-400"
-    >
-      Nguồn
-    </a>
+    <span className="mt-1.5 block font-mono text-[10px] text-zinc-400">
+      Nguồn: {getSourceDisplayName(source)}
+    </span>
   );
 }
 
-export function SourcedField({ label, field }: { label: string; field: SourcedValue<string> }) {
-  return (
-    <div>
-      <dt className="text-sm font-semibold text-zinc-600 dark:text-zinc-400">{label}</dt>
-      <dd className="mt-1 text-base text-zinc-900 dark:text-zinc-100">
-        {formatSourcedText(field)}
-        <SourceLink source={field.value ? field.source : null} />
-      </dd>
-    </div>
-  );
-}
-
-export function SourcedListField({
+export function SourcedField({
+  icon,
   label,
   field,
 }: {
+  icon?: string;
   label: string;
-  field: SourcedValue<string[]>;
+  field: SourcedValue<string>;
 }) {
-  const items = formatSourcedList(field);
   return (
-    <div>
-      <dt className="text-sm font-semibold text-zinc-600 dark:text-zinc-400">{label}</dt>
-      <dd className="mt-1 text-base text-zinc-900 dark:text-zinc-100">
-        {items ? (
-          <ul className="list-disc pl-5">
-            {items.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        ) : (
-          NO_VERIFIED_DATA_TEXT
-        )}
-        <SourceLink source={items ? field.source : null} />
+    <div className="rounded-xl border border-l-4 border-zinc-200 border-l-brand bg-white p-3.5 dark:border-zinc-800 dark:border-l-brand dark:bg-zinc-900">
+      <dt className="text-[10px] font-semibold tracking-wide text-zinc-500 uppercase dark:text-zinc-400">
+        {icon && <span aria-hidden>{icon} </span>}
+        {label}
+      </dt>
+      <dd className="mt-1.5 text-[15px] font-semibold text-zinc-900 dark:text-zinc-100">
+        {formatSourcedText(field)}
+        <SourceLink source={field.value ? field.source : null} />
       </dd>
     </div>
   );

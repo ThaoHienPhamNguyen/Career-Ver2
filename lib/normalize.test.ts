@@ -20,4 +20,17 @@ describe("normalize", () => {
     expect(result.matchedSynonym).toBeNull();
     expect(result.ambiguousCandidates).toBeNull();
   });
+
+  it("resolves a typo of a Vietnamese synonym via fuzzy matching (e.g. missing a letter)", () => {
+    const result = normalize("Ke Toa");
+    expect(result.matchedSynonym).toBe("Accountant");
+    expect(result.ambiguousCandidates).toBeNull();
+  });
+
+  it("does not fuzzy-match unrelated short input against a short alias key", () => {
+    // "hr" is a real alias key, but a short, unrelated 2-letter input must not
+    // fuzzy-match it — only an exact "hr" should resolve to HR Executive.
+    const result = normalize("hi");
+    expect(result.matchedSynonym).toBeNull();
+  });
 });

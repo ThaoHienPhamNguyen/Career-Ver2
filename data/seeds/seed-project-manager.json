@@ -15,53 +15,162 @@
       "source": "https://www.vietnamworks.com/project-manager-kv"
     },
     "similarJobs": [
-      { "name": "Product Manager", "distinction": "Owns the product vision, roadmap, and decisions about what to build, rather than the schedule, budget, and delivery execution of a specific project." },
-      { "name": "Business Analyst", "distinction": "Gathers, documents, and validates business requirements rather than managing the team, timeline, budget, and risk needed to deliver those requirements." },
-      { "name": "Scrum Master", "distinction": "Facilitates Agile ceremonies and removes team-level blockers rather than owning overall project scope, budget, and client/stakeholder relationships." },
-      { "name": "Program Manager", "distinction": "Oversees a portfolio of related projects and their interdependencies, rather than the day-to-day execution of a single project." }
+      {
+        "name": "Product Manager",
+        "distinction": "Owns the product vision, roadmap, and decisions about what to build, rather than the schedule, budget, and delivery execution of a specific project."
+      },
+      {
+        "name": "Business Analyst",
+        "distinction": "Gathers, documents, and validates business requirements rather than managing the team, timeline, budget, and risk needed to deliver those requirements."
+      },
+      {
+        "name": "Scrum Master",
+        "distinction": "Facilitates Agile ceremonies and removes team-level blockers rather than owning overall project scope, budget, and client/stakeholder relationships."
+      },
+      {
+        "name": "Program Manager",
+        "distinction": "Oversees a portfolio of related projects and their interdependencies, rather than the day-to-day execution of a single project."
+      }
     ],
     "hardSkills": [
-      { "name": "Project planning & scheduling", "description": "Building work breakdown structures, Gantt charts, and milestone plans that define how and when a project will be delivered." },
-      { "name": "Agile/Scrum & Waterfall methodologies", "description": "Vietnamese IT teams commonly run Agile/Scrum for product delivery, though Waterfall is still used for fixed-scope client contracts; PMs need fluency in both." },
-      { "name": "Budget & resource management", "description": "Tracking project costs against budget and allocating people and time across competing priorities." },
-      { "name": "Risk & issue management", "description": "Identifying, tracking, and mitigating risks before they become blockers that threaten scope, timeline, or budget." },
-      { "name": "Project management tooling (Jira, MS Project, Trello/Asana)", "description": "Day-to-day tracking of tasks, sprints, and progress happens in these tools, which also feed status reporting to stakeholders." },
-      { "name": "Requirements & scope management", "description": "Translating client or business requirements into a clear, trackable scope, and controlling scope creep as the project evolves." },
-      { "name": "Stakeholder reporting & documentation", "description": "Producing status reports, risk logs, and project documentation that keep clients, sponsors, and internal leadership aligned." }
+      {
+        "name": "Project planning & scheduling",
+        "description": "Building work breakdown structures, Gantt charts, and milestone plans that define how and when a project will be delivered."
+      },
+      {
+        "name": "Agile/Scrum & Waterfall methodologies",
+        "description": "Vietnamese IT teams commonly run Agile/Scrum for product delivery, though Waterfall is still used for fixed-scope client contracts; PMs need fluency in both."
+      },
+      {
+        "name": "Budget & resource management",
+        "description": "Tracking project costs against budget and allocating people and time across competing priorities."
+      },
+      {
+        "name": "Risk & issue management",
+        "description": "Identifying, tracking, and mitigating risks before they become blockers that threaten scope, timeline, or budget."
+      },
+      {
+        "name": "Project management tooling (Jira, MS Project, Trello/Asana)",
+        "description": "Day-to-day tracking of tasks, sprints, and progress happens in these tools, which also feed status reporting to stakeholders."
+      },
+      {
+        "name": "Requirements & scope management",
+        "description": "Translating client or business requirements into a clear, trackable scope, and controlling scope creep as the project evolves."
+      },
+      {
+        "name": "Stakeholder reporting & documentation",
+        "description": "Producing status reports, risk logs, and project documentation that keep clients, sponsors, and internal leadership aligned."
+      }
     ],
     "softSkills": [
-      { "name": "Stakeholder communication", "description": "Translating technical progress and blockers into terms that clients, sponsors, and non-technical stakeholders can act on." },
-      { "name": "Leadership & team motivation", "description": "Keeping a cross-functional team (developers, QA, designers) focused and motivated without formal authority over their performance reviews in many org structures." },
-      { "name": "Negotiation & conflict resolution", "description": "Balancing competing demands from clients, management, and the delivery team, and resolving disagreements over scope, timeline, or priorities." },
-      { "name": "Problem-solving under pressure", "description": "Projects rarely go exactly to plan; PMs need to adapt the plan quickly when risks materialize close to a deadline." },
-      { "name": "Time management & prioritization", "description": "Running multiple workstreams or projects at once requires disciplined prioritization of where attention goes each day." }
+      {
+        "name": "Stakeholder communication",
+        "description": "Translating technical progress and blockers into terms that clients, sponsors, and non-technical stakeholders can act on."
+      },
+      {
+        "name": "Leadership & team motivation",
+        "description": "Keeping a cross-functional team (developers, QA, designers) focused and motivated without formal authority over their performance reviews in many org structures."
+      },
+      {
+        "name": "Negotiation & conflict resolution",
+        "description": "Balancing competing demands from clients, management, and the delivery team, and resolving disagreements over scope, timeline, or priorities."
+      },
+      {
+        "name": "Problem-solving under pressure",
+        "description": "Projects rarely go exactly to plan; PMs need to adapt the plan quickly when risks materialize close to a deadline."
+      },
+      {
+        "name": "Time management & prioritization",
+        "description": "Running multiple workstreams or projects at once requires disciplined prioritization of where attention goes each day."
+      }
     ],
-    "futureSkills": { "value": null, "source": null },
+    "futureSkills": [],
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
-        "keySkills": ["Basic project documentation", "Meeting notes & task tracking", "Learning Jira/Trello workflows", "Supporting a senior PM on status reporting", "Basic Agile/Scrum terminology"],
-        "salaryRange": { "value": "~17,2 triệu VNĐ/tháng (dưới 1 năm kinh nghiệm)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "keySkills": [
+          "Basic project documentation",
+          "Meeting notes & task tracking",
+          "Learning Jira/Trello workflows",
+          "Supporting a senior PM on status reporting",
+          "Basic Agile/Scrum terminology"
+        ],
+        "salaryRange": {
+          "value": "~17,2 triệu VNĐ/tháng (dưới 1 năm kinh nghiệm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
         "avgTimeToNextStage": "6-12 tháng"
       },
       {
         "stageName": "Junior",
-        "keySkills": ["Running sprint/Scrum ceremonies", "Basic risk & issue tracking", "Client status updates under guidance", "Scope tracking on a single workstream", "Building simple project schedules"],
-        "salaryRange": { "value": "~29,85 triệu VNĐ/tháng (1-2 năm kinh nghiệm)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "keySkills": [
+          "Running sprint/Scrum ceremonies",
+          "Basic risk & issue tracking",
+          "Client status updates under guidance",
+          "Scope tracking on a single workstream",
+          "Building simple project schedules"
+        ],
+        "salaryRange": {
+          "value": "~29,85 triệu VNĐ/tháng (1-2 năm kinh nghiệm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
         "avgTimeToNextStage": "2-3 năm"
       },
       {
         "stageName": "Senior",
-        "keySkills": ["Owning full project budget & schedule", "Independent stakeholder & client management", "Risk mitigation planning", "Mentoring junior PMs", "Managing multiple concurrent workstreams"],
-        "salaryRange": { "value": "~48,4 triệu VNĐ/tháng (3-4 năm kinh nghiệm)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "keySkills": [
+          "Owning full project budget & schedule",
+          "Independent stakeholder & client management",
+          "Risk mitigation planning",
+          "Mentoring junior PMs",
+          "Managing multiple concurrent workstreams"
+        ],
+        "salaryRange": {
+          "value": "~48,4 triệu VNĐ/tháng (3-4 năm kinh nghiệm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
         "avgTimeToNextStage": "3-4 năm"
       },
       {
         "stageName": "Lead/Manager",
-        "keySkills": ["Program-level oversight across multiple projects", "Executive & client relationship ownership", "PM team leadership & hiring", "Org-wide delivery process standards", "Strategic risk & portfolio prioritization"],
-        "salaryRange": { "value": "~58,45 triệu VNĐ/tháng (5-8 năm kinh nghiệm; báo cáo không công bố số liệu riêng cho mốc trên 8 năm)", "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market" },
+        "keySkills": [
+          "Program-level oversight across multiple projects",
+          "Executive & client relationship ownership",
+          "PM team leadership & hiring",
+          "Org-wide delivery process standards",
+          "Strategic risk & portfolio prioritization"
+        ],
+        "salaryRange": {
+          "value": "~58,45 triệu VNĐ/tháng (5-8 năm kinh nghiệm; báo cáo không công bố số liệu riêng cho mốc trên 8 năm)",
+          "source": "https://itviec.com/report/vietnam-it-salary-and-recruitment-market"
+        },
         "avgTimeToNextStage": "N/A (senior leadership track)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "NEC Vietnam",
+          "domain": "vn.nec.com"
+        },
+        {
+          "name": "Bosch Global Software Technologies",
+          "domain": "bosch-softwaretechnologies.com"
+        },
+        {
+          "name": "Mynavi TechTus Vietnam",
+          "domain": "mynavitechtus.com"
+        },
+        {
+          "name": "GSM (Green and Smart Mobility)",
+          "domain": "greensm.com"
+        },
+        {
+          "name": "Tam Anh General Hospital",
+          "domain": "tamanhhospital.vn"
+        }
+      ],
+      "source": "https://itviec.com/it-jobs/project-management"
+    }
   }
 }

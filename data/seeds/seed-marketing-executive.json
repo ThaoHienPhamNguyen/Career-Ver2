@@ -15,56 +15,171 @@
       "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/"
     },
     "similarJobs": [
-      { "name": "Content Creator / Content Writer", "distinction": "Focuses narrowly on producing written, image, or video content rather than owning full campaign planning, channel mix, and budget." },
-      { "name": "Brand Executive", "distinction": "Focuses on brand positioning, identity, and long-term perception rather than day-to-day multi-channel campaign execution and lead generation." },
-      { "name": "Sales Executive", "distinction": "Focuses on direct customer conversations and closing deals/revenue targets, rather than generating awareness and demand through campaigns." }
+      {
+        "name": "Content Creator / Content Writer",
+        "distinction": "Focuses narrowly on producing written, image, or video content rather than owning full campaign planning, channel mix, and budget."
+      },
+      {
+        "name": "Brand Executive",
+        "distinction": "Focuses on brand positioning, identity, and long-term perception rather than day-to-day multi-channel campaign execution and lead generation."
+      },
+      {
+        "name": "Sales Executive",
+        "distinction": "Focuses on direct customer conversations and closing deals/revenue targets, rather than generating awareness and demand through campaigns."
+      }
     ],
     "hardSkills": [
-      { "name": "Digital marketing channels (SEO, SEM, social ads)", "description": "Core execution tools for reaching customers online, which is where most Vietnamese marketing budgets are shifting." },
-      { "name": "Content planning & copywriting", "description": "Needed to produce consistent campaign messaging across channels in Vietnamese (and often English)." },
-      { "name": "Data analysis & reporting (Google Analytics, Excel, ad platform dashboards)", "description": "Needed to measure campaign ROI and justify budget, especially as employers now prize data-driven marketers." },
-      { "name": "Content/creative production tools (Canva, CapCut, basic design/editing)", "description": "Short-form video and visual content on platforms like TikTok are now central channels for reaching younger audiences." },
-      { "name": "Campaign & budget management", "description": "Executives must plan and execute campaigns within timeline and budget constraints set by managers." }
+      {
+        "name": "Digital marketing channels (SEO, SEM, social ads)",
+        "description": "Core execution tools for reaching customers online, which is where most Vietnamese marketing budgets are shifting."
+      },
+      {
+        "name": "Content planning & copywriting",
+        "description": "Needed to produce consistent campaign messaging across channels in Vietnamese (and often English)."
+      },
+      {
+        "name": "Data analysis & reporting (Google Analytics, Excel, ad platform dashboards)",
+        "description": "Needed to measure campaign ROI and justify budget, especially as employers now prize data-driven marketers."
+      },
+      {
+        "name": "Content/creative production tools (Canva, CapCut, basic design/editing)",
+        "description": "Short-form video and visual content on platforms like TikTok are now central channels for reaching younger audiences."
+      },
+      {
+        "name": "Campaign & budget management",
+        "description": "Executives must plan and execute campaigns within timeline and budget constraints set by managers."
+      }
     ],
     "softSkills": [
-      { "name": "Creativity", "description": "Needed to make campaigns stand out in an increasingly crowded digital content environment." },
-      { "name": "Cross-functional communication", "description": "Marketing executives must coordinate with sales, design, and product teams to align campaigns with business goals." },
-      { "name": "Adaptability to trends", "description": "Platforms, formats, and tools (e.g. AI content tools, short-form video) change quickly, requiring marketers to continuously adjust tactics." }
+      {
+        "name": "Creativity",
+        "description": "Needed to make campaigns stand out in an increasingly crowded digital content environment."
+      },
+      {
+        "name": "Cross-functional communication",
+        "description": "Marketing executives must coordinate with sales, design, and product teams to align campaigns with business goals."
+      },
+      {
+        "name": "Adaptability to trends",
+        "description": "Platforms, formats, and tools (e.g. AI content tools, short-form video) change quickly, requiring marketers to continuously adjust tactics."
+      }
     ],
-    "futureSkills": {
-      "value": [
-        "Ứng dụng AI trong marketing (phân tích dữ liệu, tối ưu quảng cáo, cá nhân hóa nội dung)",
-        "Tự động hóa marketing (email marketing, chatbot, quản lý quảng cáo)",
-        "Ra quyết định chiến lược dựa trên insight do AI cung cấp",
-        "Kỹ năng sáng tạo & định hướng chiến lược khi các tác vụ thủ công dần do AI đảm nhiệm"
-      ],
-      "source": "https://www.vietnamworks.com/hrinsider/ai-marketing.html"
-    },
+    "futureSkills": [
+      {
+        "name": "Ứng dụng AI trong marketing (phân tích dữ liệu, tối ưu quảng cáo, cá nhân hóa nội dung)",
+        "label": "critical",
+        "quote": null,
+        "source": "https://www.vietnamworks.com/hrinsider/ai-marketing.html",
+        "description": "Dùng AI để phân tích dữ liệu khách hàng, tối ưu quảng cáo và cá nhân hoá nội dung ở quy mô lớn."
+      },
+      {
+        "name": "Tự động hóa marketing (email marketing, chatbot, quản lý quảng cáo)",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.vietnamworks.com/hrinsider/ai-marketing.html",
+        "description": "Vận hành công cụ tự động hoá (email, chatbot, quản lý quảng cáo) để tăng hiệu suất chiến dịch."
+      },
+      {
+        "name": "Ra quyết định chiến lược dựa trên insight do AI cung cấp",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.vietnamworks.com/hrinsider/ai-marketing.html",
+        "description": "Diễn giải insight do AI cung cấp thành quyết định marketing cụ thể, không chỉ đọc báo cáo."
+      },
+      {
+        "name": "Kỹ năng sáng tạo & định hướng chiến lược khi các tác vụ thủ công dần do AI đảm nhiệm",
+        "label": "emerging",
+        "quote": null,
+        "source": "https://www.vietnamworks.com/hrinsider/ai-marketing.html",
+        "description": "Tập trung vào ý tưởng và định hướng thương hiệu khi các tác vụ thủ công dần do AI đảm nhiệm."
+      }
+    ],
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
-        "keySkills": ["Basic content writing", "Social media posting/scheduling", "Learning brand guidelines", "Basic reporting/data entry", "Following campaign briefs"],
-        "salaryRange": { "value": "~8 – 12 triệu VNĐ/tháng", "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/" },
+        "keySkills": [
+          "Basic content writing",
+          "Social media posting/scheduling",
+          "Learning brand guidelines",
+          "Basic reporting/data entry",
+          "Following campaign briefs"
+        ],
+        "salaryRange": {
+          "value": "~8 – 12 triệu VNĐ/tháng",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/"
+        },
         "avgTimeToNextStage": "6-12 tháng"
       },
       {
         "stageName": "Junior",
-        "keySkills": ["Independent campaign execution", "Basic SEO/SEM/social ads management", "Content calendar ownership", "Performance reporting", "Vendor/agency coordination"],
-        "salaryRange": { "value": "~12 – 18 triệu VNĐ/tháng", "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/" },
+        "keySkills": [
+          "Independent campaign execution",
+          "Basic SEO/SEM/social ads management",
+          "Content calendar ownership",
+          "Performance reporting",
+          "Vendor/agency coordination"
+        ],
+        "salaryRange": {
+          "value": "~12 – 18 triệu VNĐ/tháng",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/"
+        },
         "avgTimeToNextStage": "2-3 năm"
       },
       {
         "stageName": "Senior",
-        "keySkills": ["Multi-channel campaign strategy", "Budget ownership", "Data-driven optimization", "Mentoring junior marketers", "Stakeholder presentations"],
-        "salaryRange": { "value": "~20 – 35 triệu VNĐ/tháng", "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/" },
+        "keySkills": [
+          "Multi-channel campaign strategy",
+          "Budget ownership",
+          "Data-driven optimization",
+          "Mentoring junior marketers",
+          "Stakeholder presentations"
+        ],
+        "salaryRange": {
+          "value": "~20 – 35 triệu VNĐ/tháng",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/"
+        },
         "avgTimeToNextStage": "3-4 năm"
       },
       {
         "stageName": "Lead/Manager",
-        "keySkills": ["Marketing strategy & brand ownership", "Team leadership & hiring", "Cross-department alignment (sales, product)", "P&L / budget accountability", "Market & competitor strategy"],
-        "salaryRange": { "value": "~35 – 60 triệu VNĐ/tháng", "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/" },
+        "keySkills": [
+          "Marketing strategy & brand ownership",
+          "Team leadership & hiring",
+          "Cross-department alignment (sales, product)",
+          "P&L / budget accountability",
+          "Market & competitor strategy"
+        ],
+        "salaryRange": {
+          "value": "~35 – 60 triệu VNĐ/tháng",
+          "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-marketing/"
+        },
         "avgTimeToNextStage": "N/A (management/director track)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "SC VivoCity",
+          "domain": "scvivocity.com.vn"
+        },
+        {
+          "name": "Meey Land Group",
+          "domain": "meeygroup.com"
+        },
+        {
+          "name": "Beleco Vietnam",
+          "domain": "belecobeauty.com"
+        },
+        {
+          "name": "Hong Ngoc Hospital",
+          "domain": "hongngochospital.vn"
+        },
+        {
+          "name": "Want Want Vietnam",
+          "domain": "wantwant.vn"
+        }
+      ],
+      "source": "https://careerviet.vn/vi/tim-viec-lam/marketing-executive-trade-event.35C67B03.html"
+    }
   }
 }

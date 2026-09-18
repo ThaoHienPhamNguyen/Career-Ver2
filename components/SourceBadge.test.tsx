@@ -11,6 +11,10 @@ describe("getSourceBadgeLabel", () => {
   it("returns the generated label for source generated", () => {
     expect(getSourceBadgeLabel("generated")).toBe("AI tổng hợp, đang chờ xác thực");
   });
+
+  it("returns the generated_extended label for source generated_extended", () => {
+    expect(getSourceBadgeLabel("generated_extended")).toBe("AI tổng hợp, nguồn mở rộng");
+  });
 });
 
 describe("SourceBadge", () => {
@@ -22,5 +26,10 @@ describe("SourceBadge", () => {
   it("renders the generated badge text", () => {
     render(<SourceBadge source="generated" />);
     expect(screen.getByText("AI tổng hợp, đang chờ xác thực")).toBeInTheDocument();
+  });
+
+  it("renders the generated_extended badge text", () => {
+    render(<SourceBadge source="generated_extended" />);
+    expect(screen.getByText("AI tổng hợp, nguồn mở rộng")).toBeInTheDocument();
   });
 });

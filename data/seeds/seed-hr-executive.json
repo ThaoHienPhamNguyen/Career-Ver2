@@ -68,19 +68,45 @@
         "description": "Cân bằng cùng lúc nhiều đầu việc: tuyển dụng, đào tạo, hành chính nhân sự, xử lý phát sinh."
       }
     ],
-    "futureSkills": {
-      "value": [
-        "Năng lực AI và phối hợp chiến lược với IT (AI Literacy)",
-        "Quản trị nhân sự dựa trên năng lực thay vì chức danh (Skills-based Talent Management)",
-        "Thiết kế trải nghiệm nhân viên cá nhân hóa (Employee Experience Design)",
-        "Dẫn dắt thay đổi tổ chức và xây dựng chương trình đào tạo, nâng cao kỹ năng (Change Leadership & L&D)"
-      ],
-      "source": "https://www.mercer.com/en-au/insights/talent-and-transformation/attracting-and-retaining-talent/hr-trends-2025-embracing-ai-flexibility-and-a-skills-powered-future/"
-    },
+    "futureSkills": [
+      {
+        "name": "Năng lực AI và phối hợp chiến lược với IT (AI Literacy)",
+        "label": "critical",
+        "quote": null,
+        "source": "https://www.mercer.com/en-au/insights/talent-and-transformation/attracting-and-retaining-talent/hr-trends-2025-embracing-ai-flexibility-and-a-skills-powered-future/",
+        "description": "Hiểu và phối hợp với IT để ứng dụng AI vào tuyển dụng, quản trị nhân sự — không cần biết code nhưng cần hiểu cách dùng."
+      },
+      {
+        "name": "Quản trị nhân sự dựa trên năng lực thay vì chức danh (Skills-based Talent Management)",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.mercer.com/en-au/insights/talent-and-transformation/attracting-and-retaining-talent/hr-trends-2025-embracing-ai-flexibility-and-a-skills-powered-future/",
+        "description": "Đánh giá và phát triển nhân sự theo năng lực thực tế thay vì chỉ dựa vào chức danh hay bằng cấp."
+      },
+      {
+        "name": "Thiết kế trải nghiệm nhân viên cá nhân hóa (Employee Experience Design)",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.mercer.com/en-au/insights/talent-and-transformation/attracting-and-retaining-talent/hr-trends-2025-embracing-ai-flexibility-and-a-skills-powered-future/",
+        "description": "Thiết kế trải nghiệm nhân viên cá nhân hoá để giữ chân nhân tài trong thị trường lao động cạnh tranh."
+      },
+      {
+        "name": "Dẫn dắt thay đổi tổ chức và xây dựng chương trình đào tạo, nâng cao kỹ năng (Change Leadership & L&D)",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.mercer.com/en-au/insights/talent-and-transformation/attracting-and-retaining-talent/hr-trends-2025-embracing-ai-flexibility-and-a-skills-powered-future/",
+        "description": "Dẫn dắt tổ chức thích ứng thay đổi và xây dựng chương trình đào tạo nâng cao kỹ năng liên tục."
+      }
+    ],
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
-        "keySkills": ["Tin học văn phòng", "Kỹ năng giao tiếp cơ bản", "Hiểu quy trình tuyển dụng/hành chính nhân sự", "Sử dụng thành thạo Excel"],
+        "keySkills": [
+          "Tin học văn phòng",
+          "Kỹ năng giao tiếp cơ bản",
+          "Hiểu quy trình tuyển dụng/hành chính nhân sự",
+          "Sử dụng thành thạo Excel"
+        ],
         "salaryRange": {
           "value": "8 - 12 triệu đồng/tháng (0-1 năm kinh nghiệm, vị trí HR Executive/HR Admin)",
           "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-nhan-su/"
@@ -89,7 +115,12 @@
       },
       {
         "stageName": "Junior",
-        "keySkills": ["Tuyển dụng độc lập một số vị trí", "Soạn thảo hợp đồng lao động", "Tính lương cơ bản", "Sử dụng phần mềm HRM"],
+        "keySkills": [
+          "Tuyển dụng độc lập một số vị trí",
+          "Soạn thảo hợp đồng lao động",
+          "Tính lương cơ bản",
+          "Sử dụng phần mềm HRM"
+        ],
         "salaryRange": {
           "value": "12 - 20 triệu đồng/tháng (1-3 năm kinh nghiệm, Recruiter/C&B Specialist)",
           "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-nhan-su/"
@@ -98,7 +129,12 @@
       },
       {
         "stageName": "Senior",
-        "keySkills": ["Tư vấn nhân sự cho quản lý (HRBP)", "Xây dựng chính sách C&B", "Phân tích dữ liệu nhân sự", "Đào tạo nhân viên mới"],
+        "keySkills": [
+          "Tư vấn nhân sự cho quản lý (HRBP)",
+          "Xây dựng chính sách C&B",
+          "Phân tích dữ liệu nhân sự",
+          "Đào tạo nhân viên mới"
+        ],
         "salaryRange": {
           "value": "20 - 35 triệu đồng/tháng (3-5 năm kinh nghiệm, Senior Recruiter/HRBP)",
           "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-nhan-su/"
@@ -107,13 +143,43 @@
       },
       {
         "stageName": "Lead/Manager",
-        "keySkills": ["Hoạch định chiến lược nhân sự", "Quản lý ngân sách nhân sự", "Lãnh đạo đội ngũ HR", "Đàm phán với ban lãnh đạo"],
+        "keySkills": [
+          "Hoạch định chiến lược nhân sự",
+          "Quản lý ngân sách nhân sự",
+          "Lãnh đạo đội ngũ HR",
+          "Đàm phán với ban lãnh đạo"
+        ],
         "salaryRange": {
           "value": "35 - 55 triệu đồng/tháng (5-8 năm kinh nghiệm, HR Manager; doanh nghiệp FDI trả cao hơn 20-30% so với doanh nghiệp nội địa)",
           "source": "https://www.careerlink.vn/cam-nang-luong/muc-luong-nganh-nhan-su/"
         },
         "avgTimeToNextStage": "N/A (cấp bậc cao nhất trong lộ trình này)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "Hyundai Elevator Vietnam",
+          "domain": "hyundaielevator.co.kr"
+        },
+        {
+          "name": "AEON Vietnam",
+          "domain": "aeon.com.vn"
+        },
+        {
+          "name": "LOTTE Entertainment Vietnam",
+          "domain": "lotte.co.kr"
+        },
+        {
+          "name": "Maple Healthcare",
+          "domain": "maplehealthcare.net"
+        },
+        {
+          "name": "Trans World Aviation",
+          "domain": "twa.vn"
+        }
+      ],
+      "source": "https://careerviet.vn/vi/tim-viec-lam/hr-executive-c-b.35C6B6FD.html"
+    }
   }
 }

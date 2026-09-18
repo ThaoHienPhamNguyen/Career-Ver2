@@ -33,9 +33,9 @@ export async function lookupJob(rawInput: string): Promise<LookupResult> {
   }
 
   try {
-    const content = await generateJobContent(match.canonicalName);
-    await saveGeneratedJob(match.canonicalName, content);
-    return { status: "found", canonicalName: match.canonicalName, source: "generated", content };
+    const { content, source } = await generateJobContent(match.canonicalName);
+    await saveGeneratedJob(match.canonicalName, content, source);
+    return { status: "found", canonicalName: match.canonicalName, source, content };
   } catch (error) {
     const message =
       error instanceof GenerationError

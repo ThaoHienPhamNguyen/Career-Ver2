@@ -6,6 +6,8 @@ export function getSourceBadgeLabel(source: JobSource): string {
       return "Đã đối chiếu nguồn";
     case "generated":
       return "AI tổng hợp, đang chờ xác thực";
+    case "generated_extended":
+      return "AI tổng hợp, nguồn mở rộng";
     default: {
       const _exhaustive: never = source;
       return _exhaustive;
@@ -13,17 +15,25 @@ export function getSourceBadgeLabel(source: JobSource): string {
   }
 }
 
+const BADGE_STYLES: Record<JobSource, string> = {
+  seed: "bg-success-bg text-success-text",
+  generated: "bg-warning-bg text-warning-text",
+  generated_extended: "bg-brand-tint text-brand-dark dark:bg-zinc-800 dark:text-brand",
+};
+
+const BADGE_ICONS: Record<JobSource, string> = {
+  seed: "✓",
+  generated: "✨",
+  generated_extended: "🌐",
+};
+
 export function SourceBadge({ source }: { source: JobSource }) {
-  const isSeed = source === "seed";
   return (
     <span
-      className={`inline-flex items-center rounded-full px-3 py-1 text-xs font-medium ${
-        isSeed
-          ? "bg-emerald-100 text-emerald-800 dark:bg-emerald-900 dark:text-emerald-200"
-          : "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200"
-      }`}
+      className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[10.5px] font-medium tracking-wide ${BADGE_STYLES[source]}`}
     >
-      {getSourceBadgeLabel(source)}
+      <span aria-hidden>{BADGE_ICONS[source]}</span>
+      <span>{getSourceBadgeLabel(source)}</span>
     </span>
   );
 }

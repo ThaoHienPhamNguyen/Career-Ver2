@@ -68,14 +68,29 @@
         "description": "Nhân viên kinh doanh thường làm việc độc lập, cần tự sắp xếp lịch gặp khách hàng và duy trì động lực khi thu nhập biến động theo doanh số."
       }
     ],
-    "futureSkills": {
-      "value": [
-        "Thành thạo các nền tảng CRM (HubSpot, Salesforce, Bitrix24, Zoho CRM) để quản lý khách hàng và pipeline bán hàng",
-        "Phân tích dữ liệu bán hàng bằng Excel, Power BI, Google Data Studio (Looker Studio) để tự đánh giá và cải thiện hiệu suất",
-        "Khả năng học hỏi liên tục để thích ứng khi AI và tự động hóa đang định hình lại cách bán hàng"
-      ],
-      "source": "https://www.careerlink.vn/cam-nang-viec-lam/goc-ky-nang/ky-nang-sales"
-    },
+    "futureSkills": [
+      {
+        "name": "Thành thạo các nền tảng CRM (HubSpot, Salesforce, Bitrix24, Zoho CRM) để quản lý khách hàng và pipeline bán hàng",
+        "label": "critical",
+        "quote": null,
+        "source": "https://www.careerlink.vn/cam-nang-viec-lam/goc-ky-nang/ky-nang-sales",
+        "description": "Thành thạo CRM (HubSpot, Salesforce...) để quản lý khách hàng và pipeline bán hàng có hệ thống."
+      },
+      {
+        "name": "Phân tích dữ liệu bán hàng bằng Excel, Power BI, Google Data Studio (Looker Studio) để tự đánh giá và cải thiện hiệu suất",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.careerlink.vn/cam-nang-viec-lam/goc-ky-nang/ky-nang-sales",
+        "description": "Dùng Excel, Power BI để tự đánh giá hiệu suất bán hàng và điều chỉnh cách tiếp cận."
+      },
+      {
+        "name": "Khả năng học hỏi liên tục để thích ứng khi AI và tự động hóa đang định hình lại cách bán hàng",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.careerlink.vn/cam-nang-viec-lam/goc-ky-nang/ky-nang-sales",
+        "description": "Chủ động thích ứng khi AI và tự động hoá đang thay đổi cách tiếp cận và chăm sóc khách hàng."
+      }
+    ],
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
@@ -133,6 +148,31 @@
         },
         "avgTimeToNextStage": "Không xác định (cấp quản lý cao nhất trong lộ trình phổ biến; có thể tiến xa hơn lên Giám đốc kinh doanh/VP Sales)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "FPT Telecom",
+          "domain": "fpt.vn"
+        },
+        {
+          "name": "DKSH Vietnam",
+          "domain": "dksh.com"
+        },
+        {
+          "name": "Vinhomes",
+          "domain": "vinhomes.vn"
+        },
+        {
+          "name": "Daikin Air Conditioning Vietnam",
+          "domain": "daikin.com.vn"
+        },
+        {
+          "name": "TCL Vietnam",
+          "domain": "tcl.com"
+        }
+      ],
+      "source": "https://www.vietnamworks.com/nh%C3%A2n-vi%C3%AAn-kinh-doanh-kv"
+    }
   }
 }

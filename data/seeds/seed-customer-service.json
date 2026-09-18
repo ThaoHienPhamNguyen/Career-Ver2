@@ -68,19 +68,45 @@
         "description": "Phối hợp với bộ phận kinh doanh, kỹ thuật, vận hành để giải quyết triệt để vấn đề của khách hàng."
       }
     ],
-    "futureSkills": {
-      "value": [
-        "Thiết kế trải nghiệm hội thoại với AI (Conversational AI Design)",
-        "Giám sát & tối ưu hiệu suất AI agent trong chăm sóc khách hàng (AI Performance Specialist)",
-        "Tái thiết kế quy trình vận hành khi ứng dụng AI (AI Process Engineering)",
-        "Kỹ năng giám sát, huấn luyện và hợp tác với AI agent thay vì chỉ xử lý ca trực tiếp"
-      ],
-      "source": "https://www.bcg.com/publications/2025/new-frontier-customer-service-transformation"
-    },
+    "futureSkills": [
+      {
+        "name": "Thiết kế trải nghiệm hội thoại với AI (Conversational AI Design)",
+        "label": "emerging",
+        "quote": null,
+        "source": "https://www.bcg.com/publications/2025/new-frontier-customer-service-transformation",
+        "description": "Thiết kế kịch bản hội thoại cho chatbot/AI agent sao cho tự nhiên và giải quyết đúng nhu cầu khách hàng."
+      },
+      {
+        "name": "Giám sát & tối ưu hiệu suất AI agent trong chăm sóc khách hàng (AI Performance Specialist)",
+        "label": "emerging",
+        "quote": null,
+        "source": "https://www.bcg.com/publications/2025/new-frontier-customer-service-transformation",
+        "description": "Theo dõi, đánh giá và tinh chỉnh hiệu suất AI agent đang xử lý phần lớn tương tác khách hàng cơ bản."
+      },
+      {
+        "name": "Tái thiết kế quy trình vận hành khi ứng dụng AI (AI Process Engineering)",
+        "label": "important",
+        "quote": null,
+        "source": "https://www.bcg.com/publications/2025/new-frontier-customer-service-transformation",
+        "description": "Thiết kế lại quy trình chăm sóc khách hàng khi AI đảm nhiệm các bước lặp lại, con người tập trung vào ca phức tạp."
+      },
+      {
+        "name": "Kỹ năng giám sát, huấn luyện và hợp tác với AI agent thay vì chỉ xử lý ca trực tiếp",
+        "label": "critical",
+        "quote": null,
+        "source": "https://www.bcg.com/publications/2025/new-frontier-customer-service-transformation",
+        "description": "Chuyển vai trò từ trực tiếp xử lý ca sang giám sát, huấn luyện và cải thiện AI agent — đang là thay đổi cốt lõi của ngành."
+      }
+    ],
     "careerPath": [
       {
         "stageName": "Fresher/Intern",
-        "keySkills": ["Kỹ năng giao tiếp cơ bản", "Sử dụng tổng đài/CRM cơ bản", "Nắm quy trình xử lý yêu cầu tiêu chuẩn", "Kiến thức sản phẩm nền tảng"],
+        "keySkills": [
+          "Kỹ năng giao tiếp cơ bản",
+          "Sử dụng tổng đài/CRM cơ bản",
+          "Nắm quy trình xử lý yêu cầu tiêu chuẩn",
+          "Kiến thức sản phẩm nền tảng"
+        ],
         "salaryRange": {
           "value": null,
           "source": null
@@ -89,7 +115,12 @@
       },
       {
         "stageName": "Junior",
-        "keySkills": ["Xử lý độc lập các ca phức tạp", "Đạt chỉ tiêu chất lượng (CSAT/SLA)", "Ghi nhận và tổng hợp phản hồi khách hàng", "Hỗ trợ đào tạo nhân viên mới"],
+        "keySkills": [
+          "Xử lý độc lập các ca phức tạp",
+          "Đạt chỉ tiêu chất lượng (CSAT/SLA)",
+          "Ghi nhận và tổng hợp phản hồi khách hàng",
+          "Hỗ trợ đào tạo nhân viên mới"
+        ],
         "salaryRange": {
           "value": "7 - 12 triệu đồng/tháng (0-2 năm kinh nghiệm, Junior CSR)",
           "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nhan-vien-cham-soc-khach-hang-la-gi"
@@ -98,7 +129,12 @@
       },
       {
         "stageName": "Senior/Trưởng nhóm",
-        "keySkills": ["Giám sát hiệu suất nhóm", "Đào tạo và huấn luyện nhân viên", "Xử lý khiếu nại leo thang (escalation)", "Phân tích dữ liệu phản hồi khách hàng"],
+        "keySkills": [
+          "Giám sát hiệu suất nhóm",
+          "Đào tạo và huấn luyện nhân viên",
+          "Xử lý khiếu nại leo thang (escalation)",
+          "Phân tích dữ liệu phản hồi khách hàng"
+        ],
         "salaryRange": {
           "value": "15 - 25 triệu đồng/tháng (2-4 năm kinh nghiệm, Senior CSR)",
           "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nhan-vien-cham-soc-khach-hang-la-gi"
@@ -107,13 +143,39 @@
       },
       {
         "stageName": "Lead/Manager",
-        "keySkills": ["Xây dựng chiến lược dịch vụ khách hàng", "Quản lý ngân sách và KPI bộ phận", "Điều phối liên phòng ban", "Ứng dụng công nghệ/AI vào vận hành CSKH"],
+        "keySkills": [
+          "Xây dựng chiến lược dịch vụ khách hàng",
+          "Quản lý ngân sách và KPI bộ phận",
+          "Điều phối liên phòng ban",
+          "Ứng dụng công nghệ/AI vào vận hành CSKH"
+        ],
         "salaryRange": {
           "value": "25 - 70 triệu đồng/tháng (Trưởng nhóm CSKH, 4-7 năm kinh nghiệm: 25-40 triệu; Quản lý CSKH, 7+ năm kinh nghiệm: 40-70 triệu)",
           "source": "https://www.careerlink.vn/cam-nang-viec-lam/tu-van-nghe-nghiep/nhan-vien-cham-soc-khach-hang-la-gi"
         },
         "avgTimeToNextStage": "N/A (cấp bậc cao nhất trong lộ trình này)"
       }
-    ]
+    ],
+    "hiringCompanies": {
+      "value": [
+        {
+          "name": "Mainfreight Vietnam Co., Ltd.",
+          "domain": "mainfreight.com"
+        },
+        {
+          "name": "ITL Freight Management (ITL Corp)",
+          "domain": "itlvn.com"
+        },
+        {
+          "name": "Lotte Shopping Plaza Vietnam",
+          "domain": "lotteshopping.com.vn"
+        },
+        {
+          "name": "Avery Dennison Vietnam",
+          "domain": "averydennison.com"
+        }
+      ],
+      "source": "https://www.vietnamworks.com/customer-service-executive-kv"
+    }
   }
 }
