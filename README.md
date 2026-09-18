@@ -123,3 +123,4 @@ scripts/        CLI vận hành (add-seed, list-upgrade-candidates)
 prisma/         Schema + migration
 docs/superpowers/  Spec + implementation plan
 ```
+
