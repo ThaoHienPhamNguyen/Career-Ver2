@@ -27,7 +27,7 @@ describe("lookupJob", () => {
     expect(generateSpy).not.toHaveBeenCalled();
   });
 
-  it("returns cached content and increments view count when job already exists", async () => {
+  it("returns cached content and increments view count when job already exists and is not stale", async () => {
     vi.spyOn(repoModule, "listAllCanonicalNames").mockResolvedValue(["Data Analyst"]);
     vi.spyOn(canonicalModule, "matchCanonical").mockReturnValue({
       status: "matched",
@@ -38,6 +38,7 @@ describe("lookupJob", () => {
       source: "seed",
       content: { description: "..." } as unknown as JobContent,
       viewCount: 5,
+      updatedAt: new Date(), // just updated — well within the freshness window
     });
     const incrementSpy = vi.spyOn(repoModule, "incrementViewCount").mockResolvedValue(6);
     const generateSpy = vi.spyOn(generateModule, "generateJobContent");
@@ -46,6 +47,67 @@ describe("lookupJob", () => {
 
     expect(result.status).toBe("found");
     expect(incrementSpy).toHaveBeenCalledWith("Data Analyst");
+    expect(generateSpy).not.toHaveBeenCalled();
+  });
+
+  it("regenerates and overwrites content when the cached entry is older than the staleness threshold", async () => {
+    const staleDate = new Date();
+    staleDate.setDate(staleDate.getDate() - 91); // 1 day past the 90-day threshold
+
+    vi.spyOn(repoModule, "listAllCanonicalNames").mockResolvedValue(["Data Analyst"]);
+    vi.spyOn(canonicalModule, "matchCanonical").mockReturnValue({
+      status: "matched",
+      canonicalName: "Data Analyst",
+    });
+    vi.spyOn(repoModule, "findJobByCanonicalName").mockResolvedValue({
+      canonicalName: "Data Analyst",
+      source: "generated",
+      content: { description: "old content" } as unknown as JobContent,
+      viewCount: 5,
+      updatedAt: staleDate,
+    });
+    const freshContent = { description: "fresh content" } as unknown as JobContent;
+    const generateSpy = vi
+      .spyOn(generateModule, "generateJobContent")
+      .mockResolvedValue({ content: freshContent, source: "generated" });
+    const saveSpy = vi.spyOn(repoModule, "saveGeneratedJob").mockResolvedValue();
+    const incrementSpy = vi.spyOn(repoModule, "incrementViewCount").mockResolvedValue(6);
+
+    const result = await lookupJob("data analyst");
+
+    expect(generateSpy).toHaveBeenCalledWith("Data Analyst");
+    expect(saveSpy).toHaveBeenCalledWith("Data Analyst", freshContent, "generated");
+    expect(incrementSpy).toHaveBeenCalledWith("Data Analyst");
+    expect(result).toEqual({
+      status: "found",
+      canonicalName: "Data Analyst",
+      source: "generated",
+      content: freshContent,
+    });
+  });
+
+  it("treats a cached entry just under the staleness threshold as still fresh", async () => {
+    const borderlineDate = new Date();
+    borderlineDate.setDate(borderlineDate.getDate() - 89); // under the 90-day threshold
+
+    vi.spyOn(repoModule, "listAllCanonicalNames").mockResolvedValue(["Data Analyst"]);
+    vi.spyOn(canonicalModule, "matchCanonical").mockReturnValue({
+      status: "matched",
+      canonicalName: "Data Analyst",
+    });
+    vi.spyOn(repoModule, "findJobByCanonicalName").mockResolvedValue({
+      canonicalName: "Data Analyst",
+      source: "seed",
+      content: { description: "..." } as unknown as JobContent,
+      viewCount: 5,
+      updatedAt: borderlineDate,
+    });
+    vi.spyOn(repoModule, "incrementViewCount").mockResolvedValue(6);
+    const generateSpy = vi.spyOn(generateModule, "generateJobContent");
+
+    const result = await lookupJob("data analyst");
+
+    expect(result.status).toBe("found");
     expect(generateSpy).not.toHaveBeenCalled();
   });
 

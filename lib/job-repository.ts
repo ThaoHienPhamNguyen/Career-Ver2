@@ -6,6 +6,7 @@ export interface JobRecord {
   source: JobSource;
   content: JobContent;
   viewCount: number;
+  updatedAt: Date;
 }
 
 function toJobRecord(row: {
@@ -13,12 +14,14 @@ function toJobRecord(row: {
   source: string;
   content: unknown;
   viewCount: number;
+  updatedAt: Date;
 }): JobRecord {
   return {
     canonicalName: row.canonicalName,
     source: row.source as JobSource,
     content: row.content as JobContent,
     viewCount: row.viewCount,
+    updatedAt: row.updatedAt,
   };
 }
 

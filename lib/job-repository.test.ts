@@ -40,6 +40,7 @@ describe("job-repository", () => {
     const result = await findJobByCanonicalName("Repo Test Job");
     expect(result?.source).toBe("generated");
     expect(result?.content.description).toBe("Test description");
+    expect(result?.updatedAt).toBeInstanceOf(Date);
   });
 
   it("upserts a seed job with source seed", async () => {

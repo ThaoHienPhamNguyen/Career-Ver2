@@ -211,8 +211,10 @@ function normalizeFutureSkill(
   const label = FUTURE_SKILL_LABELS.includes(raw.label as FutureSkillLabel)
     ? (raw.label as FutureSkillLabel)
     : "watch";
-  const hasRealAuthor = raw.quote?.author && !SOURCE_LABEL_PATTERN.test(raw.quote.author.trim());
-  const quote = raw.quote?.text && hasRealAuthor ? { text: raw.quote.text, author: raw.quote.author } : null;
+  const quoteText = raw.quote?.text;
+  const quoteAuthor = raw.quote?.author;
+  const hasRealAuthor = quoteAuthor && !SOURCE_LABEL_PATTERN.test(quoteAuthor.trim());
+  const quote = quoteText && hasRealAuthor ? { text: quoteText, author: quoteAuthor } : null;
   return {
     name: raw.name,
     label,
