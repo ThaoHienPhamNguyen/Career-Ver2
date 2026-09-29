@@ -93,12 +93,13 @@ describe("generateJobContent", () => {
       .mockResolvedValueOnce([]) // trusted-domain attempt
       .mockResolvedValueOnce([
         { title: "Blog nghề nghiệp", url: "https://random-blog.example/post", content: "..." },
-      ]); // unrestricted fallback attempt
+      ]) // unrestricted fallback attempt
+      .mockResolvedValueOnce([]); // trend-focused attempt
     vi.spyOn(openaiModule, "completeWithOpenAI").mockResolvedValue(VALID_RESPONSE);
 
     const result = await generateJobContent("Nghề hiếm gặp");
 
-    expect(searchSpy).toHaveBeenCalledTimes(2);
+    expect(searchSpy).toHaveBeenCalledTimes(3);
     expect(searchSpy.mock.calls[0][1]).toEqual(
       expect.objectContaining({ includeDomains: expect.any(Array) })
     );
@@ -107,6 +108,77 @@ describe("generateJobContent", () => {
     );
     expect(result.source).toBe("generated_extended");
     expect(result.content.salary.source).toBe("https://random-blog.example/post");
+  });
+
+  it("merges results from a separate English-language trend search so thought-leadership sources can be cited even when the VN-market query misses them", async () => {
+    const searchSpy = vi
+      .spyOn(tavilyModule, "searchTavily")
+      .mockResolvedValueOnce([
+        { title: "Báo cáo lương", url: "https://itviec.com/report", content: "Data Analyst lương 15-25 triệu" },
+      ]) // VN-market query
+      .mockResolvedValueOnce([
+        { title: "Future of Product Skills", url: "https://svpg.com/future-skills", content: "..." },
+      ]); // trend query
+    vi.spyOn(openaiModule, "completeWithOpenAI").mockResolvedValue(VALID_RESPONSE);
+
+    await generateJobContent("Product Manager");
+
+    expect(searchSpy).toHaveBeenCalledTimes(2);
+    const [, secondCallOptions] = searchSpy.mock.calls[1];
+    expect(secondCallOptions).toEqual(
+      expect.objectContaining({ includeDomains: expect.any(Array), includeRawContent: true })
+    );
+    const [secondCallQuery] = searchSpy.mock.calls[1];
+    expect(secondCallQuery).not.toContain("Việt Nam");
+
+    const promptArg = vi.mocked(openaiModule.completeWithOpenAI).mock.calls[0][1];
+    expect(promptArg).toContain("https://itviec.com/report");
+    expect(promptArg).toContain("https://svpg.com/future-skills");
+  });
+
+  it("nulls out a quote whose author is actually a source citation label, not a real person's name", async () => {
+    vi.spyOn(tavilyModule, "searchTavily").mockResolvedValue([
+      { title: "X", url: "https://example.com", content: "..." },
+    ]);
+    vi.spyOn(openaiModule, "completeWithOpenAI").mockResolvedValue(
+      JSON.stringify({
+        description: "Mô tả",
+        vnMarket: { value: null, source: null },
+        salary: { value: null, source: null },
+        demand: { value: null, source: null },
+        hiringCompanies: { value: null, source: null },
+        similarJobs: [],
+        hardSkills: [],
+        softSkills: [],
+        futureSkills: [
+          {
+            name: "Interaction design",
+            label: "watch",
+            description: "...",
+            quote: { text: "Staying aware of emerging trends", author: "Nguồn 9" },
+            source: null,
+          },
+        ],
+        careerPath: [],
+      })
+    );
+
+    const result = await generateJobContent("UX Designer");
+
+    expect(result.content.futureSkills[0].quote).toBeNull();
+  });
+
+  it("does not let a failing or empty trend search block generation", async () => {
+    vi.spyOn(tavilyModule, "searchTavily")
+      .mockResolvedValueOnce([
+        { title: "Báo cáo lương", url: "https://itviec.com/report", content: "..." },
+      ]) // VN-market query
+      .mockRejectedValueOnce(new Error("Tavily timeout")); // trend query fails
+    vi.spyOn(openaiModule, "completeWithOpenAI").mockResolvedValue(VALID_RESPONSE);
+
+    const result = await generateJobContent("Product Manager");
+
+    expect(result.content.salary.source).toBe("https://itviec.com/report");
   });
 
   it("throws GenerationError when both the trusted-domain and fallback searches find nothing", async () => {

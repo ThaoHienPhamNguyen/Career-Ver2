@@ -61,6 +61,63 @@ describe("searchTavily", () => {
     expect(body.filter_by_published_date).toBe(true);
   });
 
+  it("requests raw content and uses it (truncated) as the result content when includeRawContent is set", async () => {
+    const longArticle = "Product Transformation Marty Cagan\n" + "x".repeat(5000);
+    const mockFetch = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({
+        results: [
+          {
+            title: "Preparing For The Future",
+            url: "https://svpg.com/preparing-for-the-future",
+            content: "short AI snippet",
+            raw_content: longArticle,
+          },
+        ],
+      }),
+    });
+    vi.stubGlobal("fetch", mockFetch);
+
+    const results = await searchTavily("Product Manager future skills trends", {
+      includeRawContent: true,
+    });
+
+    const [, requestInit] = mockFetch.mock.calls[0];
+    const body = JSON.parse(requestInit.body as string);
+    expect(body.include_raw_content).toBe("text");
+
+    expect(results[0].content.length).toBeLessThanOrEqual(3000);
+    expect(results[0].content.startsWith("Product Transformation Marty Cagan")).toBe(true);
+  });
+
+  it("falls back to the short snippet when includeRawContent is set but raw_content is missing", async () => {
+    const mockFetch = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({
+        results: [{ title: "X", url: "https://example.com", content: "short snippet" }],
+      }),
+    });
+    vi.stubGlobal("fetch", mockFetch);
+
+    const results = await searchTavily("query", { includeRawContent: true });
+
+    expect(results[0].content).toBe("short snippet");
+  });
+
+  it("does not request raw content when includeRawContent is not set", async () => {
+    const mockFetch = vi.fn().mockResolvedValue({
+      ok: true,
+      json: async () => ({ results: [] }),
+    });
+    vi.stubGlobal("fetch", mockFetch);
+
+    await searchTavily("query");
+
+    const [, requestInit] = mockFetch.mock.calls[0];
+    const body = JSON.parse(requestInit.body as string);
+    expect(body.include_raw_content).toBeUndefined();
+  });
+
   it("omits domain/date filter fields when no options are given", async () => {
     const mockFetch = vi.fn().mockResolvedValue({
       ok: true,

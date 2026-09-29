@@ -60,12 +60,13 @@ nếu trích dẫn không nêu tên công ty cụ thể nào, để "value" là 
 Hướng dẫn riêng cho "futureSkills": "label" do bạn tự đánh giá mức độ cấp thiết dựa trên nội dung
 trích dẫn ("critical" = cần ngay, "important" = cần sớm, "emerging" = đang nổi lên, "watch" = nên
 theo dõi). "description" là 1-2 câu giải thích kỹ kỹ năng này là gì và vì sao nó quan trọng với
-nghề này — tự viết dựa trên hiểu biết chung, không cần trích dẫn riêng cho câu giải thích. "quote"
-chỉ điền khi trích dẫn có một câu nói/nhận định cụ thể kèm tên người nói hoặc tên báo cáo — chép
-đúng nguyên văn, không tự đặt câu quote hay tự gán tên tác giả; nếu không có thì để "quote" là null.
-Các nguồn như SVPG, a16z, Reforge, HBR, MIT Sloan Management Review, First Round Review, IDEO,
-Y Combinator, Sequoia thường có nhận định trực tiếp từ chuyên gia/tác giả bài viết — ưu tiên trích
-dẫn thật từ các nguồn này khi trích dẫn tìm được có liên quan đến kỹ năng đang phân tích.`;
+nghề này — tự viết dựa trên hiểu biết chung, không cần trích dẫn riêng cho câu giải thích. Hãy CHỦ
+ĐỘNG tìm và điền "quote" bằng một câu nói/nhận định có thật, chép đúng nguyên văn, kèm tên người nói
+thật lấy từ chính đoạn trích dẫn — đặc biệt ưu tiên các nguồn như SVPG, a16z, Reforge, HBR, MIT
+Sloan Management Review, First Round Review, IDEO, Y Combinator, Sequoia, vì các nguồn này thường
+có tên tác giả/chuyên gia ngay đầu bài viết. Chỉ để "quote" là null sau khi đã đọc kỹ toàn bộ đoạn
+trích dẫn liên quan và thực sự không tìm thấy câu nói nào kèm tên người nói — không tự đặt câu quote
+hay tự gán tên tác giả khi không chắc chắn.`;
 }
 
 export class GenerationError extends Error {}
@@ -74,6 +75,7 @@ export async function generateJobContent(
   jobTitle: string
 ): Promise<{ content: JobContent; source: GeneratedSource }> {
   const query = `${jobTitle} lương kỹ năng thị trường việc làm Việt Nam`;
+  const trendQuery = `${jobTitle} future skills trends`;
   const startDate = computeStartDate(trustedSources.maxAgeYears);
 
   let searchResults = await searchTavily(query, {
@@ -95,11 +97,33 @@ export async function generateJobContent(
     throw new GenerationError(`Không tìm thấy nguồn nào cho "${jobTitle}"`);
   }
 
-  const userPrompt = buildUserPrompt(jobTitle, searchResults);
+  // The VN-market query above almost never matches English-language thought-leadership
+  // sites (SVPG, a16z, Reforge...) since they don't publish Vietnam salary content — a
+  // separate, English-phrased query is needed to actually surface them. Best-effort: a
+  // failure or empty result here must not block generation, since the VN-market results
+  // above already guarantee a usable report.
+  let trendResults: SearchResultItem[] = [];
+  try {
+    trendResults = await searchTavily(trendQuery, {
+      includeDomains: trustedSources.domains,
+      startDate,
+      includeRawContent: true,
+    });
+  } catch {
+    trendResults = [];
+  }
+
+  const seenUrls = new Set(searchResults.map((r) => r.url));
+  const mergedResults = [
+    ...searchResults,
+    ...trendResults.filter((r) => !seenUrls.has(r.url)),
+  ];
+
+  const userPrompt = buildUserPrompt(jobTitle, mergedResults);
   const rawResponse = await completeWithOpenAI(SYSTEM_PROMPT, userPrompt);
   const parsed = parseModelJson(rawResponse);
 
-  return { content: validateAndNormalizeContent(parsed, searchResults), source };
+  return { content: validateAndNormalizeContent(parsed, mergedResults), source };
 }
 
 function parseModelJson(rawResponse: string): unknown {
@@ -173,6 +197,12 @@ function sourcedField<T>(
   return { value: (field?.value as T | undefined) ?? null, source: resolvedSource };
 }
 
+// The model occasionally confuses the citation label ("Nguồn N") with the quote's
+// actual author, echoing it back into the author field instead of a real person's
+// name. That's not a fabricated name (so it's not caught by the "don't invent names"
+// prompt instruction), but it's not a real one either — treat it as no author found.
+const SOURCE_LABEL_PATTERN = /^Nguồn \d+$/i;
+
 function normalizeFutureSkill(
   raw: RawFutureSkill,
   searchResults: SearchResultItem[]
@@ -181,8 +211,8 @@ function normalizeFutureSkill(
   const label = FUTURE_SKILL_LABELS.includes(raw.label as FutureSkillLabel)
     ? (raw.label as FutureSkillLabel)
     : "watch";
-  const quote =
-    raw.quote?.text && raw.quote?.author ? { text: raw.quote.text, author: raw.quote.author } : null;
+  const hasRealAuthor = raw.quote?.author && !SOURCE_LABEL_PATTERN.test(raw.quote.author.trim());
+  const quote = raw.quote?.text && hasRealAuthor ? { text: raw.quote.text, author: raw.quote.author } : null;
   return {
     name: raw.name,
     label,

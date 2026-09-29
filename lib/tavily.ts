@@ -11,7 +11,18 @@ export interface SearchTavilyOptions {
   includeDomains?: string[];
   /** Drop results published before this date (YYYY-MM-DD). */
   startDate?: string;
+  /**
+   * Request the full scraped page text instead of Tavily's short AI-generated
+   * snippet. Useful when the snippet is too short to include things like a
+   * quote's author attribution, which usually appears near the top of the
+   * article. The returned content is truncated (see RAW_CONTENT_MAX_CHARS)
+   * to keep prompt size bounded; falls back to the short snippet if Tavily
+   * doesn't return raw_content for a result.
+   */
+  includeRawContent?: boolean;
 }
+
+const RAW_CONTENT_MAX_CHARS = 3000;
 
 export async function searchTavily(
   query: string,
@@ -34,6 +45,7 @@ export async function searchTavily(
         start_date: options.startDate,
         filter_by_published_date: true,
       }),
+      ...(options?.includeRawContent && { include_raw_content: "text" }),
     }),
   });
 
@@ -42,7 +54,14 @@ export async function searchTavily(
   }
 
   const data = (await response.json()) as {
-    results: Array<{ title: string; url: string; content: string }>;
+    results: Array<{ title: string; url: string; content: string; raw_content?: string }>;
   };
-  return data.results.map((r) => ({ title: r.title, url: r.url, content: r.content }));
+  return data.results.map((r) => ({
+    title: r.title,
+    url: r.url,
+    content:
+      options?.includeRawContent && r.raw_content
+        ? r.raw_content.slice(0, RAW_CONTENT_MAX_CHARS)
+        : r.content,
+  }));
 }
