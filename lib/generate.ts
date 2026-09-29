@@ -62,7 +62,10 @@ trích dẫn ("critical" = cần ngay, "important" = cần sớm, "emerging" = �
 theo dõi). "description" là 1-2 câu giải thích kỹ kỹ năng này là gì và vì sao nó quan trọng với
 nghề này — tự viết dựa trên hiểu biết chung, không cần trích dẫn riêng cho câu giải thích. "quote"
 chỉ điền khi trích dẫn có một câu nói/nhận định cụ thể kèm tên người nói hoặc tên báo cáo — chép
-đúng nguyên văn, không tự đặt câu quote hay tự gán tên tác giả; nếu không có thì để "quote" là null.`;
+đúng nguyên văn, không tự đặt câu quote hay tự gán tên tác giả; nếu không có thì để "quote" là null.
+Các nguồn như SVPG, a16z, Reforge, HBR, MIT Sloan Management Review, First Round Review, IDEO,
+Y Combinator, Sequoia thường có nhận định trực tiếp từ chuyên gia/tác giả bài viết — ưu tiên trích
+dẫn thật từ các nguồn này khi trích dẫn tìm được có liên quan đến kỹ năng đang phân tích.`;
 }
 
 export class GenerationError extends Error {}
